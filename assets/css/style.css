@@ -16,7 +16,17 @@ body {
 h1 {
    font-size: 85px;
    color: #0371FD;
-   margin-bottom: 30px;
+   margin-bottom: 50px;
+   animation: image-grow 2s;
+}
+@keyframes image-grow {
+    from {
+        transform: scale(0.4);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 .homepage-container {
@@ -49,4 +59,11 @@ h1 {
 .flex-center {
 justify-content: center;
 align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 15px 0 rgba(7, 167, 58, 0.6);
+    transition: transform 2s;
+    transform: scale(1.1);
 }
