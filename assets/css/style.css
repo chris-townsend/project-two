@@ -15,7 +15,7 @@ body {
 
 h1 {
     background: url(../images/man-digging-home-page.webp) no-repeat;
-    background-size: cover;
+    background-size: 94%;
     height: 300px;
     font-size: 85px;
     color: rgb(6, 34, 95);
