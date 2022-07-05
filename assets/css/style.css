@@ -79,3 +79,11 @@ align-items: center;
 #instruction-btn {
     background: linear-gradient(90deg, rgb(55, 114, 243) 0%, rgb(0, 102, 255) 100%);
 }
+
+#mole-image {
+    height: 320px;
+    width: 40%;
+    background: url(../images/mole-homepage.webp) no-repeat center;
+    background-size: 30%;
+    
+}
