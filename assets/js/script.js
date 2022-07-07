@@ -6,9 +6,9 @@ const squares = document.querySelectorAll('.square');
 
 function moveMole () {
   setInterval(function () {
-    squares.forEach(square => square.classList.remove('mole'))
+    squares.forEach(square => square.classList.remove('mole-image'))
    const randomSquare = squares[Math.floor(Math.random() * squares.length)]
-   randomSquare.classList.add('mole')
+   randomSquare.classList.add('mole-image')
   }, 800)
 }
 
