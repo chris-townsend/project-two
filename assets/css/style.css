@@ -33,6 +33,7 @@ h1 {
     }
 }
 
+
 .homepage-container {
     height: 150px;
     display: flex;
@@ -189,5 +190,5 @@ align-items: center;
   .close:focus {
     color: black;
     text-decoration: none;
-    cursor: pointer;
+    cursor: url(../images/mallet.webp) auto;
   }
