@@ -83,7 +83,9 @@ align-items: center;
 
 .mole-image {
     background-image: url(../images/mole-homepage.webp);
-    background-size: 100%;
+    background-size: 118%;
+    height: 150px;
+    width: 150px;
     
 }
 
