@@ -81,11 +81,14 @@ align-items: center;
     background: linear-gradient(90deg, rgb(55, 114, 243) 0%, rgb(0, 102, 255) 100%);
 }
 
-#mole-image {
-    width: 40%;
-    background: url(../images/mole-homepage.webp) no-repeat center;
+.mole-image {
+    background-image: url(../images/mole-homepage.webp);
     background-size: 30%;
     
+}
+
+.mole {
+    background-color: black;
 }
 
 /* The Modal (background) */
