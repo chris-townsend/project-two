@@ -7,9 +7,11 @@ const squares = document.querySelectorAll('.square');
 let molePositions
 let score = 0
 let currentTime = 30
+let countDownTimerId
+let moleTimerId
 
 function moveMole () {
-  setInterval(function () {
+  moleTimerId = setInterval(function () {
     squares.forEach(square => square.classList.remove('mole-image'))
    const randomSquare = squares[Math.floor(Math.random() * squares.length)]
    randomSquare.classList.add('mole-image')
@@ -31,9 +33,15 @@ squares.forEach(square => square.addEventListener('click', function () {
 function countDown() {
   currentTime--
   timeLeft.innerHTML = currentTime
-}
 
-setInterval(countDown, 1000)
+  if (currentTime === 0) {
+    clearInterval(countDownTimerId)
+    clearInterval(moleTimerId)
+  }
+  }
+
+countDownTimerId = setInterval(countDown, 1000)
+
 
 
 // Get the modal
