@@ -195,5 +195,19 @@ align-items: center;
   }
 
 
+.game-grid {
+    background-color: red;
+    width: 1200px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+
+.square {
+width: 150px;
+height: 165px;
+border: 1px solid black;
+}
 
