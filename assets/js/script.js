@@ -4,15 +4,28 @@ const timeLeft = document.querySelector('#time-left');
 const scoreDisplay = document.querySelector('#score');
 const squares = document.querySelectorAll('.square');
 
+let molePositions
+let score = 0
+
 function moveMole () {
   setInterval(function () {
     squares.forEach(square => square.classList.remove('mole-image'))
    const randomSquare = squares[Math.floor(Math.random() * squares.length)]
    randomSquare.classList.add('mole-image')
+
+   molePositions = randomSquare.id
+
   }, 800)
 }
 
 moveMole()
+
+squares.forEach(square => square.addEventListener('click', function () {
+  if (square.id === molePositions) {
+    score++
+    scoreDisplay.innerHTML = score
+  }
+}))
 
 
 
