@@ -23,3 +23,20 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// Javascipt to run game on game page
+
+const timeRemaining = 
+
+const scoreDisplay = 
+
+const Squares = 
+
+
+let moleDisplay = 
+
+let currentTime = 
+
+let score = 
+
+
