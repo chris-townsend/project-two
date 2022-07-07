@@ -157,6 +157,7 @@ align-items: center;
     font-size: 50px;
     align-items: center;
     color: #100c01;
+    margin-top: 105px;
 }
 
   .modal-content {
@@ -192,3 +193,7 @@ align-items: center;
     text-decoration: none;
     cursor: url(../images/mallet.webp) auto;
   }
+
+
+
+
