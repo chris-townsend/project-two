@@ -213,3 +213,12 @@ height: 165px;
 border: 1px solid black;
 }
 
+.soil-div {
+    width: 149px;
+    height: 80px;
+    background-image: url(../images/soil.webp);
+    background-size: 100%;
+    margin-top: 82px;
+
+}
+
