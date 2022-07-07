@@ -6,6 +6,7 @@ const squares = document.querySelectorAll('.square');
 
 let molePositions
 let score = 0
+let currentTime = 30
 
 function moveMole () {
   setInterval(function () {
@@ -27,6 +28,12 @@ squares.forEach(square => square.addEventListener('click', function () {
   }
 }))
 
+function countDown() {
+  currentTime--
+  timeLeft.innerHTML = currentTime
+}
+
+setInterval(countDown, 1000)
 
 
 // Get the modal
