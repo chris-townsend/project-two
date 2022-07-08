@@ -96,7 +96,7 @@ align-items: center;
     width: 110px;
     position: absolute;
     z-index: 2;
-    transform: translate(-10px, -40px);
+    transform: translate(-40px, -40px);
     pointer-events: none;
 }
 
