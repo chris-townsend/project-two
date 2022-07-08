@@ -201,6 +201,26 @@ align-items: center;
   }
 
 
+  .controls-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .game-btn {
+    font-size: 30px;
+    padding: 15px 0;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 10px;
+    text-decoration: none;
+}
+   
+
+
 .game-grid {
     background-color: none;
     width: 1200px;
