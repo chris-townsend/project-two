@@ -245,7 +245,7 @@ align-items: center;
 .square {
 width: 150px;
 height: 165px;
-border: 1px solid black;
+
 }
 
 .soil-div {
@@ -253,7 +253,7 @@ border: 1px solid black;
     height: 80px;
     background-image: url(../images/soil.webp);
     background-size: 100%;
-    margin-top: 84px;
+    margin-top: 85px;
 
 }
 
