@@ -207,6 +207,17 @@ align-items: center;
     justify-content: center;
   }
 
+
+  #game-title {
+    height: 50px;
+    font-size: 65px;
+    color: rgb(6, 34, 95);
+    margin-top: 4px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+
+}
   .game-btn {
     font-size: 20px;
     padding: 8px 8px 8px 8px;
