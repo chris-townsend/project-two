@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    cursor: none;
 }
 
 body {
@@ -87,7 +88,16 @@ align-items: center;
     background-size: 118%;
     height: 150px;
     width: 150px;
-    
+    }
+
+
+.cursor-mallet img {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-10px, -40px);
+    pointer-events: none;
 }
 
 .mole {

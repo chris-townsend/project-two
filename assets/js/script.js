@@ -3,6 +3,12 @@
 const timeLeft = document.querySelector('#time-left');
 const scoreDisplay = document.querySelector('#score');
 const squares = document.querySelectorAll('.square');
+const cursor = document.querySelector(".cursor-mallet img");
+
+window.addEventListener("mousemove", (e) => {
+  cursor.style.top = e.pageY + "px";
+  cursor.style.left = e.pageX + "px";
+})
 
 let molePositions
 let score = 0
