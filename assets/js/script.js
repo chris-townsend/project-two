@@ -8,7 +8,17 @@ const cursor = document.querySelector(".cursor-mallet img");
 window.addEventListener("mousemove", (e) => {
   cursor.style.top = e.pageY + "px";
   cursor.style.left = e.pageX + "px";
+
+window.addEventListener("click", () => {
+  cursor.style.animation = "hit 0.1s ease";
+//Allows the animation to work continously 
+  setTimeout (() => {
+    cursor.style.removeProperty("animation");
+},100);
 })
+})
+
+
 
 let molePositions
 let score = 0
