@@ -54,9 +54,21 @@ function countDown() {
     clearInterval(moleTimerId) 
   }
   }
-
 countDownTimerId = setInterval(countDown, 1000)
 
+const homepageAudio = document.getElementById('homepageAudio');
+const playPauseBtn = document.getElementById('playPauseBtn');
+const count = 0;
+
+function playPause(){
+if (count == 0){
+    count = 1;
+    audio.play();
+}else {
+    count = 0;
+    audio.pause();
+}
+}
 
 
 
