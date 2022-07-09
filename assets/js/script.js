@@ -18,8 +18,6 @@ window.addEventListener("click", () => {
 })
 })
 
-
-
 let molePositions
 let score = 0
 let currentTime = 30
@@ -49,14 +47,18 @@ squares.forEach(square => square.addEventListener('click', function () {
 function countDown() {
   currentTime--
   timeLeft.innerHTML = currentTime
+  
 
   if (currentTime === 0) {
     clearInterval(countDownTimerId)
-    clearInterval(moleTimerId)
+    clearInterval(moleTimerId) 
   }
   }
 
 countDownTimerId = setInterval(countDown, 1000)
+
+
+
 
 
 
