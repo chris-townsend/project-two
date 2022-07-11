@@ -5,6 +5,8 @@ const scoreDisplay = document.querySelector('#score');
 const squares = document.querySelectorAll('.square');
 const cursor = document.querySelector(".cursor-mallet img");
 
+
+ 
 window.addEventListener("mousemove", (e) => {
   cursor.style.top = e.pageY + "px";
   cursor.style.left = e.pageX + "px";
@@ -24,15 +26,17 @@ let currentTime = 30
 let countDownTimerId
 let moleTimerId
 
+let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
+
 function moveMole () {
   moleTimerId = setInterval(function () {
     squares.forEach(square => square.classList.remove('mole-image'))
-   const randomSquare = squares[Math.floor(Math.random() * squares.length)]
-   randomSquare.classList.add('mole-image')
+
+   const randomSquare = squares[Math.floor(Math.random() * squares.length)];
+   randomSquare.classList.add('mole-image');
 
    molePositions = randomSquare.id
-
-  }, 800)
+}, 800)
 }
 
 moveMole()
@@ -48,29 +52,12 @@ function countDown() {
   currentTime--
   timeLeft.innerHTML = currentTime
   
-
-  if (currentTime === 0) {
+if (currentTime === 0) {
     clearInterval(countDownTimerId)
     clearInterval(moleTimerId) 
   }
   }
 countDownTimerId = setInterval(countDown, 1000)
-
-const homepageAudio = document.getElementById('homepageAudio');
-const playPauseBtn = document.getElementById('playPauseBtn');
-const count = 0;
-
-function playPause(){
-if (count == 0){
-    count = 1;
-    audio.play();
-}else {
-    count = 0;
-    audio.pause();
-}
-}
-
-
 
 
 
@@ -97,6 +84,20 @@ span.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+}
+
+
+let hasPlayed = false;
+function handleFirstPlay(event) {
+  if(hasPlayed === false) {
+    hasPlayed = true;
+
+    let vid = event.target;
+
+    vid.onplay = null;
+
+    // Start whatever you need to do after first playback has started
   }
 }
 

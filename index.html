@@ -7,24 +7,19 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="assets/css/style.css">
 
-<title>Title</title>
+<title>Whack-A-Mole</title>
 </head>
 <body>
-
 
 <div class= "homepage-container">
   <div class="cursor-mallet">
     <img src="./assets/images/mallet.webp" alt= "mallet cursor">
     </div>
-  <div>
-   <audio id ="homepageAudio">
-   <source src="/audio/medieval-show-homepage.mp3"  type="audio">
-   </audio>
-   <button id="playPauseBtn" onclick="playPause()">PLAY &#9658</button>
-   &nbsp;
-   &nbsp;
-   <button>STOP &#9611</button>
-</div>
+   
+ 
+
+    <audio src="/assets/audio/jazz.wav" autoplay onplay="handleFirstPlay(event)"></audio>
+  
 
     <div id="home" class="flex-column flex-center">
     <h1>Whack-A-Mole</h1>
@@ -33,7 +28,7 @@
 <a href="/highscores.html" class="btn" id="highscore-btn">High Scores <i class="fa-solid fa-crown"></i></a>
 
 <!-- Trigger/Open The Modal -->
-<button class ="btn" id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></a></button> 
+<button class ="btn"  id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></a></button> 
  <!-- The Modal -->
 <div id="myModal" class="modal">
     <!-- Modal content -->
@@ -71,8 +66,7 @@
 </div>
 
 
-<div id="mole-image">
-   </div>
+
 
 
 

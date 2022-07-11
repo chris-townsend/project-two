@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    cursor: none;
+    cursor: pointer;
 }
 
 body {
@@ -217,11 +217,10 @@ align-items: center;
   .close:focus {
     color: black;
     text-decoration: none;
-    cursor: url(../images/mallet.webp) auto;
   }
 
 
-  .controls-container {
+  .scoretable{
     position: relative;
     display: flex;
     justify-content: center;
@@ -274,6 +273,5 @@ height: 165px;
     background-image: url(../images/soil.webp);
     background-size: 100%;
     margin-top: 85px;
-
 }
 
