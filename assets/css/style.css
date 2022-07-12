@@ -86,7 +86,7 @@ align-items: center;
 .mole-image {
     background-image: url(../images/mole-homepage.webp);
     background-size: 118%;
-    height: 150px;
+    height: 205px;
     width: 150px;
     }
 
@@ -255,15 +255,17 @@ align-items: center;
 .game-grid {
     background-color: none;
     width: 1200px;
-    height: 500px;
-    margin: 20px;
+    height: 300px;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .square {
 width: 150px;
-height: 165px;
+height: 205px;
+border: 1px solid black;
+
 
 }
 

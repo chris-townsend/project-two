@@ -22,42 +22,51 @@ window.addEventListener("click", () => {
 
 let molePositions
 let score = 0
-let currentTime = 30
-let countDownTimerId
+let currentTime = 10
 let moleTimerId
 
 let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
 
-function moveMole () {
-  moleTimerId = setInterval(function () {
-    squares.forEach(square => square.classList.remove('mole-image'))
+function randomSquare() {
+squares.forEach(square => {
+  square.classList.remove('mole-image')
+})
 
-   const randomSquare = squares[Math.floor(Math.random() * squares.length)];
+let randomSquare = squares[Math.floor(Math.random() * 16)]
    randomSquare.classList.add('mole-image');
 
    molePositions = randomSquare.id
-}, 800)
+}
+
+
+squares.forEach(square => {
+  square.addEventListener('click', () => {
+  if (square.id == molePositions) {
+    score++
+    scoreDisplay.textContent = score
+    molePositions = null
+  }
+})
+})
+
+function moveMole() {
+ moleTimerId= setInterval(randomSquare, 500)
 }
 
 moveMole()
 
-squares.forEach(square => square.addEventListener('click', function () {
-  if (square.id === molePositions) {
-    score++
-    scoreDisplay.innerHTML = score
-  }
-}))
-
 function countDown() {
   currentTime--
-  timeLeft.innerHTML = currentTime
+  timeLeft.textContent = currentTime
   
-if (currentTime === 0) {
+if (currentTime == 0) {
     clearInterval(countDownTimerId)
-    clearInterval(moleTimerId) 
+    clearInterval(moleTimerId)
+    alert('GAME OVER! Your final score is' + result)
   }
-  }
-countDownTimerId = setInterval(countDown, 1000)
+  
+}
+  let countDownTimerId = setInterval(countDown, 1000)
 
 
 
@@ -100,4 +109,3 @@ function handleFirstPlay(event) {
     // Start whatever you need to do after first playback has started
   }
 }
-
