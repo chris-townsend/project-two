@@ -5,8 +5,6 @@ const scoreDisplay = document.querySelector('#score');
 const squares = document.querySelectorAll('.square');
 const cursor = document.querySelector(".cursor-mallet img");
 
-
- 
 window.addEventListener("mousemove", (e) => {
   cursor.style.top = e.pageY + "px";
   cursor.style.left = e.pageX + "px";
@@ -26,6 +24,8 @@ let currentTime = 10
 let moleTimerId = null
 
 let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
+
+let playHomeSound = () => new Audio("/assets/audio/jazz.wav").play();
 
 function randomSquare() {
 squares.forEach(square => {
@@ -64,7 +64,6 @@ if (currentTime == 0) {
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
-    $('#myModal').modal('show');
   }
   
 }

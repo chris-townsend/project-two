@@ -11,14 +11,18 @@
    <title>Whack A Mole</title>
 </head>
 
-<body>
+<body>   
+   <!--div to allow mallet cursor on game page-->
    <div class="cursor-mallet">
       <img src="./assets/images/mallet.webp" alt= "mallet cursor">
       </div>
+      <!--Whack A Mole title-->
    <h2 id ="game-title">Whack-A-Mole</h2>
+   <!--start/stop game buttons-->
    <button class="game-btn">PLAY</button>
    <button class="game-btn">STOP</button>
 
+<!--Scoretable to show your score and time left-->
    <div class="scoretable">
    <h3 class="game-btn">Your Score:</h3>
    <h3 id="score" class = "game-btn">0</h3>
@@ -27,9 +31,11 @@
    <h3 id="time-left" class = "game-btn">0</h3>
    </div>
 
+   <!--Game grid--> <!--onclick to allow mallet whack sound-->
    <div class="game-grid" onclick="playSound()">
-      
+      <!--16 divs to represent 16 individual squares within the game grid-->
       <div class="square" id="1"> 
+         <!--Soil div within every square to allow hole image-->
          <div class="soil-div"></div>
           </div>
      
@@ -92,11 +98,8 @@
       <div class="square" id="16">
          <div class="soil-div"></div>
            </div>
-
 </div>
-
-   
-   
+<!--Javascript tag-->   
 <script src="assets/js/script.js"></script>
 </body>
 

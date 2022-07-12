@@ -12,29 +12,28 @@
 <body>
 
 <div class= "homepage-container">
+  <!--div to allow mallet cursor on homepage-->
   <div class="cursor-mallet">
     <img src="./assets/images/mallet.webp" alt= "mallet cursor">
     </div>
-   
- 
-
-    <audio src="/assets/audio/jazz.wav" autoplay onplay="handleFirstPlay(event)"></audio>
-  
-
-    <div id="home" class="flex-column flex-center">
+  <div id="home" class="flex-column flex-center">
+      <!--Whack A Mole title-->
     <h1>Whack-A-Mole</h1>
+  <!--nav section of game-->
+<a href="/game.html" class="btn" onclick="playHomeSound()"> Play</a> 
+<a href="/highscores.html" class="btn" onclick="playHomeSound()" id="highscore-btn">High Scores <i class="fa-solid fa-crown"></i></a>
 
-<a href="/game.html" class="btn">Play</a>
-<a href="/highscores.html" class="btn" id="highscore-btn">High Scores <i class="fa-solid fa-crown"></i></a>
-
-<!-- Trigger/Open The Modal -->
-<button class ="btn"  id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></a></button> 
- <!-- The Modal -->
+<!-- open the modal -->
+<button class ="btn" id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></a></button> 
+ <!-- the modal -->
 <div id="myModal" class="modal">
-    <!-- Modal content -->
+    <!-- modal content -->
+    <!--modal close button-->
   <div class="modal-content">
     <span class="close">&times;</span>
+    <!--modal title-->
     <h2 id="instructions-modal-header">How to Play</h2>
+    <!--modal body content-->
     <div class ="modal-body">
     <p>Ready for some fast-action, mole-whackin' fun? Look no further!
       Grab a mallet and whack your way to to the top of the leaderboards</p>
@@ -50,6 +49,7 @@
     </ul> 
     </p>
     </div>
+    <!--modal footer social icons-->
     <div class ="modal-footer">
       <ul>
         <li>
@@ -64,15 +64,9 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
 <!--font awesome script-->
 <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>
+<!--Javascript tag-->
 <script src="assets/js/script.js"></script>
 </body>
 
