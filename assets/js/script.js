@@ -23,7 +23,7 @@ window.addEventListener("click", () => {
 let molePositions
 let score = 0
 let currentTime = 10
-let moleTimerId
+let moleTimerId = null
 
 let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
 
@@ -40,7 +40,7 @@ let randomSquare = squares[Math.floor(Math.random() * 16)]
 
 
 squares.forEach(square => {
-  square.addEventListener('click', () => {
+  square.addEventListener('mousedown', () => {
   if (square.id == molePositions) {
     score++
     scoreDisplay.textContent = score
@@ -50,7 +50,7 @@ squares.forEach(square => {
 })
 
 function moveMole() {
- moleTimerId= setInterval(randomSquare, 500)
+ moleTimerId= setInterval(randomSquare, 800)
 }
 
 moveMole()
@@ -60,9 +60,11 @@ function countDown() {
   timeLeft.textContent = currentTime
   
 if (currentTime == 0) {
-    clearInterval(countDownTimerId)
-    clearInterval(moleTimerId)
-    alert('GAME OVER! Your final score is' + result)
+    
+    clearInterval(countDownTimerId);
+    clearInterval(moleTimerId);
+    window.alert('GAME OVER! Your final score is ' + score);
+    $('#myModal').modal('show');
   }
   
 }
