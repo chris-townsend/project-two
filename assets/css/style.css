@@ -23,6 +23,7 @@ h1 {
     color: rgb(6, 34, 95);
     margin-top: 150px;
     margin-bottom: 28px;
+    box-shadow: rgb(106, 131, 167);
     animation: image-grow 2s;
 }
 @keyframes image-grow {
@@ -273,7 +274,7 @@ margin-bottom: 120px;
 }
    
 .game-grid {
-    background: url(../images/woodland-background.jpg) center;
+    background: url(../images/forest-background.jpg) center;
     background-size: 100%;
     width: 1200px;
     height: 380px;

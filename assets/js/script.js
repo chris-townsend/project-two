@@ -24,7 +24,6 @@ let currentTime = 10
 let moleTimerId = null
 
 let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
-
 let playHomeSound = () => new Audio("/assets/audio/jazz.wav").play();
 
 function randomSquare() {
@@ -37,17 +36,17 @@ let randomSquare = squares[Math.floor(Math.random() * 16)]
 
    molePositions = randomSquare.id
 }
-
-
-squares.forEach(square => {
+  squares.forEach(square => {
   square.addEventListener('mousedown', () => {
   if (square.id == molePositions) {
-    score++
-    scoreDisplay.textContent = score
-    molePositions = null
+    
+    score++;
+    scoreDisplay.textContent = score;
+    molePositions = null;
   }
 })
 })
+
 
 function moveMole() {
  moleTimerId= setInterval(randomSquare, 800)
@@ -77,8 +76,10 @@ if (currentTime == 0) {
 // Get the modal
 const modal = document.getElementById("myModal");
 
+
 // Get the button that opens the modal
 const btn = document.getElementById("instruction-btn");
+
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
