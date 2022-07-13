@@ -16,12 +16,12 @@ body {
 }
 
 h1 {
-    background: url(../images/man-digging-home-page.webp) no-repeat;
-    background-size: 90%;
+    background: url(../images/man-digging-home-page.webp) no-repeat center;
+    background-size: 60%;
     height: 280px;
     font-size: 85px;
     color: rgb(6, 34, 95);
-    margin-top: 220px;
+    margin-top: 170px;
     margin-bottom: 20px;
     animation: image-grow 2s;
 }
@@ -88,9 +88,7 @@ align-items: center;
     background-size: 138%;
     height: 105px;
     width: 150px;
-
-    }
-
+}
 
 .cursor-mallet img {
     height: 110px;
@@ -111,9 +109,24 @@ align-items: center;
     }
 }
 
-.mole {
-    background-color: black;
-}
+.home-mole-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 200px;
+   
+    }
+    
+    .home-square {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-left: 250px;
+    padding-bottom: 50px;
+    }
+
 
 /* The Modal (background) */
 .modal {
@@ -265,9 +278,6 @@ align-items: center;
 .square {
 width: 150px;
 height: 205px;
-border: 1px solid black;
-
-
 }
 
 .soil-div {
