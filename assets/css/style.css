@@ -115,12 +115,14 @@ align-items: center;
     flex-wrap: wrap;
     width: 1200px;
     height: 250px;
-    margin-top: 250px;
+    margin-top: 240px;
     margin-bottom: 200px;
+    margin-left: 30px;
    }
 
 .home-mole-container .square {
     height:140px;
+    margin: 22px;
 }
 
 .home-mole-container .mole-image {
