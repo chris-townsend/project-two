@@ -271,10 +271,11 @@ margin-bottom: 120px;
 }
    
 .game-grid {
-    background-color: none;
+    background: url(../images/woodland-background.jpg) center;
+    background-size: 100%;
     width: 1200px;
-    height: 300px;
-    margin: 10px;
+    height: 380px;
+    margin: 25px;
     display: flex;
     flex-wrap: wrap;
 }
