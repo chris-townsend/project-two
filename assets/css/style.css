@@ -84,10 +84,11 @@ align-items: center;
 }
 
 .mole-image {
-    background-image: url(../images/mole-homepage.webp);
-    background-size: 118%;
-    height: 205px;
+    background: url(../images/mole-homepage.webp) center no-repeat;
+    background-size: 138%;
+    height: 105px;
     width: 150px;
+
     }
 
 
@@ -274,6 +275,6 @@ border: 1px solid black;
     height: 80px;
     background-image: url(../images/soil.webp);
     background-size: 100%;
-    margin-top: 85px;
+    margin-top: 104px;
 }
 

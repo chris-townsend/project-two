@@ -64,10 +64,13 @@ if (currentTime == 0) {
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
+    }
   }
   
-}
+
   let countDownTimerId = setInterval(countDown, 1000)
+
+
 
 
 
