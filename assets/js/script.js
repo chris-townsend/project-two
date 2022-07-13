@@ -31,7 +31,7 @@ squares.forEach(square => {
   square.classList.remove('mole-image')
 })
 
-let randomSquare = squares[Math.floor(Math.random() * 16)]
+let randomSquare = squares[Math.floor(Math.random() * 12)]
    randomSquare.classList.add('mole-image');
 
    molePositions = randomSquare.id
