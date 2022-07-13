@@ -21,8 +21,8 @@ h1 {
     height: 280px;
     font-size: 85px;
     color: rgb(6, 34, 95);
-    margin-top: 170px;
-    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 28px;
     animation: image-grow 2s;
 }
 @keyframes image-grow {
