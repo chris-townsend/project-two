@@ -17,7 +17,7 @@ body {
 
 h1 {
     background: url(../images/man-digging-home-page.webp) no-repeat center;
-    background-size: 60%;
+    background-size: 33%;
     height: 280px;
     font-size: 85px;
     color: rgb(6, 34, 95);
@@ -114,19 +114,25 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
-    height: 200px;
-   
-    }
-    
-    .home-square {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
-    margin-left: 250px;
-    padding-bottom: 50px;
-    }
+    height: 250px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+   }
 
+.home-mole-container .square {
+    height:140px;
+}
+
+.home-mole-container .mole-image {
+    background-size: 75%;
+   height: 200px;
+}
+
+.home-mole-container .soil-div {
+background-size: 62%;
+height: 70px;
+margin-bottom: 120px;
+}
 
 /* The Modal (background) */
 .modal {
@@ -264,8 +270,6 @@ align-items: center;
     text-decoration: none;
 }
    
-
-
 .game-grid {
     background-color: none;
     width: 1200px;
