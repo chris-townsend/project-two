@@ -117,7 +117,7 @@ align-items: center;
     width: 1200px;
     height: 250px;
     margin-top: 240px;
-    margin-bottom: 200px;
+    margin-bottom: 260px;
     margin-left: 30px;
    }
 
@@ -127,7 +127,7 @@ align-items: center;
 }
 
 .home-mole-container .mole-image {
-    background-size: 75%;
+    background-size: 82%;
    height: 200px;
 }
 
@@ -277,7 +277,7 @@ margin-bottom: 120px;
     background: url(../images/forest-background.jpg) center;
     background-size: 100%;
     width: 1200px;
-    height: 420px;
+    height: 464px;
     margin: 25px;
     display: flex;
     flex-wrap: wrap;

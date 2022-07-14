@@ -47,7 +47,6 @@ let randomSquare = squares[Math.floor(Math.random() * 12)]
 })
 })
 
-
 function moveMole() {
  moleTimerId= setInterval(randomSquare, 800)
 }
@@ -59,42 +58,39 @@ function countDown() {
   timeLeft.textContent = currentTime
   
 if (currentTime == 0) {
-    
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
     }
   }
-  
-
-  let countDownTimerId = setInterval(countDown, 1000)
+let countDownTimerId = setInterval(countDown, 1000)
 
 
-
-
-
-// Get the modal
+// Get the modal (Instructions)
 const modal = document.getElementById("myModal");
-
-
-// Get the button that opens the modal
+// Get the modal (High Scores)
+const HighscoreModal = document.getElementById("myhighScoreModal");
+// Get the button that opens the instructions modal
 const btn = document.getElementById("instruction-btn");
 
+// Get the button that opens the highscores modal
+const highscoreBtn = document.getElementById("highscore");
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
+// Get the <span> element that closes the modal
+const highScoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
-// When the user clicks on the button, open the modal
+// When the user clicks on the button, open the instructions modal
+
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), close the instructions modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the instructions modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
