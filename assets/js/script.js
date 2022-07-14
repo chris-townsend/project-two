@@ -82,14 +82,24 @@ const span = document.getElementsByClassName("close")[0];
 const highScoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
 // When the user clicks on the button, open the instructions modal
-
 btn.onclick = function() {
   modal.style.display = "block";
 }
+// When the user clicks on the button, open the highscores modal
+highscoreBtn.onclick = function() {
+  HighscoreModal.style.display = "block";
+}
+
 // When the user clicks on <span> (x), close the instructions modal
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+// When the user clicks on <span> (x), close the highscores modal
+highscoreClose.onclick = function() {
+  HighscoreModal.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the instructions modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
