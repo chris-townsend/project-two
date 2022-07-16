@@ -65,6 +65,7 @@ if (currentTime == 0) {
   }
 let countDownTimerId = setInterval(countDown, 1000)
 
+//High Scores & Instructions modals 
 
 // Get the modal (Instructions)
 const modal = document.getElementById("myModal");
@@ -89,28 +90,23 @@ btn.onclick = function() {
 highscoreBtn.onclick = function() {
   HighscoreModal.style.display = "block";
 }
-
 // When the user clicks on <span> (x), close the instructions modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 // When the user clicks on <span> (x), close the highscores modal
 highscoreSpan.onclick = function() {
   HighscoreModal.style.display = "none";
 }
-
 // When the user clicks anywhere outside of the instructions modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
-  }
+  } 
 }
+// When the user clicks anywhere outside of the highscores modal, close it
 
-// When the user clicks anywhere outside of the instructions modal, close it
-window.onclick = function(event) {
+window.addEventListener("click", function(event) {
   if (event.target == HighscoreModal) {
-    HighscoreModal.style.display = "none";
-  }
-}
-
+    HighscoreModal.style.display = "none"; }
+  })
