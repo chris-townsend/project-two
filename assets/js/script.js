@@ -108,4 +108,9 @@ window.onclick = function(event) {
 }
 
 // When the user clicks anywhere outside of the instructions modal, close it
+window.onclick = function(event) {
+  if (event.target == HighscoreModal) {
+    HighscoreModal.style.display = "none";
+  }
+}
 
