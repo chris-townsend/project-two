@@ -23,9 +23,8 @@
   
   <!--nav section of game-->
 <a href="/game.html" class="btn" onclick="playHomeSound()"> Play</a> 
-<a href="/highscores.html" class="btn" onclick="playHomeSound()" 
-id="highscore-btn">High Scores <i class="fa-solid fa-crown"></i></a>
-<div class="home-mole-container">
+
+<div class="home-mole-container" onclick="playHomeSound()" >
  
 <div class="square">
   <div class="soil-div"></div>
@@ -47,7 +46,7 @@ id="highscore-btn">High Scores <i class="fa-solid fa-crown"></i></a>
 </div>
 </div>
 <!-- open the High Scores modal -->
-<button class=" btn highscoreBtn" id="highscore">High Scores</button>
+<button class=" btn highscoreBtn" id="highscore">High Scores<i class="fa-solid fa-crown"></i></button>
 <!-- the modal -->
 <div id="myhighScoreModal" class="highscoreModal modal">
  <!-- modal content -->
