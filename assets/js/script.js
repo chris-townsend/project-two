@@ -96,7 +96,7 @@ span.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the highscores modal
-highscoreClose.onclick = function() {
+highscoreSpan.onclick = function() {
   HighscoreModal.style.display = "none";
 }
 
@@ -106,4 +106,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// When the user clicks anywhere outside of the instructions modal, close it
 
