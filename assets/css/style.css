@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    cursor: pointer;
+    cursor: none;
 }
 
 body {
@@ -258,6 +258,19 @@ margin-bottom: 120px;
     justify-content: center;
   }
 
+  .home-btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    float:right;
+    padding: 15px;
+    margin: 15px 15px 10px 15px;
+    border-radius: 50%;
+  }
+
 
   #game-title {
     height: 50px;
@@ -305,4 +318,27 @@ margin: 20px;
     background-size: 100%;
     margin-top: 120px;
 }
+
+/* Highscores Modal content */
+
+.leaderboard {
+    width: 80%;
+    position: relative;
+    font-family: "Amatic SC", cursive;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    margin-top: 3em;
+    margin-left: 7%;
+    color: #10100e;
+  }
+  
+  .leaderboard thead th {
+    border-bottom: 2px solid #10100e;
+  }
+  
+  .leaderboard th,
+  .leaderboard td {
+    border-top: 1px solid #10100e;
+    vertical-align: middle;
+  }
 

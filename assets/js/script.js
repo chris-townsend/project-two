@@ -47,6 +47,46 @@ let randomSquare = squares[Math.floor(Math.random() * 12)]
 })
 })
 
+// Submit name to Highscores
+  // Display msg if player name value is empty
+  function saveHighScore() {
+    let name = document.forms["leader"]["name"].value;
+    const currentScore = {
+      name: highScoreName.value,
+      score: scoreboard.textContent,
+    };
+    if (name == "") {
+      text.innerHTML = "Please enter a name";
+      return false;
+    } else {
+      // Save a High score and position in leaderboard
+      // Help from James Q Quick video on Saving High Scores in Local Storage
+      // push current score into highscore array
+      highScores.push(currentScore);
+
+      // Sort higher scores to the top and only accept top 5
+      highScores.sort((a, b) => b.score - a.score);
+      // Help from Samantha from Code Institute Tutor support
+      // Only accept 5 values
+      highScores.splice(5);
+
+      // Iterate through the current leaderboard and replace score with if beaten
+      // Help from Michael on Code Institute Tutor support
+      for (let i = 0; i < highScores.length; i++) {
+        playerScores[i].textContent = highScores[i].score;
+        playerNames[i].textContent = highScores[i].name;
+      }
+
+      localStorage.setItem("highScores", JSON.stringify(highScores));
+
+      cardLeader.classList.add("scoreboard");
+      cardLeader.classList.remove("game-on");
+      cardStart.classList.add("game-on");
+      cardHighscore.classList.add("game-on");
+      return true;
+    }
+  }
+
 function moveMole() {
  moleTimerId= setInterval(randomSquare, 800)
 }
@@ -65,6 +105,7 @@ if (currentTime == 0) {
     }
   }
 let countDownTimerId = setInterval(countDown, 1000)
+
 
 //High Scores & Instructions modals 
 
