@@ -354,30 +354,71 @@ margin: 20px;
 
   /* Media Queries */
 
- /*Screen sizes 768px*/
-@media (max-width: 768px) {
+  /*Screen sizes 992px*/
+@media screen and (max-width:992px) {
 /*Homepage*/
 h1 {
-  height: 330px;
+  height: 280px;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 350px;
+  margin-bottom: 150px;
+}
+
+.home-mole-container {
+  height: 150px;
+  margin-left: 240px;
+  margin-bottom: 150px;
+}
+
+.btn {
+  margin-left: 150px;
+}
+/*Game page*/
+
+.game-grid {
+  width: 980px;
+  height: 460px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.game-grid .square {
+  width: 100px;
+  height: 200px;
+  margin: 30px;
+}
+
+.game-grid .square .soil-div {
+width: 100px;
+height: 75px;
+margin-top: 100px;
+}
+}
+
+
+ /*Screen sizes 768px*/
+@media screen and (max-width:768px) {
+/*Homepage*/
+h1 {
+  height: 290px;
   width: 100%;
   text-align: center;
-  margin-left: 250px;
-  margin-bottom: 100px;
-  margin-top: 280px;
+  margin-left: 400px;
+  margin-top: 250px;
+  margin-bottom: 150px;
+
 }
 
 .home-mole-container {
   height: 100px;
-  margin-left: 75px;
-  margin-top: 180px;
-  margin-bottom: 140px;
+  margin-left: 455px;
+  margin-bottom: 300px;
 }
 
 .btn {
 align-items: center;
-margin-left: 250px;
+margin-left: 400px;
 }
-
 /*Game page*/
 
 #game-title {
@@ -402,7 +443,6 @@ margin-left: 20px;
   height: 460px;
   margin-left: 4px;
   margin-right: 4px;
-
 }
 
 .game-grid .square {
@@ -419,9 +459,9 @@ margin-top: 100px;
 }
 
 
- /*Screen sizes 576px*/
+/*Screen sizes 576px*/
 /*Homepage*/
-  @media (max-width: 576px) {
+  @media screen and (max-width: 576px) {
     h1 {
      width:100%;
      height: 190px;
@@ -531,5 +571,3 @@ margin-top: 100px;
 }
 }
   
-
-
