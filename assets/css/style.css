@@ -207,9 +207,15 @@ margin-bottom: 120px;
     align-items: center;
     color: #100c01;
     margin-top: 105px;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(22, 124, 11, 0.228);
 }
 
-  .modal-content {
+.modal-footer ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.modal-content {
     position: relative;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
