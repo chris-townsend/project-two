@@ -496,6 +496,11 @@ margin-top: 100px;
     border-radius: 5px;
     margin-bottom: 5px;
    }
+
+   .scoretable {
+ width: 100%;
+   }
+   
    .game-grid {
     width: 576px;
     height: 301px;
