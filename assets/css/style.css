@@ -259,17 +259,21 @@ margin-bottom: 120px;
   }
 
   .home-btn {
-    background-color: DodgerBlue; /* Blue background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
+    background-color: rgb(55, 114, 243);
+    border: none; 
+    color: white;
+    font-size: 16px; 
+    cursor: none;
     float:right;
     padding: 15px;
     margin: 15px 15px 10px 15px;
     border-radius: 50%;
   }
+
+  .home-btn:hover {
+    background-color: #166620;
+  }
+  
 
 
   #game-title {
