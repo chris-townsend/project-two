@@ -25,6 +25,7 @@ let moleTimerId = null
 
 let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
 let playHomeSound = () => new Audio("/assets/audio/jazz.wav").play();
+let successfulWhack = () => new Audio("/assets/audio/hit-sound.flac").play();
 
 function randomSquare() {
 squares.forEach(square => {
@@ -39,7 +40,7 @@ let randomSquare = squares[Math.floor(Math.random() * 12)]
   squares.forEach(square => {
   square.addEventListener('mousedown', () => {
   if (square.id == molePositions) {
-    
+    successfulWhack();
     score++;
     scoreDisplay.textContent = score;
     molePositions = null;
