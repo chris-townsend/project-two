@@ -604,4 +604,92 @@ margin-top: 100px;
     pointer-events: none;
 }
 }
+
+/*Screen sizes 375px*/
+@media screen and (max-width:375px) {
+/*Homepage*/
+h1{
+  font-size: 40px;
+  width: 100%;
+  height: 220px;
+  margin-top: 220px;
+  margin-bottom: 200px;
+  margin-left: 50px;
+}
+
+.home-mole-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 375px;
+  height: 20px;
+  margin-left: 140px;
+  margin-top: 180px;
+  align-items: center;
+  margin-bottom: 380px;
+ }
+
+ .home-mole-container .square {
+  width: 75px;
+  height: 140px;
+  margin: 10px;
+  margin-top: 1px;
+}
+
+.home-mole-container .square .soil-div {
+  width: 75px;
+  height: 36px;
+  margin-top: 75px;
+  
+   }
+
+   .btn {
+    margin-left: 50px;
+   }
+  /*Instructions modal*/
+  .modal-body {
+    height: 585px;
+  }
+  #how-to-play {
+    margin-bottom: 2px;
+   }
+   .modal-body ul li { 
+    padding: 8px 4px;
+   }
+
+   .modal-footer ul li {
+   margin: 40px;
+   }
+/*Game page*/
+.game-grid {
+  width: 371px;
+  height: 210px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 20px;
+ }
+
+ .game-grid .square {
+  width: 40px;
+  height: 150px;
+  margin: 10px;
+  margin-top: -40px;
+}
+
+.game-grid .square .soil-div {
+  width: 40px;
+  height: 32px;
+  margin-top: 80px;
+ }
+
+ .cursor-mallet img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-40px, -40px);
+  pointer-events: none;
+}
+}
+ 
   
