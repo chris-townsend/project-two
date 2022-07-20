@@ -378,12 +378,18 @@ h1 {
   height: 200px;
   margin: 38px;
 }
-
-
 .game-grid .square .soil-div {
 width: 135px;
 height: 75px;
 margin-top: 100px;
+}
+.cursor-mallet img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-40px, -40px);
+  pointer-events: none;
 }
 }
 
