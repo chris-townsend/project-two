@@ -387,6 +387,57 @@ margin-top: 100px;
 }
 }
 
+/*Screen sizes 1024px (ipad landscape)*/
+@media screen and (max-width:1024px) {
+  /*Homepage*/
+
+  h1{
+    margin-left: 5px;
+  }
+  .home-mole-container {
+    width: 1000px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 350px;
+    margin-bottom: 150px;
+  }
+
+  .home-mole-container .square {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    margin-top: 1px;
+  }
+  
+  .home-mole-container .square .soil-div {
+    width: 140px;
+    height: 68px;
+    margin-top: 75px;
+  }
+
+  /*Game page*/
+  .game-grid {
+    width: 1016px;
+    height: 800px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-image:url(../images/forest-background.jpg);
+    background-size: cover;
+  }
+  .game-grid .square {
+    width: 150px;
+    height: 200px;
+    margin: 40px;
+    margin-right: 64px;
+  }
+  
+  .game-grid .square .soil-div {
+  width: 150px;
+  height: 102px;
+  margin-top: 100px;
+  }
+}
+
 
   /*Screen sizes 992px*/
 @media screen and (max-width:992px) {
@@ -491,8 +542,8 @@ margin-left: 20px;
   height: 715px;
   background-image:url(../images/forest-background.jpg);
   background-size: cover;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .game-grid .square {
