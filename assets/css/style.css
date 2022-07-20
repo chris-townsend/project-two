@@ -353,6 +353,44 @@ margin: 20px;
   }
 
   /* Media Queries */
+/*Screen sizes 1200px*/
+@media screen and (max-width:1200px) {
+/*Homepage*/
+h1 {
+  height: 300px;
+  margin-left: 60px;
+  margin-top: 380px;
+  margin-bottom: 150px;
+}
+.home-mole-container {
+  height: 150px;
+  margin-bottom: 100px;
+}
+/*Game page*/
+.game-grid {
+  width: 1192px;
+  height: 520px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.game-grid .square {
+  width: 120px;
+  height: 200px;
+  margin: 38px;
+}
+
+
+.game-grid .square .soil-div {
+width: 135px;
+height: 75px;
+margin-top: 100px;
+
+}
+
+
+
+}
+
 
   /*Screen sizes 992px*/
 @media screen and (max-width:992px) {
@@ -419,6 +457,7 @@ h1 {
 align-items: center;
 margin-left: 400px;
 }
+
 /*Game page*/
 
 #game-title {
@@ -457,7 +496,6 @@ height: 75px;
 margin-top: 100px;
 }
 }
-
 
 /*Screen sizes 576px*/
 /*Homepage*/
