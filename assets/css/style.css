@@ -437,7 +437,7 @@ h1 {
   height: 290px;
   width: 100%;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 1px;
   margin-top: 250px;
   margin-bottom: 150px;
 
@@ -445,13 +445,26 @@ h1 {
 
 .home-mole-container {
   height: 100px;
-  margin-left: 455px;
+  width: 350px;
+  margin-left: 70px;
   margin-bottom: 300px;
+}
+.home-mole-container .square {
+  width: 75px;
+  height: 140px;
+  margin: 10px;
+  margin-top: 1px;
+}
+
+.home-mole-container .square .soil-div {
+  width: 75px;
+  height: 36px;
+  margin-top: 75px;
 }
 
 .btn {
 align-items: center;
-margin-left: 400px;
+margin-left: 10px;
 }
 
 /*Game page*/
