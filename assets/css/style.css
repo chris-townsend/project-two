@@ -614,7 +614,6 @@ h1{
   height: 220px;
   margin-top: 220px;
   margin-bottom: 200px;
-  margin-left: 50px;
 }
 
 .home-mole-container {
@@ -623,8 +622,8 @@ h1{
   flex-wrap: wrap;
   width: 375px;
   height: 20px;
-  margin-left: 140px;
   margin-top: 180px;
+  margin-left: 80px;
   align-items: center;
   margin-bottom: 380px;
  }
@@ -644,7 +643,7 @@ h1{
    }
 
    .btn {
-    margin-left: 50px;
+    margin-left: 8px;
    }
   /*Instructions modal*/
   .modal-body {
@@ -663,21 +662,23 @@ h1{
 /*Game page*/
 .game-grid {
   width: 371px;
-  height: 210px;
+  height: 410px;
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 20px;
+  background-image:url(../images/forest-background.jpg);
+  background-size: cover;
  }
 
  .game-grid .square {
-  width: 40px;
+  width: 46px;
   height: 150px;
-  margin: 10px;
+  margin: 23px;
   margin-top: -40px;
 }
 
 .game-grid .square .soil-div {
-  width: 40px;
+  width: 46px;
   height: 32px;
   margin-top: 80px;
  }
