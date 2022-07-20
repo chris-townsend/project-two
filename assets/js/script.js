@@ -23,9 +23,9 @@ let score = 0
 let currentTime = 10
 let moleTimerId = null
 
-let playSound = () => new Audio("/assets/audio/hammer-whack.wav").play();
-let playHomeSound = () => new Audio("/assets/audio/jazz.wav").play();
-let successfulWhack = () => new Audio("/assets/audio/hit-sound.flac").play();
+let playSound = () => new Audio("../assets/audio/hammer-whack.wav").play();
+let playHomeSound = () => new Audio("../assets/audio/jazz.wav").play();
+let successfulWhack = () => new Audio("../assets/audio/hit-sound.flac").play();
 
 function randomSquare() {
 squares.forEach(square => {
