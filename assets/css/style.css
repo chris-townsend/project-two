@@ -488,19 +488,21 @@ margin-left: 20px;
 
 .game-grid {
   width: 760px;
-  height: 460px;
+  height: 715px;
+  background-image:url(../images/forest-background.jpg);
+  background-size: cover;
   margin-left: 4px;
   margin-right: 4px;
 }
 
 .game-grid .square {
-  width: 100px;
+  width: 130px;
   height: 200px;
-  margin: 12px;
+  margin: 28px;
 }
 
 .game-grid .square .soil-div {
-width: 100px;
+width: 130px;
 height: 75px;
 margin-top: 100px;
 }
