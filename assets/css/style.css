@@ -489,8 +489,8 @@ h1 {
   width: 100%;
   text-align: center;
   margin-left: 1px;
-  margin-top: 250px;
-  margin-bottom: 150px;
+  margin-top: 280px;
+  margin-bottom: 220px;
 
 }
 
@@ -678,7 +678,7 @@ h1 {
   height: 300px;
   margin-bottom: 20px;
   margin-top: 100px;
-  margin-left: -20px;
+  margin-right: 10px;
 }
 .home-mole-container {
   width: 414px;
@@ -700,7 +700,7 @@ h1 {
   
 }
 .btn {
-  margin-right: 45px;
+  margin-right: 28px;
 }
 /*Instructions modal*/
 .modal-body {
@@ -744,6 +744,7 @@ h1{
   height: 220px;
   margin-top: 220px;
   margin-bottom: 200px;
+  margin-left: 40px;
 }
 
 .home-mole-container {
@@ -773,7 +774,7 @@ h1{
    }
 
    .btn {
-    margin-left: 8px;
+    margin-left: 80px;
    }
   /*Instructions modal*/
   .modal-body {
