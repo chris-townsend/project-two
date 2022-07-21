@@ -580,6 +580,23 @@ margin-top: 100px;
 }
 }
 
+/*Screen sizes 736px*/
+@media screen and (max-width:736px) {
+  /*Homepage*/
+  h1 {
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 380px;
+    margin-bottom: 100px;
+}
+.home-mole-container {
+  margin-bottom: 150px;
+}
+
+}
+
 /*Screen sizes 576px*/
 /*Homepage*/
   @media screen and (max-width: 576px) {
