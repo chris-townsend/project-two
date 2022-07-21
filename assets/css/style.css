@@ -564,52 +564,58 @@ height: 75px;
 margin-top: 100px;
 }
 }
+/*Screen sizes 734px*/
+@media screen and (max-width:734px) {
+  /*Homepage*/
+  h1 {
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 380px;
+    margin-bottom: 100px;
+}
+.home-mole-container {
+  margin-bottom: 150px;
+}
+}
 
 /*Screen sizes 576px*/
 /*Homepage*/
   @media screen and (max-width: 576px) {
     h1 {
      width:100%;
-     height: 190px;
-     font-size: 48px;
-     margin-top: 280px;
-     margin-left: 20px;
-     margin-bottom: 305px;
+     height: 195px;
+     font-size: 58px;
+     margin-top: 220px;
+     margin-left: 15px;
+     margin-bottom: 85px;
      text-align: center;
    }
    .home-mole-container {
-     position: absolute;
-     display: flex;
-     flex-wrap: wrap;
-     width: 480px;
+     width: 560px;
      height: 180px;
-     margin-top: 320px;
-     margin-bottom: 550px;
+     margin-top: 300px;
+     margin-bottom: 150px;
      margin-left: 20px;
      align-items: center;
     }
-
-    .btn {
+  .btn {
       align-items: center;
       margin-left: 20px;
       }
    
-   .home-mole-container .square {
-     height:90px;
-     margin:5px;
-   }
-   
-   .home-mole-container .mole-image {
-     background-size: 62%;
-    height: 250px;
-   }
-   
-   .home-mole-container .soil-div {
-   background-size: 62%;
-   height: 70px;
-   margin-bottom: 30px;
-   }
-
+ .home-mole-container .square {
+    width: 62px;
+    height: 140px;
+    margin: 12px;
+    margin-top: 1px;
+  }
+  .home-mole-container .square .soil-div {
+    width: 62px;
+    height: 32px;
+    margin-top: 74px;
+  }
    /*Instructions modal*/
   .modal-body {
     height: 485px;
@@ -750,7 +756,7 @@ h1{
   height: 220px;
   margin-top: 220px;
   margin-bottom: 200px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .home-mole-container {
@@ -780,7 +786,7 @@ h1{
    }
 
    .btn {
-    margin-left: 80px;
+    margin-left: 30px;
    }
   /*Instructions modal*/
   .modal-body {
