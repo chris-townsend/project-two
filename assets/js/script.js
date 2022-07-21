@@ -27,7 +27,6 @@ let currentTime = 10
 let moleTimerId = null
 
 let playSound = () => new Audio("assets/audio/hammer-whack.wav").play();
-let playHomeSound = () => new Audio("assets/audio/jazz.wav").play();
 let successfulWhack = () => new Audio("assets/audio/hit-sound.flac").play();
 
 function randomSquare() {
@@ -157,7 +156,6 @@ window.addEventListener("click", function(event) {
     HighscoreModal.style.display = "none"; }
   })
 
-
 let audio = document.getElementById('audio');
 let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
@@ -173,7 +171,6 @@ function playPause(){
     playPauseBtn.innerHTML = "Play &#9658;";
   }
 }
-
 function stop() {
   playPause()
   audio.pause();
