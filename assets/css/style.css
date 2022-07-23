@@ -257,6 +257,12 @@ margin-bottom: 120px;
     text-decoration: none;
   }
 
+  .highscoreClose:hover,
+  .highscoreClose:focus {
+    color: black;
+    text-decoration: none;
+  }
+
 
   .scoretable{
     position: relative;
