@@ -23,12 +23,13 @@ let score = 0;
 let currentTime = 10;
 let moleTimerId = null;
 
-let playSound = () => new Audio("assets/audio/hammer-whack.wav").play();
+
 let successfulWhack = () => new Audio("assets/audio/hit-sound.flac").play();
+let playSound = () => new Audio("assets/audio/hammer-whack.wav").play();
 
 function randomSquare() {
 squares.forEach(square => {
-  square.classList.remove('mole-image');
+square.classList.remove('mole-image');
 });
 
 let randomSquare = squares[Math.floor(Math.random() * 12)];
@@ -62,6 +63,7 @@ if (currentTime == 0) {
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
     location.reload();
+    playSound();
     }
   }
 let countDownTimerId = setInterval(countDown, 1000);
@@ -72,7 +74,7 @@ let countDownTimerId = setInterval(countDown, 1000);
 // Get the modal (Instructions)
 const modal = document.getElementById("myModal");
 // Get the modal (High Scores)
-const HighscoreModal = document.getElementById("myhighScoreModal");
+const highscoreModal = document.getElementById("myhighScoreModal");
 // Get the button that opens the instructions modal
 const btn = document.getElementById("instruction-btn");
 
@@ -82,7 +84,7 @@ const highscoreBtn = document.getElementById("highscore");
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
 // Get the <span> element that closes the modal
-const highScoreSpan = document.getElementsByClassName("highscoreClose")[0];
+const highscoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
 // When the user clicks on the button, open the instructions modal
 btn.onclick = function() {
@@ -90,7 +92,7 @@ btn.onclick = function() {
 };
 // When the user clicks on the button, open the highscores modal
 highscoreBtn.onclick = function() {
-  HighscoreModal.style.display = "block";
+  highscoreModal.style.display = "block";
 };
 // When the user clicks on <span> (x), close the instructions modal
 span.onclick = function() {
@@ -98,7 +100,7 @@ span.onclick = function() {
 };
 // When the user clicks on <span> (x), close the highscores modal
 highscoreSpan.onclick = function() {
-  HighscoreModal.style.display = "none";
+  highscoreModal.style.display = "none";
 };
 // When the user clicks anywhere outside of the instructions modal, close it
 window.onclick = function(event) {
@@ -109,8 +111,8 @@ window.onclick = function(event) {
 // When the user clicks anywhere outside of the highscores modal, close it
 
 window.addEventListener("click", function(event) {
-  if (event.target == HighscoreModal) {
-    HighscoreModal.style.display = "none"; }
+  if (event.target == highscoreModal) {
+    highscoreModal.style.display = "none"; }
   });
 
 let audio = document.getElementById('audio');
@@ -134,4 +136,6 @@ function stop() {
   audio.currentTime = 0;
   playPauseBtn.innerHTML = "Play &#9658;";
   }
+  
+
 
