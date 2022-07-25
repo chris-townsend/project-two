@@ -112,33 +112,22 @@
 *   ### Wireframes
 #
 
--   Home Page Wireframe for desktop -
-    ![Homepage Wireframe](./assets/images/homepage-wireframe.webp)
+-   Desktop Wireframe Home page  -
+    ![Desktop Home Wireframe](./assets/images/readme%20images/wireframe-homepage-desktop.webp)
 
-- Gallery Page Wireframe for desktop - 
-    ![title-grow](./assets/images/gallery-wireframe.webp)
+-   Desktop Wireframe Game page  - 
+    ![Desktop Game page ](./assets/images/readme%20images/wireframe-gamepage-desktop.webp)
 
-- About Us Page Wireframe for desktop - 
-    ![About Page Wireframe](./assets/images/about-wireframe.webp)
-
--   Contact Us Page Wireframe for desktop -
-    ![Contact Page Wireframe](./assets/images/contact-wireframe.webp)
 
 -   Mobile Wireframe Home page -
 
-     ![Mobile Home Wireframe](./assets/images/home-mobile.webp)
+     ![Mobile Home Wireframe](./assets/images/readme%20images/wireframe-homepage-mobile.webp)
 
-      -   Mobile Wireframe Gallery page -
+-   Mobile Wireframe Game page -
 
-     ![Mobile Gallery Wireframe](./assets/images/gallery-mobile.webp)
+     ![Mobile Game Wirefame](./assets/images/readme%20images/wireframe-gamepage-mobile.webp)
 
-      -   Mobile Wireframe About page -
 
-     ![Mobile About Wireframe](./assets/images/about-mobile.webp)
-
-      -   Mobile Wireframe Contact page -
-
-     ![Mobile Contact Wireframe](./assets/images/contact-mobile.webp)
 
 ***    
 
