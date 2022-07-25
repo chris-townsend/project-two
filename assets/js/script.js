@@ -49,7 +49,7 @@ let randomSquare = squares[Math.floor(Math.random() * 12)];
 });
 
 function moveMole() {
- moleTimerId= setInterval(randomSquare, 800);
+ moleTimerId = setInterval(randomSquare, 800);
 }
 
 moveMole();
@@ -58,7 +58,7 @@ function countDown() {
   currentTime--;
   timeLeft.textContent = currentTime;
   
-if (currentTime == 0) {
+if (currentTime ==  0) {
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
@@ -68,7 +68,6 @@ if (currentTime == 0) {
   }
 let countDownTimerId = setInterval(countDown, 1000);
 
-
 //High Scores & Instructions modals 
 
 // Get the modal (Instructions)
@@ -76,7 +75,7 @@ const modal = document.getElementById("myModal");
 // Get the modal (High Scores)
 const highscoreModal = document.getElementById("myhighScoreModal");
 // Get the button that opens the instructions modal
-const btn = document.getElementById("instruction-btn");
+const instructionBtn = document.getElementById("instruction-btn");
 
 // Get the button that opens the highscores modal
 const highscoreBtn = document.getElementById("highscore");
@@ -87,7 +86,7 @@ const span = document.getElementsByClassName("close")[0];
 const highscoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
 // When the user clicks on the button, open the instructions modal
-btn.onclick = function() {
+instructionBtn.onclick = function() {
   modal.style.display = "block";
 };
 // When the user clicks on the button, open the highscores modal
@@ -109,7 +108,6 @@ window.onclick = function(event) {
   } 
 };
 // When the user clicks anywhere outside of the highscores modal, close it
-
 window.addEventListener("click", function(event) {
   if (event.target == highscoreModal) {
     highscoreModal.style.display = "none"; }

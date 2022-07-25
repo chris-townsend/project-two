@@ -10,16 +10,15 @@
 <title>Whack-A-Mole</title>
 </head>
 <body>
-
-<div class= "homepage-container" onclick="playSound()">
+  <div class= "homepage-container" onclick="playSound()">
   <!--div to allow mallet cursor on homepage-->
   <div class="cursor-mallet">
     <img src="./assets/images/game-images/mallet.webp" alt= "mallet cursor">
     </div>
-  <div id="home" class="flex-column flex-center">
+    <div id="home" class="flex-column flex-center">
       <!--Whack A Mole title-->
     <h1>Whack-A-Mole</h1>
-  
+    
   <!--nav section of game-->
 <a href="game.html" class="btn"> Play</a> 
 <div class="home-mole-container">
@@ -43,6 +42,7 @@
         <div class="soil-div"></div>
 </div>
 </div>
+
 <!-- open the High Scores modal -->
 <button class=" btn highscoreBtn" id="highscore">High Scores<i class="fa-solid fa-crown"></i></button>
 <!-- the modal -->
@@ -115,7 +115,7 @@
 </div>
     
 <!-- open the instructions modal -->
-<button class ="btn" id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></a></button> 
+<button class ="btn instructionBtn" id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></button> 
  <!-- the modal -->
 <div id="myModal" class="modal">
     <!-- modal content -->
@@ -138,7 +138,7 @@
       
       <li>To win, whack your way to the highest score!</li> 
     </ul> 
-    </p>
+  
     </div>
     <!--modal footer social icons-->
     <div class ="modal-footer">
@@ -155,17 +155,21 @@
     </div>
   </div>
 </div>
+   
+
 <!--footer which contains play/pause stop controls for music on homepage-->
 <footer>
   <div>
   <audio id="audio">
     <source src="assets/audio/jazz.wav" type="audio/wav"></audio>
-    <button id="playPauseBtn" onclick="playPause()">Play &#9658</button>
+    <button id="playPauseBtn" onclick="playPause()">Play &#9658;</button>
     &nbsp;
     &nbsp;
-    <button onclick="stop()">Stop &#9209</button>
+    <button onclick="stop()">Stop &#9209;</button>
 </div>
 </footer>
+    </div>
+  </div>
 
 <!--font awesome script-->
 <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>

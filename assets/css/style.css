@@ -74,9 +74,8 @@ align-items: center;
     transition: transform 2s;
     transform: scale(1.1);
 }
-
-#highscore-btn {
-    background: linear-gradient(90deg, rgb(239, 235, 121) 0%, rgb(240, 221, 6) 100%);
+#highscore {
+  background: linear-gradient(90deg, rgb(239, 235, 121) 0%, rgb(240, 221, 6) 100%);
 }
 
 #instruction-btn {

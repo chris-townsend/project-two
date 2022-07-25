@@ -41,6 +41,7 @@
 
 ## Objective
 #
+In this project I intend to provide 
 
 
 ***
@@ -88,7 +89,7 @@
     
      -  
 
-    ![Colour-scheme](./assets/images/colour-way.webp)
+    ![Colour-scheme](./assets/images/readme-images/coolers-colour-scheme.webp)
 
     ***
     -   #### Typography
