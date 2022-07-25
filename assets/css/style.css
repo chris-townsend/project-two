@@ -881,8 +881,7 @@ h1{
   width: 75px;
   height: 36px;
   margin-top: 75px;
-  
-   }
+  }
 
    .btn {
     margin-left: 30px;
@@ -934,5 +933,74 @@ h1{
   pointer-events: none;
 }
 }
- 
+  /*Screen sizes 320px*/
+  @media screen and (max-width:320px) {
+    /*Homepage*/
+ h1{
+  height: 150px;
+  font-size: 32px;
+  margin-top: 150px;
+  margin-left: 25px;
+ }
+
+ .home-mole-container {
+  width: 320px;
+  height: 20px;
+  margin-top: 110px;
+  align-items: center;
+  margin-bottom: 360px;
+  }
+
+ .home-mole-container .square {
+  width: 70px;
+  height: 140px;
+  margin: 6px;
+  margin-top: 1px;
+}
+
+.home-mole-container .square .soil-div {
+  width: 70px;
+  height: 36px;
+  margin-top: 75px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 8px 0;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:black;
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+/*Instructions modal*/
+    .modal-body {
+      height: 750px;
+    }
+  /*Game page*/
+.game-grid {
+  width: 316px;
+  height: 410px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 20px;
+  background-image:url(../images/forest-background.jpg);
+  background-size: cover;
+ }
+
+ .game-grid .square {
+  width: 46px;
+  height: 150px;
+  margin: 15px;
+  margin-top: -40px;
+}
+
+.game-grid .square .soil-div {
+  width: 46px;
+  height: 32px;
+  margin-top: 80px;
+ }
+  }
   
