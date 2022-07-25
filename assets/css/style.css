@@ -180,6 +180,7 @@ margin-bottom: 120px;
     align-items: center;
     text-align: center;
     padding: 15px 15px;
+    list-style: none;
     
  }
 
@@ -979,7 +980,15 @@ h1{
     .modal-body {
       height: 750px;
     }
+    .modal-body ul li {
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px;
+    list-style: square;
+    }
   /*Game page*/
+
+
 .game-grid {
   width: 316px;
   height: 410px;
