@@ -240,13 +240,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
 ### Homepage
-![W3C CSS Validator Index page](./assets/images/w3c-index.webp)
-### Gallery Page
-![W3C CSS Validator Gallery page](./assets/images/w3c-gallery.webp)
-### About Page
-![W3C CSS Validator About page](./assets/images/w3c-about.webp)
-### Contact Page
-![W3C CSS Validator Contact page](./assets/images/w3c-contact.webp)
+![W3C CSS Validator Index page](./assets/images/readme-images/w3c-css-result.webp)
+
 
 I have run the entire website through Google Chrome's lighthouse audit application and the results are shown below:
 

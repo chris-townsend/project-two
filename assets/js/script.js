@@ -20,8 +20,8 @@ window.addEventListener("click", () => {
 
 let molePositions;
 let score = 0;
-let currentTime = 10;
-let moleTimerId = null;
+let currentTime = 20;
+
 
 
 let successfulWhack = () => new Audio("assets/audio/hit-sound.flac").play();
