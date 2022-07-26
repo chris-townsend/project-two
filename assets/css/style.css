@@ -22,7 +22,6 @@ h1 {
     color: rgb(6, 34, 95);
     margin-top: 150px;
     margin-bottom: 28px;
-    box-shadow: rgb(106, 131, 167);
     animation: image-grow 2s;
 }
 @keyframes image-grow {

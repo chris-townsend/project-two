@@ -234,13 +234,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C HTML Markup Validator](https://validator.w3.org/) Results
 ### Homepage
-![W3C HTML Validator Index page](./assets/images/html-validator-index.webp)
+![W3C HTML Validator Index page](./assets/images/readme-images/w3c-result-homepage.webp)
 ### Gallery Page
-![W3C HTML Validator Gallery page](./assets/images/html-validator-gallery.webp)
-### About Page
-![W3C HTML Validator About page](./assets/images/html-validator-about.webp)
-### Contact Page
-![W3C HTML Validator Contact page](./assets/images/html-validator-contact.webp)
+![W3C HTML Validator Game page](./assets/images/readme-images/w3c-result-gamepage.webp)
 
 -   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
 ### Homepage
