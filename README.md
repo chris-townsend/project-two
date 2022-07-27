@@ -8,7 +8,7 @@
 ## Repository
 [https://github.com/chris-townsend/project-two](https://github.com/chris-townsend/project-two)
 
-![Am I responsive](./assets/images/readme%20images/am-i-responsive-game.webp)
+![Am I responsive](./assets/images/readme-images/am-i-responsive-game.webp)
 ***
 
 ## Contents
