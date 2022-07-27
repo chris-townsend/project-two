@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 
 <title>Whack-A-Mole</title>
+
 </head>
 <body>
   <div class= "homepage-container" onclick="playSound()">
@@ -19,12 +20,11 @@
       <!--Whack A Mole title-->
     <h1>Whack-A-Mole</h1>
     
-  <!--nav section of game-->
+  <!--nav section of game-                              id=timeRemain-->
 <a href="game.html" class="btn"> Play</a> 
 <div class="home-mole-container">
- 
   <div class="square">
-    <div class="soil-div"></div>
+    <div class="soil-div" id="timeRemain"></div>
   </div>
   <div class="square">
     <div class="soil-div"></div>
@@ -41,6 +41,7 @@
   <div class="square">
           <div class="soil-div"></div>
   </div>
+  
   </div>
 
 <!-- open the High Scores modal -->
@@ -66,21 +67,21 @@
       <tbody>
         <tr>
           <th scope="row">
-            <img src="assets/images/gold.png" alt="Gold Medal" />
+           
           </th>
           <td class="player-name"></td>
           <td class="player-score"></td>
         </tr>
         <tr>
           <th scope="row">
-            <img src="assets/images/silver.png" alt="Silver Medal" />
+          
           </th>
           <td class="player-name"></td>
           <td class="player-score"></td>
         </tr>
         <tr>
           <th scope="row">
-            <img src="assets/images/bronze.png" alt="Bronze Medal" />
+          
           </th>
           <td class="player-name"></td>
           <td class="player-score"></td>
@@ -117,7 +118,7 @@
 <!-- open the instructions modal -->
 <button class ="btn instructionBtn" id="instruction-btn">Instructions <i class="fa-solid fa-circle-info"></i></button> 
  <!-- the modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal"> 
     <!-- modal content -->
     <!--modal close button-->
     <div class="modal-content">

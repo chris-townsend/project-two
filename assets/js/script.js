@@ -1,55 +1,60 @@
+
+
 // Javascipt to run game on game page
+
 
 const squares = document.querySelectorAll('.square');
 const mole = document.querySelector('.mole-image');
-const timeLeft = document.querySelector('#time-left');
+const timeRemaining = document.querySelector('#timeRemain');
 const scoreDisplay = document.querySelector('#score');
 const cursor = document.querySelector(".cursor-mallet img");
-
-let molePosition;
-let score = 0;
-let currentTime = 20;
-let timerId = null;
 
 let successfulWhack = () => new Audio("assets/audio/hit-sound.flac").play();
 let playSound = () => new Audio("assets/audio/hammer-whack.wav").play();
 let audio = document.getElementById('audio');
 let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
-
+let molePosition;
+let score = 0;
+let currentTime = 20;
+let timerId = false;
 function randomSquare() {
-squares.forEach(square => {
-  square.classList.remove('mole-image');
-});
-
-const randomSquare = squares[Math.floor(Math.random() * squares.length)];
-randomSquare.classList.add('mole-image');
-molePosition = randomSquare.id;
-
-   
-}
   squares.forEach(square => {
-  square.addEventListener('mousedown', () => {
-  if (square.id == molePosition) {
-    successfulWhack();
-    score++;
-    scoreDisplay.textContent = score;
-    molePosition = null;
+    square.classList.remove('mole-image');
+  });
+  
+  const randomHole = squares[Math.floor(Math.random() * squares.length)];
+  randomHole.classList.add('mole-image');
+  
+  molePosition = randomHole.id;
+  
+     
   }
-});
-});
+    squares.forEach(square => {
+    square.addEventListener('mousedown', () => {
+    if (square.id == molePosition) {
+      successfulWhack();
+      score++;
+      scoreDisplay.textContent = score;
+      molePosition = null;
+    }
+  });
+  });
+  
+  function moveMole() {
+   moleTimerId = setInterval(randomSquare, 800);
+  }
+  
+  moveMole();
 
-function moveMole() {
- moleTimerId = setInterval(randomSquare, 800);
-}
 
-moveMole();
 
 function countDown() {
   currentTime--;
-  timeLeft.textContent = currentTime;
+  timeRemain.innerHTML = currentTime;
+
   
-if (currentTime ==  0) {
+if (currentTime ==  -1) {
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
@@ -71,6 +76,8 @@ window.addEventListener("click", () => {
 },100);
 });
 });
+
+
 function playPause(){
   if(count == 0){
     count = 1;
@@ -88,21 +95,27 @@ function stop() {
   audio.currentTime = 0;
   playPauseBtn.innerHTML = "Play &#9658;";
   }
-
-//High Scores & Instructions modals 
+  //High Scores & Instructions modals 
 
 // Get the modal (Instructions)
 const modal = document.getElementById("myModal");
+
+
 // Get the modal (High Scores)
 const highscoreModal = document.getElementById("myhighScoreModal");
-// Get the button that opens the instructions modal
-const instructionBtn = document.getElementById("instruction-btn");
+
 
 // Get the button that opens the highscores modal
 const highscoreBtn = document.getElementById("highscore");
 
+
+// Get the button that opens the instructions modal
+const instructionBtn = document.getElementById("instruction-btn");
+
+
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
+
 // Get the <span> element that closes the modal
 const highscoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
@@ -110,7 +123,7 @@ const highscoreSpan = document.getElementsByClassName("highscoreClose")[0];
 instructionBtn.onclick = function() {
   modal.style.display = "block";
 };
-// When the user clicks on the button, open the highscores modal
+// When the userclicks on the button, open the highscores modal
 highscoreBtn.onclick = function() {
   highscoreModal.style.display = "block";
 };
@@ -133,6 +146,8 @@ window.addEventListener("click", function(event) {
   if (event.target == highscoreModal) {
     highscoreModal.style.display = "none"; }
   });
+
+
 
 
   

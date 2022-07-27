@@ -346,23 +346,23 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-![GitHub Repository](./assets/images/my-repository.webp)
+![GitHub Repository](./assets/images/readme-images/locate-github-repositorie.webp)
 
 2. At the top of the Repository, locate the "Settings" Button on the menu.
-![Settings Button](./assets/images/click-settings.webp)    
+![Settings Button](./assets/images/readme-images/locate-repositorie-settings.webp)    
 
 3. Select "Pages" from the menu on the left-hand side.
 
-    ![Pages Section](./assets/images/pages-column.webp)
+    ![Pages Section](./assets/images/readme-images/menu-pages.webp)
 
 4. Under "Source", click the dropdown bar and select "Main Branch" and click save.
-![Main Branch](./assets/images/source-branch.webp)
+![Main Branch](./assets/images/readme-images/source-branch.webp)
 
 5. The page will automatically refresh and will take a short time to publish the page. The page should turn green once the site has been deployed.
-![Refresh](./assets/images/ready-to-publish.webp)
+![Refresh](./assets/images/readme-images/ready-to-publish-site.webp)
 
 6. Scroll back down through the page to locate the published site [link](https://github.com) in the "GitHub Pages" section.
-![Published URL](./assets/images/your-site-is-published.webp)
+![Published URL](./assets/images/readme-images/your-site-is-published.webp)
 
 ### Forking the GitHub Repository
 #
