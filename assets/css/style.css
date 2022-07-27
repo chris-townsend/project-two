@@ -309,7 +309,7 @@ margin-bottom: 120px;
 }
    
 .game-grid {
-    background: url(../images/game-images/forest-background.jpg) center;
+    background: url(../images/game-images/forest-background.webp) center;
     background-size: 100%;
     width: 1200px;
     height: 484px;
@@ -482,7 +482,7 @@ margin-top: 100px;
     height: 800px;
     margin-left: 3px;
     margin-right: 3px;
-    background-image:url(../images/game-images/forest-background.jpg);
+    background-image:url(../images/game-images/forest-background.webp);
     background-size: cover;
   }
   .game-grid .square {
@@ -601,7 +601,7 @@ margin-left: 20px;
 .game-grid {
   width: 760px;
   height: 715px;
-  background-image:url(../images/game-images/forest-background.jpg);
+  background-image:url(../images/game-images/forest-background.webp);
   background-size: cover;
   margin-left: 3px;
   margin-right: 3px;
@@ -845,7 +845,7 @@ h1 {
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.jpg);
+  background-image:url(../images/game-images/forest-background.webp);
   background-size: cover;
  }
 
@@ -924,7 +924,7 @@ h1{
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.jpg);
+  background-image:url(../images/game-images/forest-background.webp);
   background-size: cover;
  }
 
@@ -1011,7 +1011,7 @@ h1{
   margin-left: 2px;
   margin-right: 2px;
   margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.jpg);
+  background-image:url(../images/game-images/forest-background.webp);
   background-size: cover;
  }
 

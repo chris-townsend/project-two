@@ -114,19 +114,19 @@ In this project I intend to provide
 #
 
 -   Desktop Wireframe Home page  -
-    ![Desktop Home Wireframe](./assets/images/readme%20images/wireframe-homepage-desktop.webp)
+    ![Desktop Home Wireframe](./assets/images/readme-images/wireframe-homepage-desktop.webp)
 
 -   Desktop Wireframe Game page  - 
-    ![Desktop Game page ](./assets/images/readme%20images/wireframe-gamepage-desktop.webp)
+    ![Desktop Game page ](./assets/images/readme-images/wireframe-gamepage-desktop.webp)
 
 
 -   Mobile Wireframe Home page -
 
-     ![Mobile Home Wireframe](./assets/images/readme%20images/wireframe-homepage-mobile.webp)
+     ![Mobile Home Wireframe](./assets/images/readme-images/wireframe-homepage-mobile.webp)
 
 -   Mobile Wireframe Game page -
 
-     ![Mobile Game Wirefame](./assets/images/readme%20images/wireframe-gamepage-mobile.webp)
+     ![Mobile Game Wirefame](./assets/images/readme-images/wireframe-gamepage-mobile.webp)
 
 
 
@@ -196,6 +196,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JS](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Programs, Frameworks & Libraries Used
 #
@@ -371,25 +372,25 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/) you would like to fork.
 
-![GitHub Repository](./assets/images/my-repository.webp)
+![GitHub Repository](./assets/images/readme-images/locate-github-repositorie.webp)
 
 2. At the top of the Repository, just above the "Settings" Button on the menu, locate the "Fork" Button and you should now have a copy of the original repository in your account.
 
-![GitHub Fork](./assets/images/github-fork.webp)
+![GitHub Fork](./assets/images/readme-images/github-fork.webp)
 
 ### Making a Local Clone
 #
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-![GitHub Repository](./assets/images/my-repository.webp)
+![GitHub Repository](./assets/images/readme-images/locate-github-repositorie.webp)
 
 2. On the repository main page, click the drop down menu called Code.
 
-    ![GitHub Code Drowndown menu](./assets/images/github-fork.webp)
+    ![GitHub Code Drowndown menu](./assets/images/readme-images/github-clone.webp)
 
 3. To clone the repository using HTTPS, copy the link.
 
-    ![GitHub copy URL](./assets/images/github-copy-url.webp)
+    ![GitHub copy URL](./assets/images/readme-images/github-copy-url.webp)
 
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
