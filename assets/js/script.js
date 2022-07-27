@@ -17,7 +17,8 @@ let count = 0;
 let molePosition;
 let score = 0;
 let currentTime = 20;
-let timerId = false;
+let timerId = null;
+
 function randomSquare() {
   squares.forEach(square => {
     square.classList.remove('mole-image');
@@ -27,9 +28,8 @@ function randomSquare() {
   randomHole.classList.add('mole-image');
   
   molePosition = randomHole.id;
-  
-     
   }
+  
     squares.forEach(square => {
     square.addEventListener('mousedown', () => {
     if (square.id == molePosition) {
@@ -51,7 +51,7 @@ function randomSquare() {
 
 function countDown() {
   currentTime--;
-  timeRemain.innerHTML = currentTime;
+  timeRemain.textContent = currentTime;
 
   
 if (currentTime ==  -1) {

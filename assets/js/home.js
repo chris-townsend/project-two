@@ -1,5 +1,6 @@
- //High Scores & Instructions modals 
 
+
+//High Scores & Instructions modals 
 // Get the modal (Instructions)
 const modal = document.getElementById("myModal");
 

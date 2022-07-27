@@ -248,25 +248,16 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
 - Mobile
 ### Homepage
-![Lighthouse result for mobile homepage](./assets/images/home-lighthouse-mobile.webp)
-### Gallery Page
-![Lighthouse result for mobile gallery page](./assets/images/gallery-lighthouse-mobile.webp)
-### About Page
-![Lighthouse result for mobile about page](./assets/images/about-lighthouse-mobile.webp)
-### Contact Page
-![Lighthouse result for mobile contact page](./assets/images/contact-lighthouse-mobile.webp)
+![Lighthouse result for mobile homepage](./assets/images/readme-images/homepage-mobile-lighthouse.webp)
+### Game Page
+![Lighthouse result for mobile game page](./assets/images/readme-images/gamepage-mobile-lighthouse.webp)
+
 
 - Desktop
 ### Homepage
-![Lighthouse result for desktop homepage](./assets/images/home-lighthouse-desktop.webp)
-### Gallery Page
-![Lighthouse result for desktop gallery page](./assets/images/gallery-lighthouse-desktop.webp)
-### About Page
-![Lighthouse result for desktop about page](./assets/images/about-lighthouse-desktop.webp)
-### Contact Page
-![Lighthouse result for desktop contact page](./assets/images/contact-lighthouse-desktop.webp)
-
-
+![Lighthouse result for desktop homepage](./assets/images/readme-images/homepage-desktop-lighthouse.webp)
+### Game Page
+![Lighthouse result for desktop game page](./assets/images/readme-images/gamepage-desktop-lighthouse.webp)
 
 
 ### Testing User Stories from User Experience (UX) Section
