@@ -143,7 +143,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 4. HighScores pop-up modal 
 ![gallery-cards](./assets/images/gallery-cards.webp)
 
-5. Instructions pop-up modal 
+5. When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the game page. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
 
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
