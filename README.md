@@ -148,35 +148,31 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
 6. The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. I have used a box shadow for when an icon is hovered over so that the user acknowedges the action. 
+
 ![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
 
+7. At the bottom of my homepage I have added a footer and within it are my audio buttons. The buttons give the user the option to play/pause and stop the audio. As the buttons are quite small, it's sometimes hard to click on them with the mallet cursor. I have added a pointer cursor so that the user knows when they are hovering over these buttons. The audio is a fun jazz track which was picked to be fairly short, just long enough to read the instructions before clicking onto the game page.  
+
+![Footer music buttons](./assets/images/readme-images/footer-music-button.webp)
+![Footer Button css Code ](./assets/images/readme-images/footer-cursor-pointer.webp)
 
 
+8. Mallet Cursor - For extra customization and interactivity I have added a cartoon mallet as a cursor when using a mouse. The co-ordinates for the cursor have been set using javascript and css to allow an animation of a whacking hammer when the mouse is clicked.  
 
+![Mallet Cursor](./assets/images/readme-images/mallet-cursor.webp)
 
-6. The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
-![about-heading-half](./assets/images/about-heading.webp)
-![about-heading-full](./assets/images/about-heading-full.webp)
-
-
-7. I wanted to make my gallery images stand out by adding **animation**. I accomplished this by using the *hover* and *transition* function. When you *hover* over an image it eases in over 0.4 seconds and when you unselect, it goes back to its original state. I used the *transition* ease-in-out for this method.
-![gallery-page](./assets/images/gallery-page.webp)
-
-8. My contact page has been made **interative** so that when you input your details into the form, the headings get pushed out of the box and stay above the input boxes. This was accomplished by using the *hover* and *transition* function. I have added extra style to the submit button by adding in an arrow when you *hover* over it. The form will come up with a "Please fill out this feild" message when it hasn't been filled in correctly. This means that a name and email address is *required* before the form can be submitted. 
+9. 
 
 ![form-interative](./assets/images/form-interative.webp)
 ![form-please-fill-out](./assets/images/please-fill-contact.webp)
 ![button-arrow](./assets/images/button-arrow.webp)
 
-- *The contact form is **not currently active** as it requires languages I have yet to learn. The form is there to demonstrate the html structure and CSS style*. The 'action' and 'method' attributes have been updated to show the Code Institute form dump page when the form has been filled in correctly, this will open in a new tab. The data inputted won't be collected or stored anywhere at this current time. 
 
-![form-action](./assets/images/form-action-method.webp)
-
-9. At the bottom of all pages within my footer I have added a copyright symbol with the organization and who it was created by. It contains information to improve the websites overall usability. 
+10. 
 
 ![copyright-info](./assets/images/copyright-info.webp)
 
-10. I wanted to add more structure to my about page so I have added a team's section. At first it was difficult to position the employee heads within the background div but with perseverance and guidance from the Code Institute Love running project, this was accomplished.
+11. 
 
 ![team-section](./assets/images/team-section.webp)
 
