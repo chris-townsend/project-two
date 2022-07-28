@@ -86,21 +86,16 @@ The game will be designed for a target audience of 6 to 10 years old. The game w
     -   #### Typography
     #
     The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)* 
-    - The **Raleway** font is the main font used throughout the whole website with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Raleway** is an elegent **sans-serif** typeface family which makes the text look bold and personable.
-    ![Font-Raleway](./assets/images/font-raleway.webp)
-    - For the main headings I have used the **Caveat** font, with **Sans Serif** as a fallback font. Its a hand-writing type family which gives the website a friendly appearence.
-    ![Font-Caveat](./assets/images/font-caveat.webp)
+
+    - The **Montserrat Alternates** font is the main font used throughout the game with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Montserrat Alternates** was choosen because it has clear lettering which allows easy reading accessabillity for the user. The buttons on the gamepage are styled with the **Montserrat Alternates** font and this nicely contrasts with the background colour. 
+ 
+    ![Font Montserrat Alternates](./assets/images/readme-images/font-main-heading.webp)
+
+    ![Font Montserrat Alternates game buttons](./assets/images/readme-images/font-home-button.webp)
+
 
     ***
-         
-    -   #### Imagery
-    #
-    -   Imagery is important through out the website, especially on the homepage and gallery page. The large, background hero image is designed to be striking and catch the user's attention when they first visit the site. It has a modern and bright aesthetic. All of the images have been compressed using *[Compressor.io](https://compressor.io/)* to reduce size and load times.
-
-    ![Homepage](./assets/images/home-page.webp)
-    
-    ***
-
+        
 *   ### Wireframes
 #
 

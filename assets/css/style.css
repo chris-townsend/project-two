@@ -10,7 +10,7 @@
 
 body {
     font-size: 125%;
-    font-family:'Montserrat Alternates', sans-serif;
+    font-family:'Montserrat Alternates', 'sans-serif';
     background-color: #166620;
 }
 
@@ -46,6 +46,7 @@ h1 {
 
 .btn {
     font-size: 30px;
+    font-family:'Montserrat Alternates', 'sans-serif';
     padding: 15px 0;
     width: 300px;
     text-align: center;
