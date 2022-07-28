@@ -1,10 +1,5 @@
-
-
 // Javascipt to run game on game page
-
-
 const squares = document.querySelectorAll('.square');
-const mole = document.querySelector('.mole-image');
 const timeRemaining = document.querySelector('#timeRemain');
 const scoreDisplay = document.querySelector('#score');
 const cursor = document.querySelector(".cursor-mallet img");
@@ -17,7 +12,7 @@ let count = 0;
 let molePosition;
 let score = 0;
 let currentTime = 20;
-let timerId = null;
+let moleTimerId;
 
 function randomSquare() {
   squares.forEach(square => {
@@ -51,7 +46,7 @@ function randomSquare() {
 
 function countDown() {
   currentTime--;
-  timeRemain.textContent = currentTime;
+  timeRemaining.textContent = currentTime;
 
   
 if (currentTime ==  -1) {
