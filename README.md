@@ -41,53 +41,44 @@
 
 ## Objective
 #
-In this project I intend to provide 
-
-
-***
-
-## Brief
-#
-
-
-
-
+In this project I intend to make a small game which is easily understood and intuitive to play. It will be based on the classic arcade game Whack-A-Mole where you are given a mallet to hit the moles; as they pop out, you are given a point for each mole hit. I'll be using HTML, CSS and Javascript to make the game and it's designed to be a fun and entertaining game to help pass time. 
 
 ***
 
+## Brief & Target Audience 
+# 
+The game will be designed for a target audience of 6 to 10 years old. The game will be easily laid out with an instructions pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent autoplaying and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
+
+***
 
 ## User Experience (UX)
 #
 
 -   ### User Requirements
 
-    -   #### First Time Visitor Goals
+    1. As a first time user, I want to easily understand how to play the game.
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and understand what it's about.
+    2. As a user I want the ability to control any background sounds playing. 
 
-        2. As a First Time Visitor, I want to 
+    3. As a user I want to be able to see my current score.
 
-        3. As a First Time Visitor, I want to
+    4. As a user I want to recieve an alert at the end of gameplay with my final score. 
 
-    -   #### Returning Visitor Goals
+    5. As a user I want simple gameplay which is easy to play again.
 
-        1. As a Returning Visitor, I want to organisation.
+    6. As a frequent user, I would like to see the Highscores.
 
-        2. As a Returning Visitor, I want to 
+    7. As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the highscores and Instructions modal. 
 
-    -   #### Frequent User Goals
-
-        1. As a Frequent User, I want to check to
-
-        2. As a Frequent User, I want to 
+    8. As a user I want the ability to play the game on multiple devices.
     
-       ***
+     ***
 
 -   ### Design
 #
 -   #### Colour Scheme
     
-     -  
+     - The colour scheme was picked using coolers. I used these colours because I felt they complimented each other well, It gives the game a fun and cheerful feel and the contrast works well for user reading accessability. The game buttons on the homepage and gamepage have been styled using a background linear-gradient to add to the styled effect.
 
     ![Colour-scheme](./assets/images/readme-images/coolers-colour-scheme.webp)
 
