@@ -72,7 +72,6 @@ window.addEventListener("click", () => {
 });
 });
 
-
 function playPause(){
   if(count == 0){
     count = 1;
