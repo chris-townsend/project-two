@@ -121,29 +121,37 @@ The game will be designed for a target audience of 6 to 10 years old. The game w
 ## Features
 #
 
-I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on the majority of devices, including ios devices. See known bugs section for problems with the bottom footer on selected devices when viewed landscape.
+I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices displayed, including ios devices. 
 
- - [Responsinator Results](http://www.responsinator.com/?url=chris-townsend.github.io%2Fproject-one%2Findex.html)
+ - [Responsinator Results](http://www.responsinator.com/?url=https%3A%2F%2Fchris-townsend.github.io%2Fproject-two%2Findex.html)
+
 #
--   Interactive elements
 
-1. I have tried to make the majority of the site **interative**. When you first arrive on the homepage, the main headings "Through the Lens and "Landscape Photography" flash up and grow on the screen over 1.5 seconds. This has been accomplished by using *keyframes* with *image-grow*.
+1. I have made some of the features on the website **interative**. When you first arrive on the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
 
-![title-grow](./assets/images/title-grow.webp)
+![Title-grow](./assets/images/readme-images/heading-image-grow.webp)
+![Title-full](./assets/images/readme-images/heading-image-full.webp)
 
-2. The navigation bar at the top of the page has been made **interative** by using the *hover* function, this allows users to easily navigate the site.
+2. Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. Unfortunatly this was throwing quite a lot of errors in the console due to using the same code but on a different page - please see testing and known bugs for more information.
 
-    ![nav-bar](./assets/images/nav-bar.webp)
+![Homepage Animation](./assets/images/readme-images/home-animation.webp)
 
-3. The quote box below the hero image on the homepage has added **animation**, it grows from a scale of 0.2 to 1 over 8 seconds. I made the **animation** to grow over 8 seconds so that it allows more time to see the **animation** before the reader scrolls down the page.
-![quote-small](./assets/images/quote-small.webp)
-![quote-big](./assets/images/quote-big.webp)
+3. Under my animation I have added 3 buttons, Play which directs you to the game page and a Highscores and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Highscores and Instructions buttons to give more UX.
 
-4. Below the quote section on the homepage is three gallery cards which take you to the gallery page when clicked. When you *hover* over the cards they become **interative**, this has been accomplished by using the *hover*: *transform* function.
+![Home Buttons Hover Effect](./assets/images/readme-images/home-buttons-hover.webp)
+
+4. HighScores pop-up modal 
 ![gallery-cards](./assets/images/gallery-cards.webp)
 
+5. Instructions pop-up modal 
 
-5. The social media icons that have been fixed to the bottom of the screen have been made **interative** by using the *hover*: *transform* function. I have used a background colour and box shadow for when an icon is hovered over.
+![Instructions](./assets/images/readme-images/instruction-modal.webp)
+
+6. The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. I have used a box shadow for when an icon is hovered over so that the user acknowedges the action. 
+![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
+
+
+
 
 
 6. The headings for the gallery, about and contact page have been made **interactive**. Similar to the main heading, I have used the *image-grow* *keyframes* function. 
@@ -195,9 +203,9 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 - [TinyPNG:](https://tinypng.com/) All images within the project have been processed through their free compression tool.
 
-- [Hover.css:](https://ianlunn.github.io/Hover/) Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+- [Hover.css:](https://ianlunn.github.io/Hover/) Hover.css was used on the Social Media icons on the instructions modal footer to add the float transition while being hovered over.
 
-- [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Raleway' and 'Caveat' font into the style.css file which is used on all pages throughout the project.
+- [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Montserrat Alternates' font into the style.css file..
 
 - [Font Awesome:](https://fontawesome.com/) Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
@@ -209,10 +217,15 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 - [W3C Markup Validator:](https://validator.w3.org/) This site was used to ensure that my HTML and CSS was error free. I had to push my code to ensure it was updated and then add the URL of the website to the address bar which then checked for errors or warnings.
 
+- [Favicon Generator:](https://favicon.io/favicon-converter/) This was used to create my favicon icon. 
+
  - [Slack:](https://slack.com/intl/en-gb/) Slack is a an online messaging service which allows poeple to collaberate with their workspaces. Slack was incredibly useful for advice from students and tutors.
 
  - [YouTube:](https://www.youtube.com/) YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
 
+ - [Audio Compressor](https://www.media.io/audio-compressor.html) Media.io was used to compress my audio files without loosing quality. 
+
+ - [Compressor.io](https://compressor.io/)* This was used to reduce the size and load times of my images. 
 
 ## Testing
 #
@@ -222,12 +235,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C HTML Markup Validator](https://validator.w3.org/) Results
 ### Homepage
 ![W3C HTML Validator Index page](./assets/images/readme-images/w3c-result-homepage.webp)
-### Gallery Page
+### Game Page
 ![W3C HTML Validator Game page](./assets/images/readme-images/w3c-result-gamepage.webp)
 
 -   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
-### Homepage
-![W3C CSS Validator Index page](./assets/images/readme-images/w3c-css-result.webp)
+
+![W3C CSS Validator Result](./assets/images/readme-images/w3c-css-result.webp)
 
 
 I have run the entire website through Google Chrome's lighthouse audit application and the results are shown below:
@@ -387,11 +400,16 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 ### Media
 #
-The Images used across my website have been taken from: 
+The Images used on my game have been taken from: 
 
--  [Unsplash](https://unsplash.com/)
+-  [Clip Art Max](https://www.clipartmax.com/)
 
 -  [Pexels](https://www.pexels.com/)
+
+The Sounds used on my game have been taken from:
+
+-  [Free Sounds](https://freesound.org/)
+
 
 ### Acknowledgements
 #
