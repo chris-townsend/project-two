@@ -47,7 +47,7 @@ In this project I intend to make a small game which is easily understood and int
 
 ## Brief & Target Audience 
 # 
-The game will be designed for a target audience of 6 to 10 years old. The game will be easily laid out with an instructions pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent autoplaying and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
+The game will be designed for a target audience of 8 years +. The game will be easily laid out with an instructions pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent autoplaying and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
 
 ***
 
@@ -260,48 +260,57 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 
 ### Testing User Stories from User Experience (UX) Section
 #
+ 1. As a first time user, I want to easily understand how to play the game.
 
--   #### First Time Visitor Goals
+**Simple and informative text on the homepage buttons which allows the user to click on the Instructions button and read up on how to play the game.**
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+![Home Buttons](./assets/images/readme-images/font-home-button.webp)
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a quote from a famous landscape artist and gallery cards which will take you straight to the gallery page.
-        2. The main points are made immediately with the hero image and the title.
-        3. The user has two options, click one of the call to action buttons or scroll down.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+ 2. As a user I want the ability to control any background sounds playing. 
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what page they will end up on clearly.
-        2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+ **At the bottom of the homepage is an option to switch the audio on/off and Pause. When you click play the button switches to Pause and when clicked again, returns back to Play**
 
-    3. As a First Time Visitor, I want to easily be able to locate their social media links to see their followings to determine how trusted and known they are.
-        1. The user will see the social media icons as soon as they open the site as they are fixed to the bottom of the screen. They are also interative when hovered over.
-      
+ ![Music Buttons](./assets/images/readme-images/footer-music-button.webp)
 
--   #### Returning Visitor Goals
+ 3. As a user I want to be able to see my current score.
 
-    1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+ **The scoreboard can easily be seen during game play at the top of the screen, alongside the time remaining.**
 
-        1. The navigation bar clearly highlights the "Contact" Page.
-        2. Here they can fill out the form on the page or alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's Github.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+ ![Scoreboard](./assets/images/readme-images/score-board.webp)
 
-     2. As a Returning Visitor, I want to see where the location is based.
-         1. A contact map is easily accessable by clicking on the contact header on the navigation bar and scrolling to just below the contact form.
-        
--   #### Frequent User Goals
+ 4. As a user I want to recieve an alert at the end of gameplay with my final score.
 
-    1. As a Frequent User, I want to check to see if there has been any new photos recently added.
+ **A pop up message alerts the user at the end of gameplay to let the user know that the game is over and gives them a final score.**
 
-        1. The user would already be comfortable with the website layout and can easily locate the gallery page.
+ ![Game over Popup](./assets/images/readme-images/game-over-alert-close-up.webp)
 
-    2. As a Frequent User, I want to get hold of the organization.
+ 5. As a user I want simple gameplay which is easy to play again.
 
-        1. The user would already be comfortable with the website layout and can easily click the contact link from the homepage and at the bottom of the page is a google map.
+ **The game will restart after clicking ok to the alert after game play. The user has the choice to play again or click the home button to return to the home screen.**
 
-        2. On the contact page there is a form which they can fill out, there is a "Submit" button to the bottom of the input field. The submit button is interative when you hover over it, some arrows will appear to acknowedge you are about to submit the form.
+![Ok Game Alert](./assets/images/readme-images/ok-game-over-alert.webp)
+ ![Home button](./assets/images/readme-images/gamepage-home-icon.webp)
 
+ 6. As a frequent user, I would like to see the Highscores.
+
+**On the homepage there is a Highscores button, click the button to view the Highscores.**
+
+
+ 7. As a frequent user, I want to learn more about the developer and see if they have added any new content. 
+
+ **At the bottom of each pop up modal for Instructions and Highscores are two social media icons, LinkedIn and Github, there is an effect on hover of the buttons to register interativity with the user.**
+
+![Social Icons on 414px wide](./assets/images/readme-images/social-icons-414px.webp)
+ 
+
+ 8. As a user I want the ability to play the game on multiple devices.
+
+ **The game has been tested on mutiple devices and tested using responsinator and google dev tools to add specific media queries for certain screen sizes.**
+
+ ![Responsinator](./assets/images/readme-images/responsiveness.webp)
+
+ 
 ### Further Testing
 #
 
