@@ -9,10 +9,40 @@ let playSound = () => new Audio("assets/audio/hammer-whack.wav").play();
 let audio = document.getElementById('audio');
 let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
+
+
+
+function playPause(){
+  if(count == 0){
+    count = 1;
+    audio.play();
+    playPauseBtn.innerHTML = "Pause &#9208;";
+  } else {
+    count = 0;
+    audio.pause();
+    playPauseBtn.innerHTML = "Play &#9658;";
+  }
+}
+
+function stop(){
+  playPause();
+  audio.pause();
+  audio.currentTime = 0;
+  playPauseBtn.innerHTML = "Play &#9658;";
+  }
+
+
+
 let molePosition;
 let score = 0;
 let currentTime = 20;
 let moleTimerId;
+
+
+
+
+
+ 
 
 function randomSquare() {
   squares.forEach(square => {
@@ -72,21 +102,4 @@ window.addEventListener("click", () => {
 });
 });
 
-function playPause(){
-  if(count == 0){
-    count = 1;
-    audio.play();
-    playPauseBtn.innerHTML = "Pause &#9208;";
-  } else {
-    count = 0;
-    audio.pause();
-    playPauseBtn.innerHTML = "Play &#9658;";
-  }
-}
-function stop() {
-  playPause();
-  audio.pause();
-  audio.currentTime = 0;
-  playPauseBtn.innerHTML = "Play &#9658;";
-  }
- 
+

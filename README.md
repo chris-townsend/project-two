@@ -257,6 +257,15 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 ### Game Page
 ![Lighthouse result for desktop game page](./assets/images/readme-images/gamepage-desktop-lighthouse.webp)
 
+I have run the entire website through JSHint's audit application and the results are shown below:
+
+### JSHint Homepage
+![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint-result.webp)
+
+
+### JSHint Gamepage 
+!
+
 
 ### Testing User Stories from User Experience (UX) Section
 #
@@ -322,18 +331,6 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 ### Known Bugs
 #
 
--   On some small mobile devices the contact map pushes the size of the screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right and above the map. To fix this problem I have reduced the width size of the map as screen size decreases to make it more responsive. On some very small devices, there may still be a small gap but works on majority of devices.
-
-- When testing my code through the W3C validator, it came up with a lower score for accessability. This was due to not adding a title to my iframe google map, this has now been added and increased the score for accessability.
-
-- I originally had the colour Grey for my writing on my about page. This lowered my accessability score so I changed it back to black to compensate for accessability.
-
-- When testing my site through [Responsinator](http://www.responsinator.com/) The site would occassionally display my nav bar differently at 412px and 414px. When I refresh the page a couple of times it will show it correctly, I'm not quite sure what is causing this and still unsure now. I have tested the responsiveness using Google DevTools and it is showing up correctly on there at 412px and 414px.  
-
-- I have noticed that my bottom footer at 684px and 667px wide (Android Pixel 2 landscape view & Apple Iphone 6-8 landscape view) is showing up incorrectly. It is showing further up the page near the bottom of the second gallery card instead of sitting at the bottom of the page. I have tried to resolve this issue by adding a media query but it puts bad UX on other devices so I have left this unresolved for now as it only seems to be a small problem when viewed landscape.
-
-![footer-bottom-bug](./assets/images/footer-bottom-bug.webp)
 
 
 ***

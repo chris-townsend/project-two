@@ -1,55 +1,50 @@
-
-
 //High Scores & Instructions modals 
-// Get the modal (Instructions)
+
+// Get the Instructions modal
 const modal = document.getElementById("myModal");
 
-
-// Get the modal (High Scores)
+// Get the Highscores modal
 const highscoreModal = document.getElementById("myhighScoreModal");
 
-
-// Get the button that opens the highscores modal
+// Get the button that opens the Highscores modal
 const highscoreBtn = document.getElementById("highscore");
 
-
-// Get the button that opens the instructions modal
+// Get the button that opens the Instructions modal
 const instructionBtn = document.getElementById("instruction-btn");
 
-
-// Get the <span> element that closes the modal
+// Get the <span> element that closes the Instructions modal
 const span = document.getElementsByClassName("close")[0];
 
-// Get the <span> element that closes the modal
+// Get the <span> element that closes the Highscore modal
 const highscoreSpan = document.getElementsByClassName("highscoreClose")[0];
 
-// When the user clicks on the button, open the instructions modal
+// When the user clicks on the button, open the Instructions modal
 instructionBtn.onclick = function() {
   modal.style.display = "block";
 };
-// When the userclicks on the button, open the highscores modal
+// When the user clicks on the button, open the Highscores modal
 highscoreBtn.onclick = function() {
   highscoreModal.style.display = "block";
 };
-// When the user clicks on <span> (x), close the instructions modal
+// When the user clicks on <span> (x), close the Instructions modal
 span.onclick = function() {
   modal.style.display = "none";
 };
-// When the user clicks on <span> (x), close the highscores modal
+// When the user clicks on <span> (x), close the Highscores modal
 highscoreSpan.onclick = function() {
   highscoreModal.style.display = "none";
 };
-// When the user clicks anywhere outside of the instructions modal, close it
+// When the user clicks anywhere outside of the Instructions modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";
-  } 
+    modal.style.display = "none"; } 
 };
-// When the user clicks anywhere outside of the highscores modal, close it
+// When the user clicks anywhere outside of the Highscores modal, close it
 window.addEventListener("click", function(event) {
   if (event.target == highscoreModal) {
     highscoreModal.style.display = "none"; }
   });
+
 
 
 
