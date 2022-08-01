@@ -11,7 +11,6 @@ let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
 
 
-
 function playPause(){
   if(count == 0){
     count = 1;
@@ -38,11 +37,6 @@ let score = 0;
 let currentTime = 20;
 let moleTimerId;
 
-
-
-
-
- 
 
 function randomSquare() {
   squares.forEach(square => {

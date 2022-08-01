@@ -24,7 +24,10 @@
     - [Features Left to Implement](#Future-Features)
     - [Languages Used](#languages-Used)
 - [Technologies Used](#programs-frameworks--libraries-used)
-- [Testing](#Testing)
+- [Testing](#testing)
+    - [W3C Validator Results](#homepage)
+    - [Google Lighthouse Results](#lighthouse-homepage)
+    - [JShint Results](#jshint-homepage)
     - [Testing Stories for UX](#testing-user-stories-from-user-experience-ux-section)
     - [Further Testing](#Further-Testing)
 - [Bugs](#Known-Bugs)
@@ -242,12 +245,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![W3C CSS Validator Result](./assets/images/readme-images/w3c-css-result.webp)
 
 
-I have run the entire website through Google Chrome's lighthouse audit application and the results are shown below:
+I have run the website through Google Chrome's lighthouse audit application and the results are shown below:
 
 - Mobile
-### Homepage
+### Lighthouse Homepage
 ![Lighthouse result for mobile homepage](./assets/images/readme-images/homepage-mobile-lighthouse.webp)
-### Game Page
+###  Lighthouse Game Page
 ![Lighthouse result for mobile game page](./assets/images/readme-images/gamepage-mobile-lighthouse.webp)
 
 
@@ -257,7 +260,7 @@ I have run the entire website through Google Chrome's lighthouse audit applicati
 ### Game Page
 ![Lighthouse result for desktop game page](./assets/images/readme-images/gamepage-desktop-lighthouse.webp)
 
-I have run the entire website through JSHint's audit application and the results are shown below:
+I have run the website through JSHint's audit application and the results are shown below:
 
 ### JSHint Homepage
 ![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint-result.webp)
@@ -399,19 +402,31 @@ By forking the GitHub Repository you can make a copy of the original repository 
 
 ### Content
 #
-- The LoveRunning project from Code Institute was very helpful and gave me inspiration for my own website, espeically for creating the navbar.
+Helpful tutorials I used to help me with coding some of the design ideas were:
 
-- Various videos across Youtube about positioning using flexbox.
+- [Javascript 30 Day Coding Challenge](https://javascript30.com/)
+
+- [Ania Kubów Whac-a-mole in JavaScript](https://www.youtube.com/watch?v=rJU3tHLgb_c&t=1194s)
+
+- [JavaScript Game Tutorial for Beginners](https://www.youtube.com/watch?v=RTb8icFiSfk&list=RDCMUCEqc149iR-ALYkGM6TG-7vQ&index=16)
+
+
+- [How to create an animated cursor - help from webanimation](https://webanimation.blog/blog/how-to-create-a-custom-cursor-without-using-canvas)
+
+Various resources used to learn were:
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- [Codecademy](https://www.codecademy.com/)
 
 ### Media
 #
-The Images used on my game have been taken from: 
+The Images used on my site have been taken from: 
 
 -  [Clip Art Max](https://www.clipartmax.com/)
 
 -  [Pexels](https://www.pexels.com/)
 
-The Sounds used on my game have been taken from:
+The Sounds used on my site have been taken from:
 
 -  [Free Sounds](https://freesound.org/)
 
