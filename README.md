@@ -185,7 +185,15 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ***
 ## Future Features
 #
- 
+With more time, I would have liked to of implemented the following ideas:
+
+- Display a highscores list linked to local storage - I have set up the highscores modal and table ready to go. The only thing which needs implementing is the added Javascript.
+
+- Add objects to increase the difficulty - Add an object such as a rabbit and if that object is hit you minus one point. 
+
+- Add a different mole image to show when a mole has been hit, incase the sound effects don't work on a particular device.
+
+
 
 ### Languages Used
 #
@@ -424,7 +432,9 @@ The Images used on my site have been taken from:
 
 -  [Clip Art Max](https://www.clipartmax.com/)
 
--  [Pexels](https://www.pexels.com/)
+-  [Pin Clip Art](https://www.pinclipart.com/)
+
+- [Vecteezy](https://www.vecteezy.com/)
 
 The Sounds used on my site have been taken from:
 
