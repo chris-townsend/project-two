@@ -1,3 +1,5 @@
+
+
 //High Scores & Instructions modals 
 
 // Get the Instructions modal

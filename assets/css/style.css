@@ -323,7 +323,7 @@ margin-bottom: 120px;
     flex-wrap: wrap;
 }
 
-.square {
+.hole {
 width: 150px;
 height: 205px;
 margin: 20px;
@@ -380,12 +380,12 @@ margin: 20px;
   margin-left: 24px;
   margin-right: 24px;
 }
-.game-grid .square {
+.game-grid .hole {
   width: 120px;
   height: 200px;
   margin: 64px;
 }
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
 width: 135px;
 height: 75px;
 margin-top: 100px;
@@ -399,12 +399,12 @@ margin-top: 100px;
     margin-left: 4px;
     margin-right: 4px;
 }
-.game-grid .square {
+.game-grid .hole {
   width: 120px;
   height: 200px;
   margin: 39px;
 }
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
 width: 135px;
 height: 75px;
 margin-top: 100px;
@@ -433,12 +433,12 @@ h1 {
   margin-left: 4px;
   margin-right: 4px;
 }
-.game-grid .square {
+.game-grid .hole {
   width: 120px;
   height: 200px;
   margin: 38px;
 }
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
 width: 135px;
 height: 75px;
 margin-top: 100px;
@@ -468,14 +468,14 @@ margin-top: 100px;
     margin-bottom: 150px;
   }
 
-  .home-mole-container .square {
+  .home-mole-container .hole {
     width: 140px;
     height: 140px;
     margin: 10px;
     margin-top: 1px;
   }
   
-  .home-mole-container .square .soil-div {
+  .home-mole-container .hole .soil-div {
     width: 140px;
     height: 68px;
     margin-top: 75px;
@@ -490,14 +490,14 @@ margin-top: 100px;
     background-image:url(../images/game-images/forest-background.webp);
     background-size: cover;
   }
-  .game-grid .square {
+  .game-grid .hole {
     width: 150px;
     height: 200px;
     margin: 40px;
     margin-right: 64px;
   }
   
-  .game-grid .square .soil-div {
+  .game-grid .hole .soil-div {
   width: 150px;
   height: 102px;
   margin-top: 100px;
@@ -533,13 +533,13 @@ h1 {
   margin-left: 4px;
   margin-right: 4px;
 }
-.game-grid .square {
+.game-grid .hole {
   width: 100px;
   height: 200px;
   margin: 30px;
 }
 
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
 width: 100px;
 height: 75px;
 margin-top: 100px;
@@ -566,14 +566,14 @@ h1 {
   margin-left: 70px;
   margin-bottom: 300px;
 }
-.home-mole-container .square {
+.home-mole-container .hole {
   width: 75px;
   height: 140px;
   margin: 10px;
   margin-top: 1px;
 }
 
-.home-mole-container .square .soil-div {
+.home-mole-container .hole .soil-div {
   width: 75px;
   height: 36px;
   margin-top: 75px;
@@ -612,13 +612,13 @@ margin-left: 20px;
   margin-right: 3px;
 }
 
-.game-grid .square {
+.game-grid .hole {
   width: 130px;
   height: 200px;
   margin: 28px;
 }
 
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
 width: 130px;
 height: 75px;
 margin-top: 100px;
@@ -689,13 +689,13 @@ margin-top: 100px;
     margin-top: 10px;
    }
 
-   .game-grid .square {
+   .game-grid .hole {
     width: 75px;
     height: 150px;
     margin: 18px;
   }
 
-   .game-grid .square .soil-div {
+   .game-grid .hole .soil-div {
     width: 75px;
     height: 41px;
     margin-top: 80px;
@@ -727,13 +727,13 @@ margin-top: 100px;
       margin-left: 20px;
       }
    
- .home-mole-container .square {
+ .home-mole-container .hole {
     width: 62px;
     height: 140px;
     margin: 12px;
     margin-top: 1px;
   }
-  .home-mole-container .square .soil-div {
+  .home-mole-container .hole .soil-div {
     width: 62px;
     height: 32px;
     margin-top: 74px;
@@ -782,13 +782,13 @@ margin-top: 100px;
     margin-top: 10px;
    }
 
-   .game-grid .square {
+   .game-grid .hole {
     width: 75px;
     height: 150px;
     margin: 10px;
   }
 
-   .game-grid .square .soil-div {
+   .game-grid .hole .soil-div {
     width: 75px;
     height: 41px;
     margin-top: 80px;
@@ -819,14 +819,14 @@ h1 {
   margin-top: 10px;
   margin-bottom: 2px;
 }
-.home-mole-container .square {
+.home-mole-container .hole {
   width: 42px;
   height: 140px;
   margin: 9px;
   margin-top: 1px;
 }
 
-.home-mole-container .square .soil-div {
+.home-mole-container .hole .soil-div {
   width: 42px;
   height: 20px;
   margin-top: 74px;
@@ -854,14 +854,14 @@ h1 {
   background-size: cover;
  }
 
- .game-grid .square {
+ .game-grid .hole {
   width: 47px;
   height: 150px;
   margin: 27px;
   margin-top: -40px;
 }
 
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
   width: 47px;
   height: 32px;
   margin-top: 80px;
@@ -892,14 +892,14 @@ h1{
   margin-bottom: 380px;
  }
 
- .home-mole-container .square {
+ .home-mole-container .hole {
   width: 75px;
   height: 140px;
   margin: 10px;
   margin-top: 1px;
 }
 
-.home-mole-container .square .soil-div {
+.home-mole-container .hole .soil-div {
   width: 75px;
   height: 36px;
   margin-top: 75px;
@@ -933,14 +933,14 @@ h1{
   background-size: cover;
  }
 
- .game-grid .square {
+ .game-grid .hole {
   width: 46px;
   height: 150px;
   margin: 23px;
   margin-top: -40px;
 }
 
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
   width: 46px;
   height: 32px;
   margin-top: 80px;
@@ -973,14 +973,14 @@ h1{
   margin-bottom: 360px;
   }
 
- .home-mole-container .square {
+ .home-mole-container .hole {
   width: 70px;
   height: 140px;
   margin: 6px;
   margin-top: 1px;
 }
 
-.home-mole-container .square .soil-div {
+.home-mole-container .hole .soil-div {
   width: 70px;
   height: 36px;
   margin-top: 75px;
@@ -1020,14 +1020,14 @@ h1{
   background-size: cover;
  }
 
- .game-grid .square {
+ .game-grid .hole {
   width: 46px;
   height: 150px;
   margin: 15px;
   margin-top: -40px;
 }
 
-.game-grid .square .soil-div {
+.game-grid .hole .soil-div {
   width: 46px;
   height: 32px;
   margin-top: 80px;

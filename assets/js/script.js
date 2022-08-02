@@ -1,5 +1,5 @@
-// Javascipt to run game on game page
-const squares = document.querySelectorAll('.square');
+// Variables
+const holes = document.querySelectorAll('.hole');
 const timeRemaining = document.querySelector('#timeRemain');
 const scoreDisplay = document.querySelector('#score');
 const cursor = document.querySelector(".cursor-mallet img");
@@ -10,6 +10,7 @@ let audio = document.getElementById('audio');
 let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
 
+// Music buttons
 function playPause(){
   if(count == 0){
     count = 1;
@@ -36,21 +37,23 @@ let score = 0;
 let currentTime = 20;
 let moleTimerId;
 
-
-function randomSquare() {
-  squares.forEach(square => {
-    square.classList.remove('mole-image');
+// Generate a mole to pop up at a random hole
+function randomMove() {
+  holes.forEach(hole => {
+    hole.classList.remove('mole-image');
   });
   
-  const randomHole = squares[Math.floor(Math.random() * squares.length)];
+  const randomHole = holes[Math.floor(Math.random() * holes.length)];
   randomHole.classList.add('mole-image');
-  
+
   molePosition = randomHole.id;
-  }
+}
   
-    squares.forEach(square => {
-    square.addEventListener('mousedown', () => {
-    if (square.id == molePosition) {
+
+  
+    holes.forEach(hole => {
+    hole.addEventListener('mousedown', () => {
+    if (hole.id == molePosition) {
       successfulWhack();
       score++;
       scoreDisplay.textContent = score;
@@ -60,13 +63,13 @@ function randomSquare() {
   });
   
   function moveMole() {
-   moleTimerId = setInterval(randomSquare, 800);
+   moleTimerId = setInterval(randomMove, 800);
   }
   
   moveMole();
 
 
-
+// Countdown Timer
 function countDown() {
   currentTime--;
   timeRemaining.textContent = currentTime;
