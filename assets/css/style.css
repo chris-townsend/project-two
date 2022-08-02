@@ -313,12 +313,22 @@ footer button {
 
 /*Contact Modal */
 
-.contact-modal {
-  margin-top: 60px;
-  height: 300px;
+.contact-modal-header {
+  font-size: 38px;
   padding: 10px 15px;
   align-items: center;
-  margin-bottom: 80px;
+  text-align: center;
+  margin-top: 60px;
+  border-bottom: 1px solid black;
+}
+
+.contact-modal {
+  margin-top: 60px;
+  height: 330px;
+  padding: 10px 15px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
   margin-left: 20px;
 
 }
@@ -338,23 +348,25 @@ textarea {
 }
 
 #send-button {
-  font-size: 25px;
-  padding: 4px;
+  width: 35%;
+  height: 30px;
+  font-size: 20px;
+  padding: 2px;
   border-radius: 10px;
   cursor: pointer;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-left: 30px;
+  text-align: center;
+  margin-left: 18%;
+  
 }
+
+
 
 #send-button:hover,
 #send-button:focus {
   background-color: #5cb85c;
   box-shadow: 0 5px 4px rgba(22, 124, 11, 0.228);
 }
-  text-decoration: none;
-}
+
 
 
 
