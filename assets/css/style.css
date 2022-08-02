@@ -315,6 +315,7 @@ footer button {
 
 .contact-modal-header {
   font-size: 38px;
+  font-weight: bold;
   padding: 10px 15px;
   align-items: center;
   text-align: center;
@@ -322,8 +323,14 @@ footer button {
   border-bottom: 1px solid black;
 }
 
+.contact-modal-question {
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+
 .contact-modal {
-  margin-top: 60px;
+  margin-top: 30px;
   height: 330px;
   padding: 10px 15px;
   align-items: center;
@@ -348,6 +355,7 @@ textarea {
 }
 
 #send-button {
+  font-family: 'Montserrat Alternates', 'sans-serif';
   width: 35%;
   height: 30px;
   font-size: 20px;
@@ -356,6 +364,7 @@ textarea {
   cursor: pointer;
   text-align: center;
   margin-left: 18%;
+  margin-right: 30%;
   
 }
 
