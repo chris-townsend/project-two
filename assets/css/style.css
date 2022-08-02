@@ -161,6 +161,7 @@ margin-bottom: 120px;
   }
 
   .modal-body {
+    height: 300px;
     padding: 10px 15px;
     align-items: center;
     margin-bottom: 80px;
@@ -288,10 +289,52 @@ margin-bottom: 120px;
   footer button {
     cursor: pointer;
   }
+
+  /*Contact Modal */
+
+  .contact-modal {
+    margin-top: 60px;
+    height: 300px;
+    padding: 10px 15px;
+    align-items: center;
+    margin-bottom: 80px;
+    
+  }
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 15px 15px 15px 15px;
+    border: 1px solid #d7c6bc;
+    border-radius: 6px;
+    color: #100c01;
+    background: #F0F8FF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#send-button{
+  font-size: 25px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  }
+
+
+.send-button:hover
+.send-button:focus {
+  color: black;
+}
+
+  
   
 
+/*Game Page */
 
-  #game-title {
+#game-title {
     height: 50px;
     font-size: 65px;
     color: rgb(6, 34, 95);
@@ -339,26 +382,7 @@ margin: 20px;
 
 /* Highscores Modal content */
 
-.leaderboard {
-    width: 80%;
-    position: relative;
-    font-family: "Amatic SC", cursive;
-    font-size: 1.5em;
-    letter-spacing: 1.5px;
-    margin-top: 3em;
-    margin-left: 7%;
-    color: #10100e;
-  }
-  
-  .leaderboard thead th {
-    border-bottom: 2px solid #10100e;
-  }
-  
-  .leaderboard th,
-  .leaderboard td {
-    border-top: 1px solid #10100e;
-    vertical-align: middle;
-  }
+
 
   /* Media Queries */
 

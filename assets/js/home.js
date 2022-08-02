@@ -5,9 +5,13 @@ function sendMail() {
    message : document.getElementById('message').value,
    }
    emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
-     alert("success! " + res.status);
+     alert("success! Your email has been sent " + res.status);
+
 })
  }
+
+
+ 
 
 //High Scores & Instructions modals 
 

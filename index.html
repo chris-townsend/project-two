@@ -62,14 +62,17 @@
 <div class="modal-content">
     <span class="highscoreClose" id="highscoreSpan">&times;</span>
    <!--modal title--> 
-   <h2>High Scores</h2>
-   <!--modal body content-->
-   <div class ="modal-body">
-<input type="text" id="fullName" placeholder="Full Namw">
-<input type="email" id="email_id" placeholder="Email Id">
-<textarea id ="message" placeholder="Message" required></textarea>
-<button onclick="sendMail()">Send Email</button>
-   </div>
+   <h2>Contact Us</h2>
+
+    <!--modal body content-->
+    <form>
+    <div class ="contact-modal">
+      <input type="text" id="fullName" placeholder="Full Name" required>
+      <input type="emaill" id="email_id" placeholder="Email Address" required>
+      <textarea id ="message" placeholder="Enter your message here . . " required></textarea>
+      <button onclick="sendMail()" id ="send-button">Send Email</button>
+         </div>
+    </form>
     <!--modal footer social icons-->
     <div class ="modal-footer">
       <ul>
