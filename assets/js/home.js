@@ -2,15 +2,15 @@
 
 function sendMail() {
   const params = {
-   from_name : document.getElementById('fullName').value,
-   email_id : document.getElementById('email_id').value,
-   message : document.getElementById('message').value,
-   }
-   emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
-     alert("success! Your email has been sent " + res.status);
+    from_name: document.getElementById('fullName').value,
+    email_id: document.getElementById('email_id').value,
+    message: document.getElementById('message').value,
+  }
+  emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
+    alert("success! Your email has been sent " + res.status);
 
-})
- }
+  })
+}
 
 //Instructions & Contact modals 
 
@@ -33,38 +33,30 @@ const span = document.getElementsByClassName("close")[0];
 const contactSpan = document.getElementsByClassName("contactClose")[0];
 
 // When the user clicks on the button, open the instructions modal
-instructionBtn.onclick = function() {
+instructionBtn.onclick = function () {
   modal.style.display = "block";
 };
 // When the user clicks on the button, open the contact modal
-contactBtn.onclick = function() {
+contactBtn.onclick = function () {
   contactModal.style.display = "block";
 };
 // When the user clicks on <span> (x), close the instructions modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 };
 // When the user clicks on <span> (x), close the contact modal
-contactSpan.onclick = function() {
+contactSpan.onclick = function () {
   contactModal.style.display = "none";
 };
 // When the user clicks anywhere outside of the instructions modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
-    modal.style.display = "none"; } 
+    modal.style.display = "none";
+  }
 };
 // When the user clicks anywhere outside of the contact modal, close it
-window.addEventListener("click", function(event) {
+window.addEventListener("click", function (event) {
   if (event.target == contactModal) {
-    contactModal.style.display = "none"; }
-  });
-
- 
-
-
-
-
-
-  
-
-
+    contactModal.style.display = "none";
+  }
+});

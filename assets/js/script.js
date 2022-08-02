@@ -11,8 +11,8 @@ let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
 
 // Music buttons
-function playPause(){
-  if(count == 0){
+function playPause() {
+  if (count == 0) {
     count = 1;
     audio.play();
     playPauseBtn.innerHTML = "Pause &#9208;";
@@ -23,12 +23,12 @@ function playPause(){
   }
 }
 
-function stop(){
+function stop() {
   playPause();
   audio.pause();
   audio.currentTime = 0;
   playPauseBtn.innerHTML = "Play &#9658;";
-  }
+}
 
 
 
@@ -42,17 +42,17 @@ function randomMove() {
   holes.forEach(hole => {
     hole.classList.remove('mole-image');
   });
-  
+
   const randomHole = holes[Math.floor(Math.random() * holes.length)];
   randomHole.classList.add('mole-image');
 
   molePosition = randomHole.id;
 }
-  
 
-  
-    holes.forEach(hole => {
-    hole.addEventListener('mousedown', () => {
+
+
+holes.forEach(hole => {
+  hole.addEventListener('mousedown', () => {
     if (hole.id == molePosition) {
       successfulWhack();
       score++;
@@ -60,13 +60,13 @@ function randomMove() {
       molePosition = null;
     }
   });
-  });
-  
-  function moveMole() {
-   moleTimerId = setInterval(randomMove, 800);
-  }
-  
-  moveMole();
+});
+
+function moveMole() {
+  moleTimerId = setInterval(randomMove, 800);
+}
+
+moveMole();
 
 
 // Countdown Timer
@@ -74,28 +74,26 @@ function countDown() {
   currentTime--;
   timeRemaining.textContent = currentTime;
 
-  
-if (currentTime ==  -1) {
+
+  if (currentTime == -1) {
     clearInterval(countDownTimerId);
     clearInterval(moleTimerId);
     window.alert('GAME OVER! Your final score is ' + score);
     location.reload();
     playSound();
-    }
   }
+}
 let countDownTimerId = setInterval(countDown, 1000);
 
 window.addEventListener("mousemove", (e) => {
   cursor.style.top = e.pageY + "px";
   cursor.style.left = e.pageX + "px";
 
-window.addEventListener("click", () => {
-  cursor.style.animation = "hit 0.1s ease";
-//Allows the animation to work continously 
-  setTimeout (() => {
-    cursor.style.removeProperty("animation");
-},100);
+  window.addEventListener("click", () => {
+    cursor.style.animation = "hit 0.1s ease";
+    //Allows the animation to work continously 
+    setTimeout(() => {
+      cursor.style.removeProperty("animation");
+    }, 100);
+  });
 });
-});
-
-

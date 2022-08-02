@@ -1,214 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-    cursor: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  cursor: none;
 }
 
 body {
-    font-size: 125%;
-    font-family:'Montserrat Alternates', 'sans-serif';
-    background-color: #166620;
+  font-size: 125%;
+  font-family: 'Montserrat Alternates', 'sans-serif';
+  background-color: #166620;
 }
 
 h1 {
-    background: url(../images/game-images/man-digging-home-page.webp) no-repeat center;
-    background-size: 33%;
-    height: 280px;
-    font-size: 85px;
-    color: rgb(6, 34, 95);
-    margin-top: 150px;
-    margin-bottom: 28px;
-    animation: image-grow 2s;
+  background: url(../images/game-images/man-digging-home-page.webp) no-repeat center;
+  background-size: 33%;
+  height: 280px;
+  font-size: 85px;
+  color: rgb(6, 34, 95);
+  margin-top: 150px;
+  margin-bottom: 28px;
+  animation: image-grow 2s;
 }
-@keyframes image-grow {
-    from {
-        transform: scale(0.4);
-    }
 
-    to {
-        transform: scale(1);
-    }
+@keyframes image-grow {
+  from {
+    transform: scale(0.4);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
 
 .homepage-container {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 160px;
-    padding: 35px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  padding: 35px;
 }
 
 .btn {
-    font-size: 30px;
-    font-family:'Montserrat Alternates', 'sans-serif';
-    padding: 15px 0;
-    width: 300px;
-    text-align: center;
-    margin-bottom: 20px;
-    color:black;
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-    border-radius: 10px;
-    text-decoration: none;
+  font-size: 30px;
+  font-family: 'Montserrat Alternates', 'sans-serif';
+  padding: 15px 0;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 .flex-column {
-    
-    display: flex;
-    flex-direction: column;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-center {
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover {
-    cursor: none;
-    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.6);
-    transition: transform 2s;
-    transform: scale(1.1);
+  cursor: none;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.6);
+  transition: transform 2s;
+  transform: scale(1.1);
 }
+
 #contact {
   background: linear-gradient(90deg, rgb(239, 235, 121) 0%, rgb(240, 221, 6) 100%);
 }
 
 #instruction-btn {
-    background: linear-gradient(90deg, rgb(55, 114, 243) 0%, rgb(0, 102, 255) 100%);
+  background: linear-gradient(90deg, rgb(55, 114, 243) 0%, rgb(0, 102, 255) 100%);
 }
 
 .mole-image {
-    background: url(../images/game-images/mole-homepage.webp) center no-repeat;
-    background-size: 138%;
-    height: 105px;
-    width: 150px;
+  background: url(../images/game-images/mole-homepage.webp) center no-repeat;
+  background-size: 138%;
+  height: 105px;
+  width: 150px;
 }
 
 .cursor-mallet img {
-    height: 110px;
-    width: 110px;
-    position: absolute;
-    z-index: 2;
-    transform: translate(-40px, -40px);
-    pointer-events: none;
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-40px, -40px);
+  pointer-events: none;
 }
 
 @keyframes hit {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(40deg);
+  from {
+    transform: rotate(0deg);
+  }
 
-    }
+  to {
+    transform: rotate(40deg);
+
+  }
 }
 
 .home-mole-container {
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    height: 250px;
-    margin-top: 240px;
-    margin-bottom: 260px;
-    margin-left: 30px;
-   }
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 250px;
+  margin-top: 240px;
+  margin-bottom: 260px;
+  margin-left: 30px;
+}
 
 .home-mole-container .square {
-    height:140px;
-    margin: 22px;
+  height: 140px;
+  margin: 22px;
 }
 
 .home-mole-container .mole-image {
-    background-size: 82%;
-   height: 200px;
+  background-size: 82%;
+  height: 200px;
 }
 
 .home-mole-container .soil-div {
-background-size: 62%;
-height: 70px;
-margin-bottom: 120px;
+  background-size: 62%;
+  height: 70px;
+  margin-bottom: 120px;
 }
 
-/* The Modal (background) */
+/* The modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-
-  #instructions-modal-header {
-    padding: 10px 15px;
-    align-items: center;
-    text-align: center;
-    font-size: 38px;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-  }
-
-  .modal-body {
-    height: 300px;
-    padding: 10px 15px;
-    align-items: center;
-    margin-bottom: 80px;
-  }
-
-  .modal-body p {
-    align-items: center;
-    text-align: center;
-    padding:10px 15px;
-    margin-bottom: 8px;
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
- .modal-body ul li {
-    
-    align-items: center;
-    text-align: center;
-    padding: 15px 15px;
-    list-style: none;
-    
- }
+/* Modal content */
 
-  .modal-footer {
+#instructions-modal-header {
+  padding: 10px 15px;
+  align-items: center;
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.modal-body {
+  height: 300px;
+  padding: 10px 15px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.modal-body p {
+  align-items: center;
+  text-align: center;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+}
+
+.modal-body ul li {
+
+  align-items: center;
+  text-align: center;
+  padding: 15px 15px;
+  list-style: none;
+
+}
+
+.modal-footer {
   width: 100%;
   height: 100px;
   background-color: #5cb85c;
-  }
+}
 
-  .modal-footer ul {
+.modal-footer ul {
   position: absolute;
   left: 50%;
   padding: 0;
   transform: translate(-50%, -50%);
   display: flex;
-  }
+}
 
 .modal-footer ul li {
-    list-style: none;
-    margin: 0 105px 0;
+  list-style: none;
+  margin: 0 105px 0;
 }
 
 .modal-footer ul li a {
-    font-size: 50px;
-    align-items: center;
-    color: #100c01;
-    margin-top: 105px;
-    transition: .6s;
-    box-shadow: 0 5px 4px rgba(22, 124, 11, 0.228);
+  font-size: 50px;
+  align-items: center;
+  color: #100c01;
+  margin-top: 105px;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(22, 124, 11, 0.228);
 }
 
 .modal-footer ul li a:hover {
@@ -216,275 +227,302 @@ margin-bottom: 120px;
 }
 
 .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 0;
-    border: none;
-    border-radius: 10px;
-    width: 60%; /* Could be more or less, depending on screen size */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    animation-name: animatetop;
-    animation-duration: 1.2s;
-  }
-  /* Add Animation */
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 1.2s;
+}
+
+/* Add Animation */
 @keyframes animatetop {
-    from {bottom: -250px; opacity: 0}
-    to {bottom: 0; opacity: 1}
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 38px;
-    margin-right: 10px;
-    font-weight: bold;
+  from {
+    bottom: -250px;
+    opacity: 0
   }
 
-  .contactClose {
-    color: #aaa;
-    float: right;
-    font-size: 38px;
-    margin-right: 10px;
-    font-weight: bold;
+  to {
+    bottom: 0;
+    opacity: 1
   }
+}
 
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-  }
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 38px;
+  margin-right: 10px;
+  font-weight: bold;
+}
 
-  .contactClose:hover,
-  .contactClose:focus {
-    color: black;
-    text-decoration: none;
-  }
+.contactClose {
+  color: #aaa;
+  float: right;
+  font-size: 38px;
+  margin-right: 10px;
+  font-weight: bold;
+}
 
 
-  .scoretable{
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
 
-  .home-btn {
-    background-color: rgb(55, 114, 243);
-    border: none; 
-    color: white;
-    font-size: 16px; 
-    cursor: none;
-    float:right;
-    padding: 15px;
-    margin: 15px 15px 10px 15px;
-    border-radius: 50%;
-  }
+.contactClose:hover,
+.contactClose:focus {
+  color: black;
+  text-decoration: none;
+}
 
-  .home-btn:hover {
-    background-color:  #166620;
-  }
 
-  footer button {
-    cursor: pointer;
-  }
+.scoretable {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
-  /*Contact Modal */
+.home-btn {
+  background-color: rgb(55, 114, 243);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: none;
+  float: right;
+  padding: 15px;
+  margin: 15px 15px 10px 15px;
+  border-radius: 50%;
+}
 
-  .contact-modal {
-    margin-top: 60px;
-    height: 300px;
-    padding: 10px 15px;
-    align-items: center;
-    margin-bottom: 80px;
-    margin-left: 20px
-    ;
-    
-  }
+.home-btn:hover {
+  background-color: #166620;
+}
+
+footer button {
+  cursor: pointer;
+}
+
+/*Contact Modal */
+
+.contact-modal {
+  margin-top: 60px;
+  height: 300px;
+  padding: 10px 15px;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-left: 20px;
+
+}
 
 input,
 textarea {
-    width: 50%;
-    padding: 10px 10px;
-    margin: 15px 15px 15px 15px;
-    border: 1px solid #d7c6bc;
-    border-radius: 6px;
-    color: #100c01;
-    background: #F0F8FF;
-    font-size: 18px;
-    cursor: pointer;
-    
+  width: 50%;
+  padding: 10px 10px;
+  margin: 15px 15px 15px 15px;
+  border: 1px solid #d7c6bc;
+  border-radius: 6px;
+  color: #100c01;
+  background: #F0F8FF;
+  font-size: 18px;
+  cursor: pointer;
+
 }
 
-#send-button{
+#send-button {
   font-size: 25px;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 10px;
   cursor: pointer;
   position: relative;
   display: flex;
   justify-content: center;
   margin-left: 30px;
-  }
-
-
-.send-button:hover
-.send-button:focus {
-  color: black;
 }
 
-  
-  
+#send-button:hover,
+#send-button:focus {
+  background-color: #5cb85c;
+  box-shadow: 0 5px 4px rgba(22, 124, 11, 0.228);
+}
+  text-decoration: none;
+}
+
+
+
 
 /*Game Page */
 
 #game-title {
-    height: 50px;
-    font-size: 65px;
-    color: rgb(6, 34, 95);
-    margin-top: 4px;
-    margin-bottom: 30px;
-    align-items: center;
-    text-align: center;
+  height: 50px;
+  font-size: 65px;
+  color: rgb(6, 34, 95);
+  margin-top: 4px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
 
 }
-  .game-btn {
-    font-size: 20px;
-    padding: 8px 8px 8px 8px;
-    width: 220px;
-    text-align: center;
-    margin-left: 10px;
-    color:black;
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
-    border-radius: 8px;
-    text-decoration: none;
+
+.game-btn {
+  font-size: 20px;
+  padding: 8px 8px 8px 8px;
+  width: 220px;
+  text-align: center;
+  margin-left: 10px;
+  color: black;
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 8px;
+  text-decoration: none;
 }
-   
+
 .game-grid {
-    background: url(../images/game-images/forest-background.webp) center;
-    background-size: 100%;
-    width: 1200px;
-    height: 484px;
-    margin: 25px;
-    display: flex;
-    flex-wrap: wrap;
+  background: url(../images/game-images/forest-background.webp) center;
+  background-size: 100%;
+  width: 1200px;
+  height: 484px;
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hole {
-width: 150px;
-height: 205px;
-margin: 20px;
+  width: 150px;
+  height: 205px;
+  margin: 20px;
 }
 
 .soil-div {
-    width: 149px;
-    height: 80px;
-    background-image: url(../images/game-images/soil.webp);
-    background-size: 100%;
-    margin-top: 120px;
+  width: 149px;
+  height: 80px;
+  background-image: url(../images/game-images/soil.webp);
+  background-size: 100%;
+  margin-top: 120px;
 }
 
 
-  /* Media Queries */
+/* Media Queries */
 
-  /*Screen sizes 1600px*/
+/*Screen sizes 1600px*/
 @media screen and (max-width:1600px) {
   /*Homepage*/
 
-  h1{
+  h1 {
     height: 400px;
     margin-top: 250px;
   }
-.home-mole-container {
-  margin-bottom: 150px;
+
+  .home-mole-container {
+    margin-bottom: 150px;
+  }
+
+  /*Game page*/
+  .game-grid {
+    width: 1550px;
+    height: 620px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .game-grid .hole {
+    width: 120px;
+    height: 200px;
+    margin: 64px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 135px;
+    height: 75px;
+    margin-top: 100px;
+  }
 }
-/*Game page*/
-.game-grid {
-  width: 1550px;
-  height: 620px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-.game-grid .hole {
-  width: 120px;
-  height: 200px;
-  margin: 64px;
-}
-.game-grid .hole .soil-div {
-width: 135px;
-height: 75px;
-margin-top: 100px;
-}
-}
- /*Screen sizes 1280px*/
- @media screen and (max-width:1280px) {
+
+/*Screen sizes 1280px*/
+@media screen and (max-width:1280px) {
   .game-grid {
     width: 1270px;
     height: 520px;
     margin-left: 4px;
     margin-right: 4px;
-}
-.game-grid .hole {
-  width: 120px;
-  height: 200px;
-  margin: 39px;
-}
-.game-grid .hole .soil-div {
-width: 135px;
-height: 75px;
-margin-top: 100px;
-}
+  }
+
+  .game-grid .hole {
+    width: 120px;
+    height: 200px;
+    margin: 39px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 135px;
+    height: 75px;
+    margin-top: 100px;
+  }
 }
 
 
 
 /*Screen sizes 1200px*/
 @media screen and (max-width:1200px) {
-/*Homepage*/
-h1 {
-  height: 300px;
-  margin-left: 60px;
-  margin-top: 380px;
-  margin-bottom: 150px;
-}
-.home-mole-container {
-  height: 150px;
-  margin-bottom: 100px;
-}
-/*Game page*/
-.game-grid {
-  width: 1192px;
-  height: 520px;
-  margin-left: 4px;
-  margin-right: 4px;
-}
-.game-grid .hole {
-  width: 120px;
-  height: 200px;
-  margin: 38px;
-}
-.game-grid .hole .soil-div {
-width: 135px;
-height: 75px;
-margin-top: 100px;
-}
-.cursor-mallet img {
-  height: 60px;
-  width: 60px;
-  position: absolute;
-  z-index: 2;
-  transform: translate(-40px, -40px);
-  pointer-events: none;
-}
+
+  /*Homepage*/
+  h1 {
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 380px;
+    margin-bottom: 150px;
+  }
+
+  .home-mole-container {
+    height: 150px;
+    margin-bottom: 100px;
+  }
+
+  /*Game page*/
+  .game-grid {
+    width: 1192px;
+    height: 520px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .game-grid .hole {
+    width: 120px;
+    height: 200px;
+    margin: 38px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 135px;
+    height: 75px;
+    margin-top: 100px;
+  }
+
+  .cursor-mallet img {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-40px, -40px);
+    pointer-events: none;
+  }
 }
 
 /*Screen sizes 1024px (ipad landscape)*/
 @media screen and (max-width:1024px) {
   /*Homepage*/
 
-  h1{
+  h1 {
     margin-left: 5px;
   }
+
   .home-mole-container {
     width: 1000px;
     height: 150px;
@@ -499,7 +537,7 @@ margin-top: 100px;
     margin: 10px;
     margin-top: 1px;
   }
-  
+
   .home-mole-container .hole .soil-div {
     width: 140px;
     height: 68px;
@@ -512,145 +550,155 @@ margin-top: 100px;
     height: 800px;
     margin-left: 3px;
     margin-right: 3px;
-    background-image:url(../images/game-images/forest-background.webp);
+    background-image: url(../images/game-images/forest-background.webp);
     background-size: cover;
   }
+
   .game-grid .hole {
     width: 150px;
     height: 200px;
     margin: 40px;
     margin-right: 64px;
   }
-  
+
   .game-grid .hole .soil-div {
-  width: 150px;
-  height: 102px;
-  margin-top: 100px;
+    width: 150px;
+    height: 102px;
+    margin-top: 100px;
   }
 }
 
 
-  /*Screen sizes 992px*/
+/*Screen sizes 992px*/
 @media screen and (max-width:992px) {
-/*Homepage*/
-h1 {
-  height: 280px;
-  text-align: center;
-  margin-left: 140px;
-  margin-top: 350px;
-  margin-bottom: 150px;
+
+  /*Homepage*/
+  h1 {
+    height: 280px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 350px;
+    margin-bottom: 150px;
+  }
+
+  .home-mole-container {
+    height: 150px;
+    margin-left: 240px;
+    margin-bottom: 150px;
+  }
+
+  .btn {
+    margin-left: 150px;
+  }
+
+  /*Game page*/
+
+  .game-grid {
+    width: 980px;
+    height: 460px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .game-grid .hole {
+    width: 100px;
+    height: 200px;
+    margin: 30px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 100px;
+    height: 75px;
+    margin-top: 100px;
+  }
 }
 
-.home-mole-container {
-  height: 150px;
-  margin-left: 240px;
-  margin-bottom: 150px;
-}
 
-.btn {
-  margin-left: 150px;
-}
-/*Game page*/
-
-.game-grid {
-  width: 980px;
-  height: 460px;
-  margin-left: 4px;
-  margin-right: 4px;
-}
-.game-grid .hole {
-  width: 100px;
-  height: 200px;
-  margin: 30px;
-}
-
-.game-grid .hole .soil-div {
-width: 100px;
-height: 75px;
-margin-top: 100px;
-}
-}
-
-
- /*Screen sizes 768px*/
+/*Screen sizes 768px*/
 @media screen and (max-width:768px) {
-/*Homepage*/
-h1 {
-  height: 290px;
-  width: 100%;
-  text-align: center;
-  margin-left: 1px;
-  margin-top: 370px;
-  margin-bottom: 220px;
 
+  /*Homepage*/
+  h1 {
+    height: 290px;
+    width: 100%;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 370px;
+    margin-bottom: 220px;
+
+  }
+
+  .home-mole-container {
+    height: 100px;
+    width: 350px;
+    margin-left: 70px;
+    margin-bottom: 300px;
+  }
+
+  .home-mole-container .hole {
+    width: 75px;
+    height: 140px;
+    margin: 10px;
+    margin-top: 1px;
+  }
+
+  .home-mole-container .hole .soil-div {
+    width: 75px;
+    height: 36px;
+    margin-top: 75px;
+  }
+
+  .btn {
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  /*Game page*/
+
+  #game-title {
+    height: 80px;
+    font-size: 75px;
+    margin-bottom: 30px;
+  }
+
+  .game-btn {
+    font-size: 25px;
+    padding: 6px 6px 6px 6px;
+    width: 250px;
+    margin-left: 20px;
+  }
+
+  .scoretable {
+    height: 80px;
+    width: 700px;
+    align-items: center;
+  }
+
+  .game-grid {
+    width: 760px;
+    height: 715px;
+    background-image: url(../images/game-images/forest-background.webp);
+    background-size: cover;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .game-grid .hole {
+    width: 130px;
+    height: 200px;
+    margin: 28px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 130px;
+    height: 75px;
+    margin-top: 100px;
+  }
 }
 
-.home-mole-container {
-  height: 100px;
-  width: 350px;
-  margin-left: 70px;
-  margin-bottom: 300px;
-}
-.home-mole-container .hole {
-  width: 75px;
-  height: 140px;
-  margin: 10px;
-  margin-top: 1px;
-}
-
-.home-mole-container .hole .soil-div {
-  width: 75px;
-  height: 36px;
-  margin-top: 75px;
-}
-
-.btn {
-align-items: center;
-margin-left: 10px;
-}
-
-/*Game page*/
-
-#game-title {
-  height: 80px;
-  font-size: 75px;
-  margin-bottom: 30px;
-}
-.game-btn {
-font-size: 25px;
-padding: 6px 6px 6px 6px;
-width: 250px;
-margin-left: 20px;
-}
-.scoretable{
-  height: 80px;
-  width: 700px;
-  align-items: center;
-}
-
-.game-grid {
-  width: 760px;
-  height: 715px;
-  background-image:url(../images/game-images/forest-background.webp);
-  background-size: cover;
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-.game-grid .hole {
-  width: 130px;
-  height: 200px;
-  margin: 28px;
-}
-
-.game-grid .hole .soil-div {
-width: 130px;
-height: 75px;
-margin-top: 100px;
-}
-}
 /*Screen sizes 734px*/
 @media screen and (max-width:734px) {
+
   /*Homepage*/
   h1 {
     height: 480px;
@@ -659,14 +707,16 @@ margin-top: 100px;
     margin-left: 1px;
     margin-top: 380px;
     margin-bottom: 100px;
-}
-.home-mole-container {
-  margin-bottom: 150px;
-}
+  }
+
+  .home-mole-container {
+    margin-bottom: 150px;
+  }
 }
 
 /*Screen sizes 736px*/
 @media screen and (max-width:736px) {
+
   /*Homepage*/
   h1 {
     height: 480px;
@@ -675,15 +725,18 @@ margin-top: 100px;
     margin-left: 1px;
     margin-top: 380px;
     margin-bottom: 100px;
+  }
+
+  .home-mole-container {
+    margin-bottom: 150px;
+  }
 }
-.home-mole-container {
-  margin-bottom: 150px;
-}
-}
+
 /*Screen sizes 684px*/
 @media screen and (max-width: 684px) {
-/*Game page*/
-#game-title {
+
+  /*Game page*/
+  #game-title {
     width: 100%;
     height: 30px;
     font-size: 45px;
@@ -691,8 +744,9 @@ margin-top: 100px;
     margin-top: 10px;
     margin-bottom: 30px;
     align-items: center;
-   }
-   .game-btn {
+  }
+
+  .game-btn {
     font-size: 15px;
     padding: 4px 4px 4px 4px;
     width: 160px;
@@ -701,81 +755,89 @@ margin-top: 100px;
     margin-right: 6px;
     border-radius: 5px;
     margin-bottom: 5px;
-   }
- .scoretable {
- width: 100%;
-   }
-   
-   .game-grid {
+  }
+
+  .scoretable {
+    width: 100%;
+  }
+
+  .game-grid {
     width: 678px;
     height: 400px;
     margin-left: 4px;
     margin-right: 4px;
     margin-top: 10px;
-   }
+  }
 
-   .game-grid .hole {
+  .game-grid .hole {
     width: 75px;
     height: 150px;
     margin: 18px;
   }
 
-   .game-grid .hole .soil-div {
+  .game-grid .hole .soil-div {
     width: 75px;
     height: 41px;
     margin-top: 80px;
-   }
+  }
 }
 
 /*Screen sizes 576px*/
- @media screen and (max-width: 576px) {
-    /*Homepage*/
-    h1 {
-     width:100%;
-     height: 195px;
-     font-size: 58px;
-     margin-top: 220px;
-     margin-left: 15px;
-     margin-bottom: 85px;
-     text-align: center;
-   }
-   .home-mole-container {
-     width: 560px;
-     height: 180px;
-     margin-top: 300px;
-     margin-bottom: 150px;
-     margin-left: 20px;
-     align-items: center;
-    }
+@media screen and (max-width: 576px) {
+
+  /*Homepage*/
+  h1 {
+    width: 100%;
+    height: 195px;
+    font-size: 58px;
+    margin-top: 220px;
+    margin-left: 15px;
+    margin-bottom: 85px;
+    text-align: center;
+  }
+
+  .home-mole-container {
+    width: 560px;
+    height: 180px;
+    margin-top: 300px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    align-items: center;
+  }
+
   .btn {
-      align-items: center;
-      margin-left: 20px;
-      }
-   
- .home-mole-container .hole {
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .home-mole-container .hole {
     width: 62px;
     height: 140px;
     margin: 12px;
     margin-top: 1px;
   }
+
   .home-mole-container .hole .soil-div {
     width: 62px;
     height: 32px;
     margin-top: 74px;
   }
-   /*Instructions modal*/
+
+  /*Instructions modal*/
   .modal-body {
     height: 485px;
   }
+
   #how-to-play {
     margin-bottom: 2px;
-   }
-   .modal-body ul li { 
-    padding: 10px 5px;
-   }
+  }
 
-   /*Game page*/
-   #game-title {
+  .modal-body ul li {
+    padding: 10px 5px;
+  }
+
+  /*Game page*/
+  #game-title {
     width: 100%;
     height: 30px;
     font-size: 35px;
@@ -783,8 +845,9 @@ margin-top: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
     align-items: center;
-   }
-   .game-btn {
+  }
+
+  .game-btn {
     font-size: 15px;
     padding: 4px 4px 4px 4px;
     width: 160px;
@@ -793,269 +856,285 @@ margin-top: 100px;
     margin-right: 6px;
     border-radius: 5px;
     margin-bottom: 5px;
-   }
+  }
 
-   .scoretable {
- width: 100%;
-   }
-   
-   .game-grid {
+  .scoretable {
+    width: 100%;
+  }
+
+  .game-grid {
     width: 576px;
     height: 301px;
     margin-left: 2px;
     margin-right: 10px;
     margin-top: 10px;
-   }
+  }
 
-   .game-grid .hole {
+  .game-grid .hole {
     width: 75px;
     height: 150px;
     margin: 10px;
   }
 
-   .game-grid .hole .soil-div {
+  .game-grid .hole .soil-div {
     width: 75px;
     height: 41px;
     margin-top: 80px;
-   }
+  }
 
-   .cursor-mallet img {
+  .cursor-mallet img {
     height: 60px;
     width: 60px;
     position: absolute;
     z-index: 2;
     transform: translate(-40px, -40px);
     pointer-events: none;
-}
-}
-
-  /*Screen sizes 414px*/
-  @media screen and (max-width:414px) {
-    /*Homepage*/
-h1 {
-  height: 300px;
-  margin-bottom: 20px;
-  margin-top: 100px;
-  margin-right: 10px;
-}
-.home-mole-container {
-  width: 414px;
-  height: 150px;
-  margin-top: 10px;
-  margin-bottom: 2px;
-}
-.home-mole-container .hole {
-  width: 42px;
-  height: 140px;
-  margin: 9px;
-  margin-top: 1px;
-}
-
-.home-mole-container .hole .soil-div {
-  width: 42px;
-  height: 20px;
-  margin-top: 74px;
-  
-}
-.btn {
-  margin-right: 28px;
-}
-/*Instructions modal*/
-.modal-body {
-  height: 625px;
-}
-
-.modal-footer ul li {
-  margin: 40px;
   }
-/*Game page */
-.game-grid {
-  width: 408px;
-  height: 360px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.webp);
-  background-size: cover;
- }
-
- .game-grid .hole {
-  width: 47px;
-  height: 150px;
-  margin: 27px;
-  margin-top: -40px;
 }
 
-.game-grid .hole .soil-div {
-  width: 47px;
-  height: 32px;
-  margin-top: 80px;
- }
+/*Screen sizes 414px*/
+@media screen and (max-width:414px) {
+
+  /*Homepage*/
+  h1 {
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-right: 10px;
+  }
+
+  .home-mole-container {
+    width: 414px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+
+  .home-mole-container .hole {
+    width: 42px;
+    height: 140px;
+    margin: 9px;
+    margin-top: 1px;
+  }
+
+  .home-mole-container .hole .soil-div {
+    width: 42px;
+    height: 20px;
+    margin-top: 74px;
+
+  }
+
+  .btn {
+    margin-right: 28px;
+  }
+
+  /*Instructions modal*/
+  .modal-body {
+    height: 625px;
+  }
+
+  .modal-footer ul li {
+    margin: 40px;
+  }
+
+  /*Game page */
+  .game-grid {
+    width: 408px;
+    height: 360px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+    background-image: url(../images/game-images/forest-background.webp);
+    background-size: cover;
+  }
+
+  .game-grid .hole {
+    width: 47px;
+    height: 150px;
+    margin: 27px;
+    margin-top: -40px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 47px;
+    height: 32px;
+    margin-top: 80px;
+  }
 }
 
 /*Screen sizes 375px*/
 @media screen and (max-width:375px) {
-/*Homepage*/
-h1{
-  font-size: 40px;
-  width: 100%;
-  height: 220px;
-  margin-top: 220px;
-  margin-bottom: 200px;
-  margin-left: 10px;
-}
 
-.home-mole-container {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  width: 375px;
-  height: 20px;
-  margin-top: 180px;
-  margin-left: 80px;
-  align-items: center;
-  margin-bottom: 380px;
- }
-
- .home-mole-container .hole {
-  width: 75px;
-  height: 140px;
-  margin: 10px;
-  margin-top: 1px;
-}
-
-.home-mole-container .hole .soil-div {
-  width: 75px;
-  height: 36px;
-  margin-top: 75px;
+  /*Homepage*/
+  h1 {
+    font-size: 40px;
+    width: 100%;
+    height: 220px;
+    margin-top: 220px;
+    margin-bottom: 200px;
+    margin-left: 10px;
   }
 
-   .btn {
+  .home-mole-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    height: 20px;
+    margin-top: 180px;
+    margin-left: 80px;
+    align-items: center;
+    margin-bottom: 380px;
+  }
+
+  .home-mole-container .hole {
+    width: 75px;
+    height: 140px;
+    margin: 10px;
+    margin-top: 1px;
+  }
+
+  .home-mole-container .hole .soil-div {
+    width: 75px;
+    height: 36px;
+    margin-top: 75px;
+  }
+
+  .btn {
     margin-left: 30px;
-   }
+  }
+
   /*Instructions modal*/
   .modal-body {
     height: 585px;
   }
+
   #how-to-play {
     margin-bottom: 2px;
-   }
-   .modal-body ul li { 
+  }
+
+  .modal-body ul li {
     padding: 8px 4px;
-   }
-
-   .modal-footer ul li {
-   margin: 40px;
-   }
-/*Game page*/
-.game-grid {
-  width: 371px;
-  height: 410px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.webp);
-  background-size: cover;
- }
-
- .game-grid .hole {
-  width: 46px;
-  height: 150px;
-  margin: 23px;
-  margin-top: -40px;
-}
-
-.game-grid .hole .soil-div {
-  width: 46px;
-  height: 32px;
-  margin-top: 80px;
- }
-
- .cursor-mallet img {
-  height: 40px;
-  width: 40px;
-  position: absolute;
-  z-index: 2;
-  transform: translate(-40px, -40px);
-  pointer-events: none;
-}
-}
-  /*Screen sizes 320px*/
-  @media screen and (max-width:320px) {
-    /*Homepage*/
- h1{
-  height: 150px;
-  font-size: 32px;
-  margin-top: 150px;
-  margin-left: 25px;
- }
-
- .home-mole-container {
-  width: 320px;
-  height: 20px;
-  margin-top: 110px;
-  align-items: center;
-  margin-bottom: 360px;
   }
 
- .home-mole-container .hole {
-  width: 70px;
-  height: 140px;
-  margin: 6px;
-  margin-top: 1px;
+  .modal-footer ul li {
+    margin: 40px;
+  }
+
+  /*Game page*/
+  .game-grid {
+    width: 371px;
+    height: 410px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+    background-image: url(../images/game-images/forest-background.webp);
+    background-size: cover;
+  }
+
+  .game-grid .hole {
+    width: 46px;
+    height: 150px;
+    margin: 23px;
+    margin-top: -40px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 46px;
+    height: 32px;
+    margin-top: 80px;
+  }
+
+  .cursor-mallet img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-40px, -40px);
+    pointer-events: none;
+  }
 }
 
-.home-mole-container .hole .soil-div {
-  width: 70px;
-  height: 36px;
-  margin-top: 75px;
+/*Screen sizes 320px*/
+@media screen and (max-width:320px) {
+
+  /*Homepage*/
+  h1 {
+    height: 150px;
+    font-size: 32px;
+    margin-top: 150px;
+    margin-left: 25px;
   }
+
+  .home-mole-container {
+    width: 320px;
+    height: 20px;
+    margin-top: 110px;
+    align-items: center;
+    margin-bottom: 360px;
+  }
+
+  .home-mole-container .hole {
+    width: 70px;
+    height: 140px;
+    margin: 6px;
+    margin-top: 1px;
+  }
+
+  .home-mole-container .hole .soil-div {
+    width: 70px;
+    height: 36px;
+    margin-top: 75px;
+  }
+
   .btn {
     font-size: 20px;
     padding: 8px 0;
     width: 250px;
     text-align: center;
     margin-bottom: 20px;
-    color:black;
+    color: black;
     background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
     border-radius: 6px;
     text-decoration: none;
     margin-left: 25px;
   }
-/*Instructions modal*/
-    .modal-body {
-      height: 750px;
-    }
-    .modal-body ul li {
+
+  /*Instructions modal*/
+  .modal-body {
+    height: 750px;
+  }
+
+  .modal-body ul li {
     align-items: center;
     text-align: center;
     padding: 15px 15px;
     list-style: square;
-    }
+  }
+
   /*Game page*/
 
 
-.game-grid {
-  width: 316px;
-  height: 410px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 20px;
-  background-image:url(../images/game-images/forest-background.webp);
-  background-size: cover;
- }
-
- .game-grid .hole {
-  width: 46px;
-  height: 150px;
-  margin: 15px;
-  margin-top: -40px;
-}
-
-.game-grid .hole .soil-div {
-  width: 46px;
-  height: 32px;
-  margin-top: 80px;
- }
+  .game-grid {
+    width: 316px;
+    height: 410px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+    background-image: url(../images/game-images/forest-background.webp);
+    background-size: cover;
   }
-  
+
+  .game-grid .hole {
+    width: 46px;
+    height: 150px;
+    margin: 15px;
+    margin-top: -40px;
+  }
+
+  .game-grid .hole .soil-div {
+    width: 46px;
+    height: 32px;
+    margin-top: 80px;
+  }
+}
