@@ -1,4 +1,13 @@
-
+function sendMail() {
+  const params = {
+   from_name : document.getElementById('fullName').value,
+   email_id : document.getElementById('email_id').value,
+   message : document.getElementById('message').value,
+   }
+   emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
+     alert("success! " + res.status);
+})
+ }
 
 //High Scores & Instructions modals 
 
@@ -46,6 +55,8 @@ window.addEventListener("click", function(event) {
   if (event.target == highscoreModal) {
     highscoreModal.style.display = "none"; }
   });
+
+ 
 
 
 

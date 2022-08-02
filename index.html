@@ -10,6 +10,14 @@
 
 <title>Whack-A-Mole</title>
 <link rel="icon" type="image/x-icon" href="./assets/images/game-images/favicon-ico.png">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ENQJGikNpn_xKjgxz");
+   })();
+</script>
 </head>
 <body>
   <div class= "homepage-container" onclick="playSound()">
@@ -57,49 +65,11 @@
    <h2>High Scores</h2>
    <!--modal body content-->
    <div class ="modal-body">
-    <table class="table table-striped leaderboard text-center">
-      <thead>
-        <tr>
-          <th scope="col">Ranking</th>
-          <th scope="col">Name</th>
-          <th scope="col">Score</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">
-           
-          </th>
-          <td class="player-name"></td>
-          <td class="player-score"></td>
-        </tr>
-        <tr>
-          <th scope="row">
-          
-          </th>
-          <td class="player-name"></td>
-          <td class="player-score"></td>
-        </tr>
-        <tr>
-          <th scope="row">
-          
-          </th>
-          <td class="player-name"></td>
-          <td class="player-score"></td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td class="player-name"></td>
-          <td class="player-score"></td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td class="player-name"></td>
-          <td class="player-score"></td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
+<input type="text" id="fullName" placeholder="Full Namw">
+<input type="email" id="email_id" placeholder="Email Id">
+<textarea id ="message" placeholder="Message" required></textarea>
+<button onclick="sendMail()">Send Email</button>
+   </div>
     <!--modal footer social icons-->
     <div class ="modal-footer">
       <ul>
