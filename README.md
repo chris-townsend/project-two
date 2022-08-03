@@ -377,7 +377,6 @@ I had an uncaught ReferenceError for my instructionBtn in the console. *resolved
 ![Uncaught TypeError](./assets/images/readme-images/console-error.webp)
 
 
-
 ***
 ## Deployment
 

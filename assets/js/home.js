@@ -36,24 +36,29 @@ const contactSpan = document.getElementsByClassName("contactClose")[0];
 instructionBtn.onclick = function () {
   modal.style.display = "block";
 };
+
 // Open the contact modal
 contactBtn.onclick = function () {
   contactModal.style.display = "block";
 };
+
 // Close the instructions modal
 span.onclick = function () {
   modal.style.display = "none";
 };
+
 // Close the contact modal
 contactSpan.onclick = function () {
   contactModal.style.display = "none";
 };
+
 // When the user clicks anywhere outside of the instructions modal, close it
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 };
+
 // When the user clicks anywhere outside of the contact modal, close it
 window.addEventListener("click", function (event) {
   if (event.target == contactModal) {

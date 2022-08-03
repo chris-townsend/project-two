@@ -11,6 +11,7 @@ let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;
 
 // function for music buttons on homepage to play and pause music
+
 function playPause() {
   if (count == 0) {
     count = 1;
@@ -39,6 +40,7 @@ let moleTimerId;
  * holes.length is used to generate a random hole between the number of holes available
  * This allows the number of holes to be added/removed without editing the Js code
  */
+
 function randomMove() {
   holes.forEach(hole => {
     hole.classList.remove('mole-image');
@@ -49,6 +51,7 @@ function randomMove() {
 
   molePosition = randomHole.id;
 }
+
 /**
  * iterate through the array of moles, 
  * add click event to increase score 
@@ -64,6 +67,7 @@ holes.forEach(hole => {
     }
   });
 });
+
 /*
  * function to move the mole and sets
  * the amount of time for how long a mole stays up for - Currently set to 0.8 of a second
@@ -89,6 +93,7 @@ function countDown() {
     playSound();
   }
 }
+
 /*
 * sets the speed of the countdown timer, currently set to 1000
 to go down in seconds
