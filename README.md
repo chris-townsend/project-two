@@ -309,7 +309,7 @@ I have run the website through JSHint's audit application and the results are sh
 
 **Simple and informative text on the homepage buttons which allows the user to click on the Instructions button and read up on how to play the game.**
 
-![Home Buttons](./assets/images/readme-images/font-home-button.webp)
+![Home Buttons](./assets/images/readme-images/home-buttons-contact.webp)
 
 
  2. As a user I want the ability to control any background sounds playing. 
@@ -366,6 +366,15 @@ I have run the website through JSHint's audit application and the results are sh
 
 ### Known Bugs
 #
+Throughout the project I encountered a number of bugs, some of which were solved and some not which are stated below:
+
+I have noticed that you can still send an email and get the notification without imputting text into the correct boxes of the form. The HTML elements have been told that an input feild is required but the javascript doesn't know that, further research is needed to implement the javascript code to prevent the form from being sent without the required feilds.  
+
+#### Console Bugs
+I had an uncaught ReferenceError for my instructionBtn in the console. *resolved* This was resolved by making a seperate javascript file for each of my HTML pages to prevent conflicting code. 
+![Uncaught ReferenceError](./assets/images/readme-images/console-uncaught-reference-error.webp)
+
+![Uncaught TypeError](./assets/images/readme-images/console-error.webp)
 
 
 
