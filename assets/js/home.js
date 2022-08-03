@@ -1,18 +1,18 @@
-//A
-
+// Email JS function to collect the param values from the contact form on the HTML homepage
 function sendMail() {
   const params = {
     from_name: document.getElementById('fullName').value,
     email_id: document.getElementById('email_id').value,
     message: document.getElementById('message').value,
-  }
+  };
+  // 'service_c3qpq6z' personal ID for email service and 'template_jk2d9nh' personal ID for email template
   emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
     alert("Success! Your email has been sent ");
 
-  })
+  });
 }
 
-//Instructions & Contact modals 
+// Instructions & Contact modal
 
 // Get the instructions modal
 const modal = document.getElementById("myModal");
@@ -32,19 +32,19 @@ const span = document.getElementsByClassName("close")[0];
 // Get the <span> element that closes the contact modal
 const contactSpan = document.getElementsByClassName("contactClose")[0];
 
-// When the user clicks on the button, open the instructions modal
+// Open the instructions modal
 instructionBtn.onclick = function () {
   modal.style.display = "block";
 };
-// When the user clicks on the button, open the contact modal
+// Open the contact modal
 contactBtn.onclick = function () {
   contactModal.style.display = "block";
 };
-// When the user clicks on <span> (x), close the instructions modal
+// Close the instructions modal
 span.onclick = function () {
   modal.style.display = "none";
 };
-// When the user clicks on <span> (x), close the contact modal
+// Close the contact modal
 contactSpan.onclick = function () {
   contactModal.style.display = "none";
 };

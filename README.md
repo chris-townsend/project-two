@@ -8,7 +8,7 @@
 ## Repository
 [https://github.com/chris-townsend/project-two](https://github.com/chris-townsend/project-two)
 
-![Am I responsive](./assets/images/readme-images/am-i-responsive-game.webp)
+![Am I responsive](./assets/images/readme-images/am-i-responsive.webp)
 ***
 
 ## Contents
@@ -130,34 +130,54 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 #
 
-1. I have made some of the features on the website **interative**. When you first arrive on the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
+1. Whack A Mole Heading - When you first arrive on the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
 
 ![Title-grow](./assets/images/readme-images/heading-image-grow.webp)
 ![Title-full](./assets/images/readme-images/heading-image-full.webp)
 
-2. Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. Unfortunatly this was throwing quite a lot of errors in the console due to using the same code but on a different page - please see testing and known bugs for more information.
+2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. Unfortunatly this was throwing quite a lot of errors in the console due to using the same code but on a different page - please see testing and known bugs for more information.
 
 ![Homepage Animation](./assets/images/readme-images/home-animation.webp)
 
-3. Under my animation I have added 3 buttons, Play which directs you to the game page and a Highscores and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Highscores and Instructions buttons to give more UX.
+3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Highscores and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Highscores and Instructions buttons to give more UX.
 
 ![Home Buttons Hover Effect](./assets/images/readme-images/homepage-buttons.webp)
 
-4. Contact pop-up modal 
+4. Contact Modal - The contact modal has been styled similar to the instructions modal in terms of style and features. The X to close the modal changes colour on hover to give feedback to the user and also a user can click anywhere outside the modal to close it. 
 ![Contact pop up modal](./assets/images/readme-images/contact-us-modal.webp)
 
 ![Send email button](./assets/images/readme-images/send-email-button.webp)
+
+On hover of the send-email button, it turn's green to give feedback to the user and shows interativity.
 ![Contact form requirements](./assets/images/readme-images/required-form-modal.webp)
 
-5. When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the game page. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
+The contact form will pop up with a *required* warning box if the form has not been filled out correctly. It requires a name and email address for the form to be accepted.
+
+![Success alert Email sent](./assets/images/readme-images/success-email-sent.webp)
+
+Upon successful completion of the form, the form has been set up to be recieved via [Email.JS](https://www.emailjs.com/). This was made possible by following the steps below:
+
+ - I first created an account with [Email.JS](https://www.emailjs.com/).
+
+ - Next I set up an email service to link to my Email.js account.
+
+ - Add a new email template and create three Id's which will correspond to your javascript function, one for name, email_id and message.
+
+ - Copy the Email.js SDK into the head of your HTML file and add your personal public key to the emailjs.init parameter - It must be placed here to work.
+
+ - Create a JavaScript file and create the function which gets the params from the contact form, add the nessecary onclick feature and Id's to the HTML code. 
+ ![Email message before send](./assets/images/readme-images/email-js-before.webp)
+ ![Confirmed Email](./assets/images/readme-images/email-js.webp)
+
+5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the game page. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
 
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
-6. The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. I have used a box shadow for when an icon is hovered over so that the user acknowedges the action. 
+6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. I have used a box shadow for when an icon is hovered over so that the user acknowedges the action. 
 
 ![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
 
-7. At the bottom of my homepage I have added a footer and within it are my audio buttons. The buttons give the user the option to play/pause and stop the audio. As the buttons are quite small, it's sometimes hard to click on them with the mallet cursor. I have added a pointer cursor so that the user knows when they are hovering over these buttons. The audio is a fun jazz track which was picked to be fairly short, just long enough to read the instructions before clicking onto the game page.  
+7. Audio Buttons - At the bottom of my homepage I have added a footer and within it are my audio buttons. The buttons give the user the option to play/pause and stop the audio. As the buttons are quite small, it's sometimes hard to click on them with the mallet cursor. I have added a pointer cursor so that the user knows when they are hovering over these buttons. The audio is a fun jazz track which was picked to be fairly short, just long enough to read the instructions before clicking onto the game page.  
 
 ![Footer music buttons](./assets/images/readme-images/footer-music-button.webp)
 ![Footer Button css Code ](./assets/images/readme-images/footer-cursor-pointer.webp)
@@ -192,7 +212,7 @@ With more time, I would have liked to of implemented the following ideas:
 
 - Display a highscores list linked to local storage - At first I had my contact modal set up as a highscore list but changed it to a contact form due to not having enough infomation about JSON.stringify and local storage. Below is an image of the original highscores button. 
 
-![Highscore button](./assets/images/readme-images/home-buttons-hover.webp)
+![Highscore button](./assets/images/readme-images/font-home-button.webp)
 
 - Add objects to increase the difficulty - Add an object such as a rabbit and if that object is hit you minus one point. 
 
@@ -280,7 +300,7 @@ I have run the website through JSHint's audit application and the results are sh
 
 
 ### JSHint Gamepage 
-!
+![JSHint Game page results (script.js)](./assets/images/readme-images/gamepage-jshint-result.webp)
 
 
 ### Testing User Stories from User Experience (UX) Section
