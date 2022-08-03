@@ -141,7 +141,7 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 3. Under my animation I have added 3 buttons, Play which directs you to the game page and a Highscores and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Highscores and Instructions buttons to give more UX.
 
-![Home Buttons Hover Effect](./assets/images/readme-images/home-buttons-hover.webp)
+![Home Buttons Hover Effect](./assets/images/readme-images/homepage-buttons.webp)
 
 4. HighScores pop-up modal 
 ![gallery-cards](./assets/images/gallery-cards.webp)
@@ -187,7 +187,9 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 #
 With more time, I would have liked to of implemented the following ideas:
 
-- Display a highscores list linked to local storage - I have set up the highscores modal and table ready to go. The only thing which needs implementing is the added Javascript.
+- Display a highscores list linked to local storage - At first I had my contact modal set up as a highscore list but changed it to a contact form due to not having enough infomation about JSON.stringify and local storage. Below is an image of the original highscores button. 
+
+![Highscore button](./assets/images/readme-images/home-buttons-hover.webp)
 
 - Add objects to increase the difficulty - Add an object such as a rabbit and if that object is hit you minus one point. 
 
