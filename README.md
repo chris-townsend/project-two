@@ -296,6 +296,7 @@ I have run the website through Google Chrome's lighthouse audit application and 
 I have run the website through JSHint's audit application and the results are shown below:
 
 ### JSHint Homepage
+The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick
 ![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint-result.webp)
 
 
@@ -359,7 +360,7 @@ I have run the website through JSHint's audit application and the results are sh
 ### Further Testing
 #
 
--   The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+-   The Website was tested on Google Chrome, Internet Explorer
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and point out any bugs or problems.

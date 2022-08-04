@@ -81,18 +81,24 @@ moveMole();
 
 // countdown timer function
 function countDown() {
-  currentTime--;
+  if ( window.location.pathname === '/' ){
+    currentTime--;
   timeRemaining.textContent = currentTime;
+    }else{
+    
+    }
+  }
 
   // if statement for what to do when the timer reaches 0 and game is over
   if (currentTime == -1) { // when the timer reaches 0
     clearInterval(countDownTimerId); // reset countdown timer to 0 on play again
     clearInterval(moleTimerId); // reset scoreboard to 0 on play again
-    window.alert('GAME OVER! Your final score is ' + score); // alert user GAMEOVER and give final score
+    // alert user GAMEOVER and give final score
+    window.alert('GAME OVER! Your final score is ' + score); 
     location.reload(); // reload the game 
     playSound();
   }
-}
+
 
 /*
 * sets the speed of the countdown timer, currently set to 1000

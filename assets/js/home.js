@@ -12,6 +12,7 @@ function sendMail() {
   });
 }
 
+
 // Instructions & Contact modal
 
 // Get the instructions modal
