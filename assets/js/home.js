@@ -66,6 +66,8 @@ window.addEventListener("click", function (event) {
   }
 });
 
+// Audio variables
+
 let audio = document.getElementById('audio');
 let playPauseBtn = document.getElementById('playPauseBtn');
 let count = 0;

@@ -94,13 +94,14 @@ The game will be designed for a target audience of 8 years +. The game will be e
  
     ![Font Montserrat Alternates](./assets/images/readme-images/font-main-heading.webp)
 
-    ![Font Montserrat Alternates game buttons](./assets/images/readme-images/font-home-button.webp)
+    ![Font Montserrat Alternates game buttons](./assets/images/readme-images/home-buttons-contact.webp)
 
 
     ***
         
 *   ### Wireframes
 #
+When I first designed my wireframes, I wanted to include a highscore list. As time caught up on me I decided to change this to a contact form instead. 
 
 -   Desktop Wireframe Home page  -
     ![Desktop Home Wireframe](./assets/images/readme-images/wireframe-homepage-desktop.webp)
@@ -246,7 +247,7 @@ With more time, I would have liked to of implemented the following ideas:
 
 - [Google DevTools:](https://developer.chrome.com/docs/devtools/) Once the website was made to a basic deployment level, Google DevTools was used frequently to resize objects within the site, very helpful for making my website responsive.
 
-- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Git:](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 
@@ -258,9 +259,11 @@ With more time, I would have liked to of implemented the following ideas:
 
  - [YouTube:](https://www.youtube.com/) YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
 
- - [Audio Compressor](https://www.media.io/audio-compressor.html) Media.io was used to compress my audio files without loosing quality. 
+ - [Audio Compressor:](https://www.media.io/audio-compressor.html) Media.io was used to compress my audio files without loosing quality. 
 
- - [Compressor.io](https://compressor.io/)* This was used to reduce the size and load times of my images. 
+ - [Compressor.io:](https://compressor.io/) This was used to reduce the size and load times of my images. 
+
+ - [JSHint Validator:](https://jshint.com/) Jshint was used to validate my javascript code. It showed any warnings and errors within my code. 
 
 ## Testing
 #
@@ -296,12 +299,15 @@ I have run the website through Google Chrome's lighthouse audit application and 
 I have run the website through JSHint's audit application and the results are shown below:
 
 ### JSHint Homepage
-The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick
-![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint-result.webp)
+The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick. The *stop* unused variable warning which is infact a function is being used as an onclick to stop the music playing on my homepage, All unused variable warnings have been tested to ensure there correct and working correctly. I was getting conflicting errors at first from code being used on different pages. To prevent the errors I made a game.js page to house all the game js code. The script.js file contains the cursor variable which allows the mallet cursor to work on all pages.
+![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint.webp)
 
 
 ### JSHint Gamepage 
-![JSHint Game page results (script.js)](./assets/images/readme-images/gamepage-jshint-result.webp)
+![JSHint Game page results (game.js)](./assets/images/readme-images/gamepage-jshint.webp)
+
+### JSHint script.js
+![JSHint script.js results](./assets/images/readme-images/scriptjs-jshint.webp)
 
 
 ### Testing User Stories from User Experience (UX) Section
