@@ -12,7 +12,6 @@ function sendMail() {
   });
 }
 
-
 // Instructions & Contact modal
 
 // Get the instructions modal
@@ -66,3 +65,27 @@ window.addEventListener("click", function (event) {
     contactModal.style.display = "none";
   }
 });
+
+let audio = document.getElementById('audio');
+let playPauseBtn = document.getElementById('playPauseBtn');
+let count = 0;
+
+// function for music buttons on homepage to play and pause music
+function playPause() {
+  if (count == 0) {
+    count = 1;
+    audio.play();
+    playPauseBtn.innerHTML = "Pause &#9208;";
+  } else {
+    count = 0;
+    audio.pause();
+    playPauseBtn.innerHTML = "Play &#9658;";
+  }
+}
+// function for music button on homepage to stop the music
+function stop() {
+  playPause();
+  audio.pause();
+  audio.currentTime = 0;
+  playPauseBtn.innerHTML = "Play &#9658;";
+}
