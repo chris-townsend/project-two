@@ -370,6 +370,10 @@ The results for the homepage show no significant errors but emailjs is showing u
 #
 Throughout building my javascript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly and doing what I wanted it to do. Below are some screenshots of some tests taken while figuring out errors within the console.
 
+![Console error](./assets/images/readme-images/console-log-timer.webp)
+
+The above screenshot shows me trying to debug an error I had in the console. It was showing that I had an uncaught type error at my countDown function. I used console.log() to print the timer to ensure this was working. The error was overcome by creating a new js file to prevent the timer being called on the homepage.
+
 -   The Website was tested on Google Chrome and Internet Explorer.
 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
@@ -388,8 +392,16 @@ I had an uncaught ReferenceError for my instructionBtn in the console. *resolved
 
 ![Uncaught TypeError](./assets/images/readme-images/console-error.webp)
 
+I had a similar error coming up on my homepage with an uncaught TypeError, my homepage was looking for the textContent at countDown which it wasn't able to find because it's on my gamepage. Various bits of code was added/ removed to try to fix this issue, at first I fixed the problem in the console but later found out it had stopped my count down timer on my game page from working. 
 
-![]
+![Console Error fix](./assets/images/readme-images/console-error-fix.webp)
+![Console temporary fix](./assets/images/readme-images/console-temporary-fix.webp)
+
+The above piece of code was suggested by a Code Institute tutor, at first it fixed the console.log errors but it stopped my count down timer from working on my game page. I managed to fix this error but then it came up with another similar uncaught TypeError for my music buttons. I realised at this point it was from conflicting code on other pages, I *resolved* this issue by creating a game.js page.
+
+I had a couple of warnings stating that the type attribute was unnecessary for Javascript resources,
+these attributes were removed and errors removed also. 
+![W3C HTML validator warning](./assets/images/readme-images/html-validator-warning.webp)
 
 
 ***
@@ -460,14 +472,13 @@ By forking the GitHub Repository you can make a copy of the original repository 
 #
 Helpful tutorials I used to help me with coding some of the design ideas were:
 
-- [Javascript 30 Day Coding Challenge](https://javascript30.com/)
-
 - [Ania Kubów Whac-a-mole in JavaScript](https://www.youtube.com/watch?v=rJU3tHLgb_c&t=1194s)
 
 - [JavaScript Game Tutorial for Beginners](https://www.youtube.com/watch?v=RTb8icFiSfk&list=RDCMUCEqc149iR-ALYkGM6TG-7vQ&index=16)
 
-
 - [How to create an animated cursor - help from webanimation](https://webanimation.blog/blog/how-to-create-a-custom-cursor-without-using-canvas)
+
+- [Send Email using Javascript](https://www.youtube.com/watch?v=x7Ewtay0Q78)
 
 Various resources used to learn were:
 - [W3Schools](https://www.w3schools.com/)
@@ -491,6 +502,9 @@ The Sounds used on my site have been taken from:
 
 ### Acknowledgements
 #
+
+- - [Javascript 30 Day Coding Challenge](https://javascript30.com/)
+
 -  I would like to thank my Mentor Darío Carrasquel for guidance throughout the project.
 
--   Tutor support at Code Institute for their support.
+-  Fatima, Rebecca and Sean at tutor support at Code Institute for their support and helpful ideas. 
