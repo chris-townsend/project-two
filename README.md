@@ -270,13 +270,16 @@ With more time, I would have liked to of implemented the following ideas:
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The results are shown below:
 
--   [W3C HTML Markup Validator](https://validator.w3.org/) Results
+-   [W3C HTML Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchris-townsend.github.io%2Fproject-two%2Findex.html) Results Homepage
+
+-   [W3C HTML Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchris-townsend.github.io%2Fproject-two%2Fgame.html) Results Gamepage
+
 ### Homepage
 ![W3C HTML Validator Index page](./assets/images/readme-images/w3c-result-homepage.webp)
 ### Game Page
 ![W3C HTML Validator Game page](./assets/images/readme-images/w3c-result-gamepage.webp)
 
--   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/) Results
+-   [W3C CSS Markup Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchris-townsend.github.io%2Fproject-two%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) Results
 
 ![W3C CSS Validator Result](./assets/images/readme-images/w3c-css-result.webp)
 
@@ -365,8 +368,10 @@ The results for the homepage show no significant errors but emailjs is showing u
  
 ### Further Testing
 #
+Throughout building my javascript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly and doing what I wanted it to do. Below are some screenshots of some tests taken while figuring out errors within the console.
 
--   The Website was tested on Google Chrome, Internet Explorer
+-   The Website was tested on Google Chrome and Internet Explorer.
+
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and point out any bugs or problems.
@@ -382,6 +387,9 @@ I had an uncaught ReferenceError for my instructionBtn in the console. *resolved
 ![Uncaught ReferenceError](./assets/images/readme-images/console-uncaught-reference-error.webp)
 
 ![Uncaught TypeError](./assets/images/readme-images/console-error.webp)
+
+
+![]
 
 
 ***
