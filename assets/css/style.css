@@ -575,6 +575,11 @@ textarea {
     height: 102px;
     margin-top: 100px;
   }
+
+  /* Instructions modal */
+  .modal-body {
+    height: 400px;
+  }
 }
 
 /* screen sizes 992px */
@@ -785,6 +790,11 @@ textarea {
     height: 41px;
     margin-top: 80px;
   }
+
+  /* instructions modal */
+  .modal-body {
+    height: 450px;
+  }
 }
 
 /* screen sizes 576px */
@@ -826,6 +836,11 @@ textarea {
     width: 62px;
     height: 32px;
     margin-top: 74px;
+  }
+
+  /* contact modal */
+  #send-button {
+    font-size: 16px;
   }
 
   /* instructions modal */
@@ -933,9 +948,40 @@ textarea {
     margin-right: 28px;
   }
 
+  /* contact modal */
+  .contact-modal-header {
+    font-size: 22px;
+  }
+
+  .contact-modal-question {
+    font-size: 88%;
+  }
+
+  input,
+  textarea {
+    width: 80%;
+    margin: 15px 15px 15px 15px;
+    border: 1px solid #d7c6bc;
+    border-radius: 6px;
+    color: #100c01;
+    background: #F0F8FF;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #send-button {
+    font-size: 14px;
+    height: 38px;
+  }
+
   /* instructions modal */
+
+ #instructions-modal-header {
+  font-size: 22px;
+ }
   .modal-body {
-    height: 625px;
+    font-size: 18px;
+    height: 550px;
   }
 
   .modal-footer ul li {
@@ -1011,7 +1057,7 @@ textarea {
 
   /* instructions modal */
   .modal-body {
-    height: 585px;
+    height: 545px;
   }
 
   #how-to-play {
@@ -1107,7 +1153,7 @@ textarea {
 
   /* instructions modal */
   .modal-body {
-    height: 750px;
+    height: 700px;
   }
 
   .modal-body ul li {

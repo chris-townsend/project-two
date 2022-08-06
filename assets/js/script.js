@@ -1,7 +1,7 @@
 // game variables
 const cursor = document.querySelector(".cursor-mallet img");
 
- // event listener to allow the mallet cursor to move 
+// event listener to allow the mallet cursor to move 
 window.addEventListener("mousemove", (e) => {
   cursor.style.top = e.pageY + "px";
   cursor.style.left = e.pageX + "px";
