@@ -128,25 +128,25 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 #
 
-1. Whack A Mole Heading - When you first arrive at the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
+1. <b> Whack A Mole Heading -</b> When you first arrive at the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
 
 ![Title-grow](./assets/images/readme-images/heading-image-grow.webp)
 ![Title-full](./assets/images/readme-images/heading-image-full.webp)
 
-2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same JavaScript code as on my game page. At first this was showing quite a lot of errors in the console due to conflicting code trying to run on different pages - please see bugs/fixes.
+2. <b> Homepage game animation -</b> Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same JavaScript code as on my game page. At first this was showing quite a lot of errors in the console due to conflicting code trying to run on different pages - please see bugs/fixes.
 
 ![Homepage Animation](./assets/images/readme-images/home-animation.webp)
 
-3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Contact and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interactive. Icons have been added to the Contact and Instructions buttons to give more UX. The icons have been taken from [Font Awesome](https://fontawesome.com/).
+3. <b> Home buttons -</b> Under my animation I have added 3 buttons, Play which directs you to the game page and a Contact and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interactive. Icons have been added to the Contact and Instructions buttons to give more UX. The icons have been taken from [Font Awesome](https://fontawesome.com/).
 
 ![Home Buttons Hover Effect](./assets/images/readme-images/homepage-buttons.webp)
 
-4. Contact Modal - The contact modal has been styled similar to the instructions modal in terms of style and features. The X to close the modal changes colour on hover to give feedback to the user and also a user can click anywhere outside the modal to close it. 
+4. <b> Contact Modal -</b>  The contact modal has been styled similar to the instructions modal in terms of style and features. The X to close the modal changes colour on hover to give feedback to the user and also a user can click anywhere outside the modal to close it. 
 ![Contact pop up modal](./assets/images/readme-images/contact-us-modal.webp)
 
 ![Send email button](./assets/images/readme-images/send-email-button.webp)
 
-On hover of the send-email button, it turns green to give feedback to the user and shows interactivity.
+*On hover of the send-email button, it turns green to give feedback to the user and shows interactivity.*
 ![Contact form requirements](./assets/images/readme-images/required-form-modal.webp)
 
 The contact form will pop up with a *required* warning box if the form has not been filled out correctly. It requires a name and email address for the form to be accepted.
@@ -167,44 +167,44 @@ Upon successful completion of the form, the form has been set up to be received 
  ![Email message before send](./assets/images/readme-images/email-js-before.webp)
  ![Confirmed Email](./assets/images/readme-images/email-js.webp)
 
-5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slightly to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistent through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the homepage. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
+5. <b> Instructions Modal -</b> When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slightly to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistent through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the homepage. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
 
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
-6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interactive** by using the *hover*: *transform* function. This just adds a little extra UX  for the user and makes them acknowledge when the icons being hovered over. 
+6. <b> Social Icons -</b> The social media icons that have been added to the footer of my modals have been made **interactive** by using the *hover*: *transform* function. This just adds a little extra UX  for the user and makes them acknowledge when the icons being hovered over. 
 
 ![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
 
-7. Audio Buttons - At the bottom of my homepage I have added a footer and within it are my audio buttons. The buttons give the user the option to play/pause and stop the audio. As the buttons are quite small, it's sometimes hard to click on them with the mallet cursor. I have added a pointer cursor so that the user knows when they are hovering over these buttons. The audio is a fun jazz track which was picked to be fairly short, just long enough to read the instructions before clicking onto the game page.  
+7. <b> Audio Buttons -</b> At the bottom of my homepage I have added a footer and within it are my audio buttons. The buttons give the user the option to play/pause and stop the audio. As the buttons are quite small, it's sometimes hard to click on them with the mallet cursor. I have added a pointer cursor so that the user knows when they are hovering over these buttons. The audio is a fun jazz track which was picked to be fairly short, just long enough to read the instructions before clicking onto the game page.  
 
 ![Footer music buttons](./assets/images/readme-images/footer-music-button.webp)
 ![Footer Button css Code ](./assets/images/readme-images/footer-cursor-pointer.webp)
 
 
-8. Mallet Cursor - For extra customization and interactivity I have added a cartoon mallet as a cursor when using a mouse. The co-ordinates for the cursor have been set using JavaScript and CSS to allow an animation of a whacking hammer when the mouse is clicked.  
+8. <b> Mallet Cursor -</b> For extra customization and interactivity I have added a cartoon mallet as a cursor when using a mouse. The co-ordinates for the cursor have been set using JavaScript and CSS to allow an animation of a whacking hammer when the mouse is clicked.  
 
 ![Mallet Cursor](./assets/images/readme-images/mallet-cursor.webp)
 
-9. Game Timer - The Game will start immediately after clicking the Play button on the homepage and the timer will begin counting down from 20 seconds. The timer is displayed as Time Left and is easy to see while playing the game. When the timer reaches 0 an alert will pop up to tell the user the game is over and gives them there personal score. 
+9. <b> Game Timer -</b> The Game will start immediately after clicking the Play button on the homepage and the timer will begin counting down from 20 seconds. The timer is displayed as Time Left and is easy to see while playing the game. When the timer reaches 0 an alert will pop up to tell the user the game is over and gives them there personal score. 
 
 ![Time Left display](./assets/images/readme-images/time-left.webp)
 ![Game over alert](./assets/images/readme-images/game-over-alert.webp)
 
-10. Game Scoreboard - The Scoreboard can easily be seen during gameplay and its displayed as Your Score on the game page. The Scoreboard has been styled in a similar way to the home screen buttons. For every successful hit of a mole the score counter will +1. At the end of the game an alert will pop up with the number of successful moles hits.
+10. <b> Game Scoreboard -</b>  The Scoreboard can easily be seen during gameplay and its displayed as Your Score on the game page. The Scoreboard has been styled in a similar way to the home screen buttons. For every successful hit of a mole the score counter will +1. At the end of the game an alert will pop up with the number of successful moles hits.
 
 ![Score board](./assets/images/readme-images/score-board.webp)
 
-11. Home button on game page - On the right-hand side of the game page, at the top, there is a home icon which when clicked will take you back to the homepage. I have added the CSS hover effect to add interactivity and to acknowledge the user when the button is being hovered over. The blue circle icon will hide into the green background and only the white house will be displayed.
+11. <b> Home button on game page -</b> On the right-hand side of the game page, at the top, there is a home icon which when clicked will take you back to the homepage. I have added the CSS hover effect to add interactivity and to acknowledge the user when the button is being hovered over. The blue circle icon will hide into the green background and only the white house will be displayed.
 
 ![Button to homepage](./assets/images/readme-images/gamepage-home-icon.webp)
 ![Button to homepage after hover](./assets/images/readme-images/gamepage-home-icon-hover.webp)
 
-12. Mole Favicon - A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the HTML. The favicon was created with the theme of Whack-A-Mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
+12. <b> Mole Favicon -</b> A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the HTML. The favicon was created with the theme of Whack-A-Mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
 
 ![Favicon Logo](./assets/images/readme-images/favicon-icon.webp)
 
 
- 13. Game Sounds - When the mouse is clicked, the user will hear a whack sound. On successful hit of a mole the user will hear a different whack sound. This has been added for extra interactivity and added engagement with the user. I couldn't find a suitable image for when a mole has been hit, so I decided to use sound instead. 
+ 13. <b> Game Sounds -</b> When the mouse is clicked, the user will hear a whack sound. On successful hit of a mole the user will hear a different whack sound. This has been added for extra interactivity and added engagement with the user. I couldn't find a suitable image for when a mole has been hit, so I decided to use sound instead. 
 
 ***
 ## Future Features
