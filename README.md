@@ -12,13 +12,13 @@
 ***
 
 ## Contents
-- [Objective](#Objective)
-- [Brief](#Brief)
+- [Objective](#objective)
+- [Brief & Target Audience](#Brief-&-target-audience)
 - [User Experience(UX)](#user-experience-ux)
-- [Design](#Design)
-    - [Colour Scheme](#Colour-Scheme)
-    - [Typography](#Typography)
-    - [Imagery](#Imagery)
+- [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
 - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Features Left to Implement](#Future-Features)
@@ -59,21 +59,21 @@ The game will be designed for a target audience of 8 years +. The game will be e
 
 -   ### User Requirements
 
-    1. As a first time user, I want to easily understand how to play the game.
+    - As a first time user, I want to easily understand how to play the game.
 
-    2. As a user I want the ability to control any background sounds playing. 
+    - As a user I want the ability to control any background sounds playing. 
 
-    3. As a user I want to be able to see my current score.
+    - As a user I want to be able to see my current score.
 
-    4. As a user I want to recieve an alert at the end of gameplay with my final score. 
+    - As a user I want to recieve an alert at the end of gameplay with my final score. 
 
-    5. As a user I want simple gameplay which is easy to play again.
+    - As a user I want simple gameplay which is easy to play again.
 
-    6. As a frequent user, I would like to see the Highscores.
+    - As a frequent user, I would like to see the Highscores.
 
-    7. As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the highscores and Instructions modal. 
+    - As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the highscores and Instructions modal. 
 
-    8. As a user I want the ability to play the game on multiple devices.
+    - As a user I want the ability to play the game on multiple devices.
     
      ***
 
