@@ -1,4 +1,4 @@
-<h1 align="center">Portfolio Project Two - Javascript</h1>
+<h1 align="center">Portfolio Project Two - JavaScript</h1>
 
 ## Live Site
 [Whack A Mole](https://chris-townsend.github.io/project-two/index.html)
@@ -37,19 +37,19 @@
 - [Credits](#Credits)
     - [Content](#Content)
     - [Media](#Media)
-    - [Acknowledgements](#Acknowledgements)
+    - [Acknowledgements](#acknowledgements)
 
 ***
 
 ## Objective
 #
-In this project I intend to make a small game which is easily understood and intuitive to play. It will be based on the classic arcade game Whack-A-Mole where you are given a mallet to hit the moles; as they pop out, you are given a point for each mole hit. I'll be using HTML, CSS and Javascript to make the game and it's designed to be a fun and entertaining game to help pass time. 
+In this project I intend to make a small game which is easily understood and intuitive to play. It will be based on the classic arcade game Whack-A-Mole where you are given a mallet to hit the moles; as they pop out, you are given a point for each mole hit. I'll be using HTML, CSS and JavaScript to make the game and it's designed to be a fun and entertaining game to help pass time. 
 
 ***
 
 ## Brief
 # 
-The game will be designed for a target audience of 8 years +. The game will be easily laid out with an instructions pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent autoplaying and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
+The game will be designed for a target audience of 8 years +. The game will be easily laid out with an instruction pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent auto playing and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
 
 ***
 
@@ -64,11 +64,11 @@ The game will be designed for a target audience of 8 years +. The game will be e
 
     - As a user I want to be able to see my current score.
 
-    - As a user I want to recieve an alert at the end of gameplay with my final score. 
+    - As a user I want to receive an alert at the end of gameplay with my final score. 
 
     - As a user I want simple gameplay which is easy to play again.
 
-    - As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the highscores and Instructions modal. 
+    - As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the contact and Instructions modal. 
 
     - As a user I want the ability to play the game on multiple devices.
     
@@ -78,7 +78,7 @@ The game will be designed for a target audience of 8 years +. The game will be e
 #
 -   #### Colour Scheme
     
-     - The colour scheme was picked using coolers. I used these colours because I felt they complimented each other well, It gives the game a fun and cheerful feel and the contrast works well for user reading accessability. The game buttons on the homepage and gamepage have been styled using a background linear-gradient to add to the styled effect.
+     - The colour scheme was picked using coolers. I used these colours because I felt they complimented each other well, It gives the game a fun and cheerful feel and the contrast works well for user reading accessibility. The game buttons on the homepage and game page have been styled using a background linear-gradient to add to the styled effect.
 
     ![Colour-scheme](./assets/images/readme-images/coolers-colour-scheme.webp)
 
@@ -87,7 +87,7 @@ The game will be designed for a target audience of 8 years +. The game will be e
     #
     The fonts are imported into the CSS file from *[Google Fonts](https://fonts.google.com/)* 
 
-    - The **Montserrat Alternates** font is the main font used throughout the game with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Montserrat Alternates** was choosen because it has clear lettering which allows easy reading accessabillity for the user. The buttons on the gamepage are styled with the **Montserrat Alternates** font and this nicely contrasts with the background colour. 
+    - The **Montserrat Alternates** font is the main font used throughout the game with **Sans Serif** as the fallback font in case for any reason the font isn't being imported into the site correctly. **Montserrat Alternates** was chosen because it has clear lettering which allows easy reading accessibility for the user. The buttons on the game page are styled with the **Montserrat Alternates** font and this nicely contrasts with the background colour. 
  
     ![Font Montserrat Alternates](./assets/images/readme-images/font-main-heading.webp)
 
@@ -98,7 +98,7 @@ The game will be designed for a target audience of 8 years +. The game will be e
         
 *   ### Wireframes
 #
-When I first designed my wireframes, I wanted to include a highscore list. As time caught up on me I decided to change this to a contact form instead. 
+When I first designed my wireframes, I wanted to include a high score list. As time caught up on me I decided to change this to a contact form instead. 
 
 -   Desktop Wireframe Home page  -
     ![Desktop Home Wireframe](./assets/images/readme-images/wireframe-homepage-desktop.webp)
@@ -122,22 +122,22 @@ When I first designed my wireframes, I wanted to include a highscore list. As ti
 ## Features
 #
 
-I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices displayed, including ios devices. 
+I have used [Responsinator](http://www.responsinator.com/) to check the responsiveness on different devices. The site is responsive on all devices displayed, including iOS devices. 
 
  - [Responsinator Results](http://www.responsinator.com/?url=https%3A%2F%2Fchris-townsend.github.io%2Fproject-two%2Findex.html)
 
 #
 
-1. Whack A Mole Heading - When you first arrive on the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
+1. Whack A Mole Heading - When you first arrive at the homepage, the main heading "Whack-A-Mole" flashes up and grow on the screen over 2 seconds. This has been accomplished by using *keyframes* with *image-grow*. I have added a suitable image of a man digging a hole under the main heading which also grows on the screen with the heading. The heading and image has been set to grow from a scale of 0.4 to 1.
 
 ![Title-grow](./assets/images/readme-images/heading-image-grow.webp)
 ![Title-full](./assets/images/readme-images/heading-image-full.webp)
 
-2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. At first this was showing quite a lot of errors in the console due to using the same code but on a different page - please see bugs/fixes.
+2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same JavaScript code as on my game page. At first this was showing quite a lot of errors in the console due to conflicting code trying to run on different pages - please see bugs/fixes.
 
 ![Homepage Animation](./assets/images/readme-images/home-animation.webp)
 
-3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Contact and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Contact and Instructions buttons to give more UX. The icons have been taken from [Font Awesome](https://fontawesome.com/).
+3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Contact and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interactive. Icons have been added to the Contact and Instructions buttons to give more UX. The icons have been taken from [Font Awesome](https://fontawesome.com/).
 
 ![Home Buttons Hover Effect](./assets/images/readme-images/homepage-buttons.webp)
 
@@ -146,20 +146,20 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 
 ![Send email button](./assets/images/readme-images/send-email-button.webp)
 
-On hover of the send-email button, it turn's green to give feedback to the user and shows interativity.
+On hover of the send-email button, it turns green to give feedback to the user and shows interactivity.
 ![Contact form requirements](./assets/images/readme-images/required-form-modal.webp)
 
 The contact form will pop up with a *required* warning box if the form has not been filled out correctly. It requires a name and email address for the form to be accepted.
 
 ![Success alert Email sent](./assets/images/readme-images/success-email-sent.webp)
 
-Upon successful completion of the form, the form has been set up to be recieved via [Email.JS](https://www.emailjs.com/). This was made possible by following the steps below:
+Upon successful completion of the form, the form has been set up to be received via [Email.JS](https://www.emailjs.com/). This was made possible by following the steps below:
 
  - I first created an account with [Email.JS](https://www.emailjs.com/).
 
  - Next I set up an email service to link to my Email.js account.
 
- - Add a new email template and create three Id's which will correspond to your javascript function, one for name, email_id and message.
+ - Add a new email template and create three Ids which will correspond to your JavaScript function, one for name, email_id and message.
 
  - Copy the Email.js SDK into the head of your HTML file and add your personal public key to the emailjs.init parameter - It must be placed here to work.
 
@@ -167,11 +167,11 @@ Upon successful completion of the form, the form has been set up to be recieved 
  ![Email message before send](./assets/images/readme-images/email-js-before.webp)
  ![Confirmed Email](./assets/images/readme-images/email-js.webp)
 
-5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the homepage. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
+5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slightly to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistent through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the homepage. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
 
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
-6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. This just adds a little extra UX  for the user and makes them acknowledge when the icons being hovered over. 
+6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interactive** by using the *hover*: *transform* function. This just adds a little extra UX  for the user and makes them acknowledge when the icons being hovered over. 
 
 ![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
 
@@ -181,43 +181,43 @@ Upon successful completion of the form, the form has been set up to be recieved 
 ![Footer Button css Code ](./assets/images/readme-images/footer-cursor-pointer.webp)
 
 
-8. Mallet Cursor - For extra customization and interactivity I have added a cartoon mallet as a cursor when using a mouse. The co-ordinates for the cursor have been set using javascript and css to allow an animation of a whacking hammer when the mouse is clicked.  
+8. Mallet Cursor - For extra customization and interactivity I have added a cartoon mallet as a cursor when using a mouse. The co-ordinates for the cursor have been set using JavaScript and CSS to allow an animation of a whacking hammer when the mouse is clicked.  
 
 ![Mallet Cursor](./assets/images/readme-images/mallet-cursor.webp)
 
-9. Game Timer - The Game will start immediatly after clicking the Play button on the homepage and the timer will begin counting down from 20 seconds. The timer is displayed as Time Left and is easy to see while playing the game. When the timer reaches 0 an alert will pop up to tell the user the game is over and gives them there personal score. 
+9. Game Timer - The Game will start immediately after clicking the Play button on the homepage and the timer will begin counting down from 20 seconds. The timer is displayed as Time Left and is easy to see while playing the game. When the timer reaches 0 an alert will pop up to tell the user the game is over and gives them there personal score. 
 
 ![Time Left display](./assets/images/readme-images/time-left.webp)
 ![Game over alert](./assets/images/readme-images/game-over-alert.webp)
 
-10. Game Scoreboard - The Scoreboard can easily be seen during gameplay and its displayed as Your Score on the game page. The Scoreboard has been styled in a similar style to the homescreen buttons. For every successful hit of a mole the score counter will +1. At the end of the game an alert will pop up with the number of successful moles hits.
+10. Game Scoreboard - The Scoreboard can easily be seen during gameplay and its displayed as Your Score on the game page. The Scoreboard has been styled in a similar way to the home screen buttons. For every successful hit of a mole the score counter will +1. At the end of the game an alert will pop up with the number of successful moles hits.
 
 ![Score board](./assets/images/readme-images/score-board.webp)
 
-11. Home button on game page - On the right hand side of the game page, at the top, there is a home icon which when clicked will take you back to the homepage. I have added the css hover effect to add interactivity and to acknowledge the user when the button is being hovered over. The blue circle icon will hide into the green background and only the white house will be displayed.
+11. Home button on game page - On the right-hand side of the game page, at the top, there is a home icon which when clicked will take you back to the homepage. I have added the CSS hover effect to add interactivity and to acknowledge the user when the button is being hovered over. The blue circle icon will hide into the green background and only the white house will be displayed.
 
 ![Button to homepage](./assets/images/readme-images/gamepage-home-icon.webp)
 ![Button to homepage after hover](./assets/images/readme-images/gamepage-home-icon-hover.webp)
 
-12. Mole Favicon - A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the html. The favicon was created with the theme of Whack-A-Mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
+12. Mole Favicon - A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the HTML. The favicon was created with the theme of Whack-A-Mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
 
 ![Favicon Logo](./assets/images/readme-images/favicon-icon.webp)
 
 
- 13. Game Sounds - When the mouse is clicked, the user will hear a whack sound. On successful hit of a mole the user will hear a different whack sound. This has been added for extra interactivity and added engagement with the user. I couldn't find a suitable image for when a mole has been hit so I decided to use sound instead. 
+ 13. Game Sounds - When the mouse is clicked, the user will hear a whack sound. On successful hit of a mole the user will hear a different whack sound. This has been added for extra interactivity and added engagement with the user. I couldn't find a suitable image for when a mole has been hit, so I decided to use sound instead. 
 
 ***
 ## Future Features
 #
 With more time, I would have liked to of implemented the following ideas:
 
-- Display a highscores list linked to local storage - At first I had my contact modal set up as a highscore list but changed it to a contact form due to not having enough infomation about JSON.stringify and local storage. Below is an image of the original highscores button. 
+- Display a high scores list linked to local storage - At first I had my contact modal set up as a high score list but changed it to a contact form due to not having enough information about JSON.stringify and local storage. Below is an image of the original high scores button. 
 
 ![Highscore button](./assets/images/readme-images/font-home-button.webp)
 
 - Add objects to increase the difficulty - Add an object such as a rabbit and if that object is hit you minus one point. 
 
-- Add a different mole image to show when a mole has been hit, incase the sound effects don't work on a particular device.
+- Add a different mole image to show when a mole has been hit, in case the sound effects don't work on a particular device.
 
 
 ### Languages Used
@@ -225,7 +225,7 @@ With more time, I would have liked to of implemented the following ideas:
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JS](https://en.wikipedia.org/wiki/JavaScript)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Programs, Frameworks & Libraries Used
 #
@@ -252,15 +252,15 @@ With more time, I would have liked to of implemented the following ideas:
 
 - [Favicon Generator:](https://favicon.io/favicon-converter/) This was used to create my favicon icon. 
 
- - [Slack:](https://slack.com/intl/en-gb/) Slack is a an online messaging service which allows poeple to collaberate with their workspaces. Slack was incredibly useful for advice from students and tutors.
+ - [Slack:](https://slack.com/intl/en-gb/) Slack is a online messaging service which allows people to collaborate with their workspaces. Slack was incredibly useful for advice from students and tutors.
 
- - [YouTube:](https://www.youtube.com/) YouTube is a free video sharing website, it has been very useful for watching videos on positioning using flexbox. 
+ - [YouTube:](https://www.youtube.com/) YouTube is a free video sharing website, it has been very useful for watching videos on basic JavaScript functions and games.
 
  - [Audio Compressor:](https://www.media.io/audio-compressor.html) Media.io was used to compress my audio files without loosing quality. 
 
  - [Compressor.io:](https://compressor.io/) This was used to reduce the size and load times of my images. 
 
- - [JSHint Validator:](https://jshint.com/) Jshint was used to validate my javascript code. It showed any warnings and errors within my code. 
+ - [JSHint Validator:](https://jshint.com/) Jshint was used to validate my JavaScript code. It showed any warnings and errors within my code. 
 
 ## Testing
 #
@@ -299,7 +299,7 @@ I have run the website through Google Chrome's Lighthouse audit application and 
 I have run the website through JSHint's audit application and the results are shown below:
 
 ### JSHint Homepage
-The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick. The *stop* unused variable warning which is infact a function is being used as an onclick to stop the music playing on my homepage, All unused variable warnings have been tested to ensure there being used and working correctly. I was getting conflicting errors at first from code being used on different pages. To prevent the errors I made a game.js page to house all the game js code. The script.js file contains the cursor variable which allows the mallet cursor to work on all pages.
+The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an on click. The *stop* unused variable warning which is in fact a function is being used as an on click to stop the music playing on my homepage, All unused variable warnings have been tested to ensure there being used and working correctly. I was getting conflicting errors at first from code being used on different pages. To prevent the errors I made a game.js page to house all the game JavaScript code. The script.js file contains the cursor variable which allows the mallet cursor to work on all pages.
 ![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint.webp)
 
 
@@ -321,7 +321,7 @@ The results for the homepage show no significant errors but emailjs is showing u
 
  2. As a user I want the ability to control any background sounds playing. 
 
- **At the bottom of the homepage is an option to switch the audio on/off and Pause. When you click play the button switches to Pause and when clicked again, returns back to Play**
+ **At the bottom of the homepage is an option to switch the audio on/off and Pause. When you click play the button switches to Pause and when clicked again, returns to Play**
 
  ![Music Buttons](./assets/images/readme-images/footer-music-button.webp)
 
@@ -331,7 +331,7 @@ The results for the homepage show no significant errors but emailjs is showing u
 
  ![Scoreboard](./assets/images/readme-images/score-board.webp)
 
- 4. As a user I want to recieve an alert at the end of gameplay with my final score.
+ 4. As a user I want to receive an alert at the end of gameplay with my final score.
 
  **A pop up message alerts the user at the end of gameplay to let the user know that the game is over and gives them a final score.**
 
@@ -347,7 +347,7 @@ The results for the homepage show no significant errors but emailjs is showing u
 
  6. As a frequent user, I want to learn more about the developer and see if they have added any new content. 
 
- **At the bottom of each pop up modal for Instructions and Highscores are two social media icons, LinkedIn and Github, there is an effect on hover of the buttons to register interativity with the user.**
+ **At the bottom of each pop up modal for Contact and Instructions are two social media icons, LinkedIn and Github, there is an effect of hover of the buttons to register interactivity with the user.**
 
 ![Social Icons on 414px wide](./assets/images/readme-images/social-icons-414px.webp)
  
@@ -361,15 +361,15 @@ The results for the homepage show no significant errors but emailjs is showing u
  
 ### Further Testing
 #
-Throughout building my javascript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly. Below are some screenshots of some tests taken while figuring out some errors within the console.
+Throughout building my JavaScript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly. Below are some screenshots of some tests taken while figuring out some errors within the console.
 
 ![Console error](./assets/images/readme-images/console-log-timer.webp)
 
-The above screenshot shows me trying to debug an error I had in the console. It was showing that I had an uncaught type error at my countDown function. I used console.log() to print the timer to ensure this was working. The error was overcome by creating a new js file to prevent the timer being called on the homepage.
+The above screenshot shows me trying to debug an error I had in the console. It was showing that I had an uncaught type error at my countDown function. I used console.log() to print the timer to ensure this was working. The error was overcome by creating a new JavaScript file to prevent the timer being called on the homepage.
 
 -   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhone X & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and point out any bugs or problems.
 
@@ -378,20 +378,19 @@ The above screenshot shows me trying to debug an error I had in the console. It 
 Throughout the project I encountered a number of bugs, some of which were solved and some not which are stated below:
 
 #### Console Bugs
-I had an uncaught ReferenceError for my instructionBtn in the console. *resolved* This was resolved by making a seperate javascript file for each of my HTML pages to prevent conflicting code. 
+I had an uncaught ReferenceError for my instructionBtn in the console. *resolved* This was resolved by making a separate JavaScript file for each of my HTML pages to prevent conflicting code. 
 ![Uncaught ReferenceError](./assets/images/readme-images/console-uncaught-reference-error.webp)
 
 ![Uncaught TypeError](./assets/images/readme-images/console-error.webp)
 
-I had a similar error coming up on my homepage with an uncaught TypeError, my homepage was looking for the textContent at countDown which it wasn't able to find because it's on my gamepage. Various bits of code was added/ removed to try to fix this issue, at first I fixed the problem in the console but later found out it had stopped my count down timer on my game page from working. 
+I had a similar error coming up on my homepage with an uncaught TypeError, my homepage was looking for the textContent at countDown which it wasn't able to find because it's on my game page. Various bits of code was added/ removed to try to fix this issue, at first I fixed the problem in the console but later found out it had stopped my count down timer on my game page from working. 
 
 ![Console Error fix](./assets/images/readme-images/console-error-fix.webp)
 ![Console temporary fix](./assets/images/readme-images/console-temporary-fix.webp)
 
 The above piece of code was suggested by a Code Institute tutor, at first it fixed the console.log errors but it stopped my count down timer from working on my game page. I managed to fix this error but then it came up with another similar uncaught TypeError for my music buttons. I realised at this point it was from conflicting code on other pages, I *resolved* this issue by creating a game.js page.
 
-I had a couple of warnings stating that the type attribute was unnecessary for Javascript resources,
-these attributes were removed and errors removed also. 
+There was a couple of warnings stating that the type attribute was unnecessary for JavaScript resources, these attributes were removed and errors removed as well. 
 ![W3C HTML validator warning](./assets/images/readme-images/html-validator-warning.webp)
 
 
@@ -413,7 +412,7 @@ The project was deployed to GitHub Pages using the following steps...
 
     ![Pages Section](./assets/images/readme-images/menu-pages.webp)
 
-4. Under "Source", click the dropdown bar and select "Main Branch" and click save.
+4. Under "Source", click the drop down bar and select "Main Branch" and click save.
 ![Main Branch](./assets/images/readme-images/source-branch.webp)
 
 5. The page will automatically refresh and will take a short time to publish the page. The page should turn green once the site has been deployed.
@@ -469,7 +468,7 @@ Helpful tutorials I used to help me with coding some of the design ideas were:
 
 - [How to create an animated cursor - help from webanimation](https://webanimation.blog/blog/how-to-create-a-custom-cursor-without-using-canvas)
 
-- [Send Email using Javascript](https://www.youtube.com/watch?v=x7Ewtay0Q78)
+- [Send Email using JavaScript](https://www.youtube.com/watch?v=x7Ewtay0Q78)
 
 Various resources used to learn were:
 - [W3Schools](https://www.w3schools.com/)
@@ -494,7 +493,7 @@ The Sounds used on my site have been taken from:
 ### Acknowledgements
 #
 
-- - [Javascript 30 Day Coding Challenge](https://javascript30.com/)
+- - [JavaScript 30 Day Coding Challenge](https://javascript30.com/)
 
 -  I would like to thank my Mentor Darío Carrasquel for guidance throughout the project.
 
