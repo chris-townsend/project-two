@@ -64,14 +64,14 @@
       </div>
 
       <!-- Open the contact us modal -->
-      <button class=" btn contactBtn" id="contact">Contact <i class="fa-solid fa-envelope">
+      <button class=" btn contactBtn" aria-label="Contact" id="contact">Contact <i class="fa-solid fa-envelope">
         </i></button>
       <!-- The modal -->
       <div id="mycontactModal" class="contactModal modal">
         <!-- Modal content -->
         <!--Modal close button-->
         <div class="modal-content">
-          <span class="contactClose" id="contactSpan">&times;</span>
+          <span class="contactClose" aria-label="Close" id="contactSpan">&times;</span>
           <!--Modal title-->
           <h2 class="contact-modal-header">Contact Us</h2>
           <p class="contact-modal-question">Have a question? Found any bugs? Let me know what you think!</p>
@@ -81,7 +81,7 @@
               <input type="text" id="fullName" placeholder="Your Name" required>
               <input type="email" id="email_id" placeholder="Email Address" required>
               <textarea id="message" placeholder="Enter your message here . . " required></textarea>
-              <button onclick="sendMail()" id="send-button">Send Email</button>
+              <button onclick="sendMail()" aria-label="Send the email" id="send-button">Send Email</button>
             </div>
 
           </form>
@@ -101,7 +101,7 @@
       </div>
 
       <!-- Open the instructions modal -->
-      <button class="btn instructionBtn" id="instruction-btn">Instructions <i
+      <button class="btn instructionBtn" aria-label="Instructions" id="instruction-btn">Instructions <i
           class="fa-solid fa-circle-info"></i></button>
       <!-- The modal -->
       <div id="myModal" class="modal">
@@ -147,11 +147,11 @@
         <div>
           <audio id="audio">
             <source src="assets/audio/jazz.mp3" type="audio/wav"></audio>
-          <button id="playPauseBtn" onclick="playPause()">Play &#9658;</button>
+          <button id="playPauseBtn" aria-label="Play/Pause the music" onclick="playPause()">Play &#9658;</button>
           &nbsp;
           &nbsp;
           <!--onclick stop function to stop the music-->
-          <button onclick="stop()" id="stopBtn">Stop &#9209;</button>
+          <button onclick="stop()" aria-label="Stop the music" id="stopBtn">Stop &#9209;</button>
         </div>
       </footer>
     </div>
