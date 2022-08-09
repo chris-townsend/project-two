@@ -5,19 +5,26 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Whack A mole Game, Made by using HTML, CSS & JavaScipt" />
-   <meta name="keywords" content="whack a mole, game, javascript game">
+   <!--Game description-->
+   <meta name="description" content="Have fun with this free online Javascript game.
+    Whack as many moles within the time limit given">
+   <meta name="keywords" content="Whack-A-Mole, game, arcade-game, mole, javascript">
+   <!--Author information-->
+   <meta name="author" content="Chris Townsend">
    <link rel="stylesheet" href="assets/css/style.css">
+   <!--Fontawesome script to help load the icons faster-->
    <link rel="preconnect" href="https://ka-f.fontawesome.com">
+   <!--Whack A Mole head title-->
    <title>Whack A Mole</title>
+   <!--Favicon logo-->
    <link rel="icon" type="image/x-icon" href="./assets/images/game-images/favicon-ico.png">
 </head>
 
 <body>
-   <!--homepage icon to return to homepage -->
+   <!--Homepage icon to return to homepage -->
    <a href="index.html" aria-label="A homepage icon link to take you back to the homepage" aria-hidden="false"
       class=" home-btn fa fa-home"></a>
-   <!--div to allow mallet cursor on game page-->
+   <!--Div to allow mallet cursor on game page-->
    <div class="cursor-mallet">
       <img src="./assets/images/game-images/mallet.webp" alt="mallet cursor">
    </div>
@@ -33,11 +40,11 @@
    </div>
 
    <!--Game grid-->
-   <!--onclick to play mallet whack sound-->
+   <!--Onclick to play mallet whack sound-->
    <div class="game-grid" onclick="playSound()">
-      <!--12 divs to represent 16 individual squares within the game grid-->
+      <!--12 divs to represent 12 individual holes within the game grid-->
       <div class="hole" id="1">
-         <!--Soil div within every square to allow soil image-->
+         <!--Soil div within every hole to allow soil image-->
          <div class="soil-div"></div>
       </div>
 
@@ -86,9 +93,9 @@
       </div>
 
    </div>
-   <!--font awesome script-->
+   <!--Font awesome script-->
    <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>
-   <!--Javascript tag-->
+   <!--Javascript tags-->
    <script src="assets/js/game.js"></script>
    <script src="assets/js/script.js"></script>
 </body>

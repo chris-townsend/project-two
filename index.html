@@ -5,12 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here" />
+  <!--Game description-->
+  <meta name="description" content="Have fun with this free online Javascript game.
+   Whack as many moles within the time limit given">
+  <meta name="keywords" content="Whack-A-Mole, game, arcade-game, mole, javascript">
+  <!--Author information-->
+  <meta name="author" content="Chris Townsend">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-
+  <!--Whack A Mole head title-->
   <title>Whack-A-Mole</title>
+  <!--Favicon logo-->
   <link rel="icon" type="image/x-icon" href="./assets/images/game-images/favicon-ico.png">
+  <!--MailJS script tag with personal init tag-->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
   <script>
@@ -22,7 +29,7 @@
 
 <body>
   <div class="homepage-container" onclick="playSound()">
-    <!--div to allow mallet cursor on homepage-->
+    <!--Div to allow mallet cursor on homepage-->
     <div class="cursor-mallet">
       <img src="./assets/images/game-images/mallet.webp" alt="mallet cursor">
     </div>
@@ -30,8 +37,9 @@
       <!--Whack A Mole title-->
       <h1>Whack-A-Mole</h1>
 
-      <!--nav section of game-                              id=timeRemain-->
+      <!--Nav section of game-->
       <a href="game.html" class="btn"> Play</a>
+      <!--Mole animation-->
       <div class="home-mole-container">
         <div class="hole">
           <div class="soil-div"></div>
@@ -39,10 +47,10 @@
         <div class="hole">
           <div class="soil-div"></div>
         </div>
-        <div class="hole" id="1">
+        <div class="hole">
           <div class="soil-div"></div>
         </div>
-        <div class="hole" id="2">
+        <div class="hole">
           <div class="soil-div"></div>
         </div>
         <div class="hole">
@@ -54,19 +62,19 @@
 
       </div>
 
-      <!-- open the contact us modal -->
+      <!-- Open the contact us modal -->
       <button class=" btn contactBtn" id="contact">Contact <i class="fa-solid fa-envelope">
         </i></button>
-      <!-- the modal -->
+      <!-- The modal -->
       <div id="mycontactModal" class="contactModal modal">
-        <!-- modal content -->
-        <!--modal close button-->
+        <!-- Modal content -->
+        <!--Modal close button-->
         <div class="modal-content">
           <span class="contactClose" id="contactSpan">&times;</span>
-          <!--modal title-->
+          <!--Modal title-->
           <h2 class="contact-modal-header">Contact Us</h2>
           <p class="contact-modal-question">Have a question? Found any bugs? Let me know what you think!</p>
-          <!--modal body content-->
+          <!--Modal body content-->
           <form>
             <div class="contact-modal">
               <input type="text" id="fullName" placeholder="Your Name" required>
@@ -76,7 +84,7 @@
             </div>
 
           </form>
-          <!--modal footer social icons-->
+          <!--Modal footer social icons-->
           <div class="modal-footer">
             <ul>
               <li>
@@ -91,18 +99,18 @@
         </div>
       </div>
 
-      <!-- open the instructions modal -->
+      <!-- Open the instructions modal -->
       <button class="btn instructionBtn" id="instruction-btn">Instructions <i
           class="fa-solid fa-circle-info"></i></button>
-      <!-- the modal -->
+      <!-- The modal -->
       <div id="myModal" class="modal">
-        <!-- modal content -->
-        <!--modal close button-->
+        <!-- Modal content -->
+        <!--Modal close button-->
         <div class="modal-content">
           <span class="close">&times;</span>
-          <!--modal title-->
+          <!--Modal title-->
           <h2 id="instructions-modal-header">How to Play</h2>
-          <!--modal body content-->
+          <!--Modal body content-->
           <div class="modal-body">
             <p>Ready for some fast-action, mole-whackin' fun? Look no further!
               Grab a mallet and whack your way to to the top of the leaderboards</p>
@@ -118,7 +126,7 @@
               </ul>
 
           </div>
-          <!--modal footer social icons-->
+          <!--Modal footer social icons-->
           <div class="modal-footer">
             <ul>
               <li>
@@ -133,7 +141,7 @@
         </div>
       </div>
 
-      <!--footer which contains play/pause stop controls for music on homepage-->
+      <!--Footer which contains play/pause stop controls for music on homepage-->
       <footer>
         <div>
           <audio id="audio">
@@ -141,15 +149,16 @@
           <button id="playPauseBtn" onclick="playPause()">Play &#9658;</button>
           &nbsp;
           &nbsp;
+          <!--onclick stop function to stop the music-->
           <button onclick="stop()" id="stopBtn">Stop &#9209;</button>
         </div>
       </footer>
     </div>
   </div>
 
-  <!--font awesome script-->
+  <!--Font awesome script-->
   <script src="https://kit.fontawesome.com/9932e8fab5.js" crossorigin="anonymous"></script>
-  <!--Javascript tag-->
+  <!--Javascript tags-->
   <script src="assets/js/home.js"></script>
   <script src="assets/js/game.js"></script>
   <script src="assets/js/script.js"></script>
