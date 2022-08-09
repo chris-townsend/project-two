@@ -5,7 +5,9 @@ function sendMail() {
     email_id: document.getElementById('email_id').value,
     message: document.getElementById('message').value,
   };
-  // 'service_c3qpq6z' personal ID for email service and 'template_jk2d9nh' personal ID for email template
+  /* 'service_c3qpq6z' personal ID for email service
+   * 'template_jk2d9nh' personal ID for email template
+   */
   emailjs.send('service_c3qpq6z', 'template_jk2d9nh', params).then(function (res) {
     alert("Success! Your email has been sent ");
 

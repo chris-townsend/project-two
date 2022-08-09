@@ -976,9 +976,10 @@ textarea {
 
   /* instructions modal */
 
- #instructions-modal-header {
-  font-size: 22px;
- }
+  #instructions-modal-header {
+    font-size: 22px;
+  }
+
   .modal-body {
     font-size: 18px;
     height: 550px;
