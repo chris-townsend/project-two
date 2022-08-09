@@ -13,12 +13,11 @@
 
 ## Contents
 - [Objective](#objective)
-- [Brief & Target Audience](#Brief-&-target-audience)
+- [Brief & Target Audience](#brief)
 - [User Experience(UX)](#user-experience-ux)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
-    - [Imagery](#imagery)
 - [Wireframes](#Wireframes)
 - [Features](#Features)
     - [Features Left to Implement](#Future-Features)
@@ -48,7 +47,7 @@ In this project I intend to make a small game which is easily understood and int
 
 ***
 
-## Brief & Target Audience 
+## Brief
 # 
 The game will be designed for a target audience of 8 years +. The game will be easily laid out with an instructions pop up modal on the homepage. The site will have clear images and sounds responsive to actions made by the user. The game music will have an option to play/pause and stop to prevent autoplaying and give the user a call of action. The game will be timed and the user will know how much time is remaining from the countdown tab above the game board.  
 
@@ -68,8 +67,6 @@ The game will be designed for a target audience of 8 years +. The game will be e
     - As a user I want to recieve an alert at the end of gameplay with my final score. 
 
     - As a user I want simple gameplay which is easy to play again.
-
-    - As a frequent user, I would like to see the Highscores.
 
     - As a frequent user, I want to check to see if there are any new games available to play by clicking on the developers social media icons clearly laid out at the bottom of the highscores and Instructions modal. 
 
@@ -136,11 +133,11 @@ I have used [Responsinator](http://www.responsinator.com/) to check the responsi
 ![Title-grow](./assets/images/readme-images/heading-image-grow.webp)
 ![Title-full](./assets/images/readme-images/heading-image-full.webp)
 
-2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. Unfortunatly this was throwing quite a lot of errors in the console due to using the same code but on a different page - please see testing and known bugs for more information.
+2. Homepage game animation - Below my title, I have added an animation of the game. The moles will pop up randomly on the holes, This has been added as a bit of fun and to engage the user. I have created this from using the same javascript code as on my game page. At first this was showing quite a lot of errors in the console due to using the same code but on a different page - please see bugs/fixes.
 
 ![Homepage Animation](./assets/images/readme-images/home-animation.webp)
 
-3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Highscores and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Highscores and Instructions buttons to give more UX.
+3. Home buttons - Under my animation I have added 3 buttons, Play which directs you to the game page and a Contact and Instructions button which open up as pop-up modals. I have added style to the buttons when hovered over to give feedback to the user that is it interative. Icons have been added to the Contact and Instructions buttons to give more UX. The icons have been taken from [Font Awesome](https://fontawesome.com/).
 
 ![Home Buttons Hover Effect](./assets/images/readme-images/homepage-buttons.webp)
 
@@ -166,15 +163,15 @@ Upon successful completion of the form, the form has been set up to be recieved 
 
  - Copy the Email.js SDK into the head of your HTML file and add your personal public key to the emailjs.init parameter - It must be placed here to work.
 
- - Create a JavaScript file and create the function which gets the params from the contact form, add the nessecary onclick feature and Id's to the HTML code. 
+ - Create a JavaScript file and create the function which gets the params from the contact form, add the necessary onclick feature and Id's to the HTML code. 
  ![Email message before send](./assets/images/readme-images/email-js-before.webp)
  ![Confirmed Email](./assets/images/readme-images/email-js.webp)
 
-5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the game page. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
+5. Instructions Modal - When the Instructions button is clicked the Instructions pop-up modal will appear and the background is darkened slighty to cover the homepage. The font used within this modal has been kept as Montserrat Alternates to keep the style consistant through-out. The Instructions have been kept simple so that they are easy to understand. The X to close the Instructions box changes colour on hover to give feedback to the user that it is interactive. It is located in the top right of the box. Another added feature for closing the modal is that a user can click anywhere outside the box to get back onto the homepage. This was implemented for the age demographic of the game; they might not see the X button in the top right corner and it is slightly harder to click on smaller objects with the mallet cursor. 
 
 ![Instructions](./assets/images/readme-images/instruction-modal.webp)
 
-6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. I have used a box shadow for when an icon is hovered over so that the user acknowedges the action. 
+6. Social Icons - The social media icons that have been added to the footer of my modals have been made **interative** by using the *hover*: *transform* function. This just adds a little extra UX  for the user and makes them acknowledge when the icons being hovered over. 
 
 ![Social Icons hover Effect](./assets/images/readme-images/hover-social-icon.webp)
 
@@ -202,9 +199,12 @@ Upon successful completion of the form, the form has been set up to be recieved 
 ![Button to homepage](./assets/images/readme-images/gamepage-home-icon.webp)
 ![Button to homepage after hover](./assets/images/readme-images/gamepage-home-icon-hover.webp)
 
-12. Mole Favicon - A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the html. The favicon was created with the theme of whack-a-mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
+12. Mole Favicon - A favicon was generated by uploading a mole image for the logo to [Favicon Generator](https://favicon.io/favicon-converter/). The icon is created and then saved in the game images folder and linked in the head section of the html. The favicon was created with the theme of Whack-A-Mole and chosen to be associated with this website as an extra visual support for the user. It should create brand awareness and recognizability for the user and help them find the page quicker and easier.
 
 ![Favicon Logo](./assets/images/readme-images/favicon-icon.webp)
+
+
+ 13. Game Sounds - When the mouse is clicked, the user will hear a whack sound. On successful hit of a mole the user will hear a different whack sound. This has been added for extra interactivity and added engagement with the user. I couldn't find a suitable image for when a mole has been hit so I decided to use sound instead. 
 
 ***
 ## Future Features
@@ -218,7 +218,6 @@ With more time, I would have liked to of implemented the following ideas:
 - Add objects to increase the difficulty - Add an object such as a rabbit and if that object is hit you minus one point. 
 
 - Add a different mole image to show when a mole has been hit, incase the sound effects don't work on a particular device.
-
 
 
 ### Languages Used
@@ -239,9 +238,7 @@ With more time, I would have liked to of implemented the following ideas:
 
 - [TinyPNG:](https://tinypng.com/) All images within the project have been processed through their free compression tool.
 
-- [Hover.css:](https://ianlunn.github.io/Hover/) Hover.css was used on the Social Media icons on the instructions modal footer to add the float transition while being hovered over.
-
-- [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Montserrat Alternates' font into the style.css file..
+- [Google Fonts:](https://fonts.google.com/) Google fonts were used to import the 'Montserrat Alternates' font into the style.css file.
 
 - [Font Awesome:](https://fontawesome.com/) Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
@@ -284,7 +281,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![W3C CSS Validator Result](./assets/images/readme-images/w3c-css-result.webp)
 
 
-I have run the website through Google Chrome's lighthouse audit application and the results are shown below:
+I have run the website through Google Chrome's Lighthouse audit application and the results are shown below:
 
 - Mobile
 ### Lighthouse Homepage
@@ -302,7 +299,7 @@ I have run the website through Google Chrome's lighthouse audit application and 
 I have run the website through JSHint's audit application and the results are shown below:
 
 ### JSHint Homepage
-The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick. The *stop* unused variable warning which is infact a function is being used as an onclick to stop the music playing on my homepage, All unused variable warnings have been tested to ensure there correct and working correctly. I was getting conflicting errors at first from code being used on different pages. To prevent the errors I made a game.js page to house all the game js code. The script.js file contains the cursor variable which allows the mallet cursor to work on all pages.
+The results for the homepage show no significant errors but emailjs is showing up as a undefined variable. This is part of the emailJS API which is linked in the head of the HTML document. SendMail is showing up as an unused variable but this is being used in the HTML document as an onclick. The *stop* unused variable warning which is infact a function is being used as an onclick to stop the music playing on my homepage, All unused variable warnings have been tested to ensure there being used and working correctly. I was getting conflicting errors at first from code being used on different pages. To prevent the errors I made a game.js page to house all the game js code. The script.js file contains the cursor variable which allows the mallet cursor to work on all pages.
 ![JSHint Homepage results (home.js)](./assets/images/readme-images/homepage-jshint.webp)
 
 
@@ -347,19 +344,15 @@ The results for the homepage show no significant errors but emailjs is showing u
 ![Ok Game Alert](./assets/images/readme-images/ok-game-over-alert.webp)
  ![Home button](./assets/images/readme-images/gamepage-home-icon.webp)
 
- 6. As a frequent user, I would like to see the Highscores.
 
-**On the homepage there is a Highscores button, click the button to view the Highscores.**
-
-
- 7. As a frequent user, I want to learn more about the developer and see if they have added any new content. 
+ 6. As a frequent user, I want to learn more about the developer and see if they have added any new content. 
 
  **At the bottom of each pop up modal for Instructions and Highscores are two social media icons, LinkedIn and Github, there is an effect on hover of the buttons to register interativity with the user.**
 
 ![Social Icons on 414px wide](./assets/images/readme-images/social-icons-414px.webp)
  
 
- 8. As a user I want the ability to play the game on multiple devices.
+ 7. As a user I want the ability to play the game on multiple devices.
 
  **The game has been tested on mutiple devices and tested using responsinator and google dev tools to add specific media queries for certain screen sizes.**
 
@@ -368,7 +361,7 @@ The results for the homepage show no significant errors but emailjs is showing u
  
 ### Further Testing
 #
-Throughout building my javascript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly and doing what I wanted it to do. Below are some screenshots of some tests taken while figuring out errors within the console.
+Throughout building my javascript game, I had to do various console.log() tests to ensure my functions and variables were working and linking up correctly. I used the console option within google dev tools to validate the code was working correctly. Below are some screenshots of some tests taken while figuring out some errors within the console.
 
 ![Console error](./assets/images/readme-images/console-log-timer.webp)
 
@@ -383,8 +376,6 @@ The above screenshot shows me trying to debug an error I had in the console. It 
 ### Known Bugs
 #
 Throughout the project I encountered a number of bugs, some of which were solved and some not which are stated below:
-
-I have noticed that you can still send an email and get the notification without imputting text into the correct boxes of the form. The HTML elements have been told that an input feild is required but the javascript doesn't know that, further research is needed to implement the javascript code to prevent the form from being sent without the required feilds.  
 
 #### Console Bugs
 I had an uncaught ReferenceError for my instructionBtn in the console. *resolved* This was resolved by making a seperate javascript file for each of my HTML pages to prevent conflicting code. 
