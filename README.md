@@ -367,7 +367,7 @@ Throughout building my javascript game, I had to do various console.log() tests 
 
 The above screenshot shows me trying to debug an error I had in the console. It was showing that I had an uncaught type error at my countDown function. I used console.log() to print the timer to ensure this was working. The error was overcome by creating a new js file to prevent the timer being called on the homepage.
 
--   The Website was tested on Google Chrome and Internet Explorer.
+-   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Oneplus 5t, iPhone SE, iPhone 6-8, iPhoneX & Samsung Galaxy S21.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
