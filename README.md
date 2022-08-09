@@ -493,7 +493,7 @@ The Sounds used on my site have been taken from:
 ### Acknowledgements
 #
 
-- - [JavaScript 30 Day Coding Challenge](https://javascript30.com/)
+-  [JavaScript 30 Day Coding Challenge](https://javascript30.com/)
 
 -  I would like to thank my Mentor Darío Carrasquel for guidance throughout the project.
 
