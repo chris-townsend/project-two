@@ -492,6 +492,7 @@ The Sounds used on my site have been taken from:
 
 ### Acknowledgements
 #
+-  [W3 Schools How to create a modal](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 -  [JavaScript 30 Day Coding Challenge](https://javascript30.com/)
 
